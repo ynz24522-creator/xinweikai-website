@@ -894,9 +894,11 @@
   function html(part, opts) {
     var p = norm(part);
     var typeLabel = (opts && opts.typeLabel) || "";
+    var size = (opts && opts.size) || "md";
     if (p.img) {
       var alt = [p.model, p.pkg, typeLabel].filter(Boolean).join(" · ");
       return '<img class="part-art part-art--photo" src="' + esc(p.img) + '" alt="' + esc(alt) +
+        '" data-model="' + esc(p.model) + '" data-art-size="' + esc(size) +
         '" loading="lazy" decoding="async">';
     }
     return svgFor(part, opts);

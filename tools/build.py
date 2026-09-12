@@ -30,7 +30,7 @@ SCRIPT_LABEL = os.path.basename(HERE) + "/build.py"
 
 BASE_URL = "https://ynz24522-creator.github.io/xinweikai-website/"
 # Bump when CSS/JS change so browsers bypass the GitHub Pages 10-minute asset cache.
-ASSET_VERSION = "20260912c"
+ASSET_VERSION = "20260912d"
 
 COMPANY = {
     "nameZh": "深圳市鑫威凯科技有限公司",
@@ -111,7 +111,8 @@ I18N = {
         "common.viewImage": "查看 {model} 的示意图",
         "common.viewCategory": "查看该分类",
         "common.close": "关闭",
-        "common.imageNote": "插图为示意图，非实物照片，实际以品牌与批次包装为准。",
+        "common.imageNote": "部分型号为立创商城实物图，部分为示意图，图片仅供参考；实际以品牌与批次包装为准。",
+        "common.imageSource": "图片来源：立创商城",
         "common.params": "关键参数",
         "common.desc": "说明",
         "common.actions": "操作",
@@ -259,7 +260,8 @@ I18N = {
         "common.viewImage": "View illustration of {model}",
         "common.viewCategory": "View category",
         "common.close": "Close",
-        "common.imageNote": "Illustrations are schematic, not photographs. Refer to the actual brand and batch packaging.",
+        "common.imageNote": "Some images are LCSC product photos, others are schematic illustrations. For reference only - the actual brand and batch packaging prevail.",
+        "common.imageSource": "Image source: LCSC",
         "common.params": "Key parameters",
         "common.desc": "Type",
         "common.actions": "Actions",
@@ -1183,7 +1185,7 @@ def notfound_content():
 
 
 def build_data():
-    return {
+    data = {
         "meta": {
             "updated": COMPANY["updated"],
             "categories": len(CATEGORIES),
@@ -1208,6 +1210,35 @@ def build_data():
         "promisesZh": catalog.SERVICE_PROMISES_ZH,
         "promisesEn": catalog.SERVICE_PROMISES_EN,
     }
+    applied = apply_part_images(data)
+    data["meta"]["photos"] = applied
+    return data, applied
+
+
+def apply_part_images(data):
+    """Merge assets/img/parts/manifest.json photos into the catalogue.
+
+    Keeps the generated data.js in sync with whatever photos have been synced
+    from LCSC, so re-running the generator never drops the img fields.
+    """
+    manifest_path = os.path.join(OUT, "assets", "img", "parts", "manifest.json")
+    if not os.path.exists(manifest_path):
+        return 0
+    with open(manifest_path, encoding="utf-8") as fh:
+        manifest = json.load(fh)
+    mapping = {}
+    for entry in manifest.get("entries", []):
+        for model in entry.get("models", []):
+            mapping[model] = entry["file"]
+    applied = 0
+    for cat in data["categories"]:
+        for sub in cat["subs"]:
+            for part in sub["parts"]:
+                img = mapping.get(part["m"])
+                if img:
+                    part["img"] = img
+                    applied += 1
+    return applied
 
 
 def write_js_file(path, varname, payload):
@@ -1358,7 +1389,13 @@ def write_docs():
 - 新增分类时，同时在 `categories[]` 中补 `id / zh / en / blurbZh / blurbEn / tipsZh / tipsEn / count / subs`。
 - 每个分类的 `count` 用于首页卡片显示，等于该分类下所有 `parts` 数量之和。
 
-### 产品插图（示意图）是怎么来的
+### 产品图片是怎么来的
+
+- **实物图**：`assets/img/parts/<立创编号>.jpg`（300×300），从立创商城按型号检索匹配而来，清单见 `assets/img/parts/manifest.json`（含型号、立创编号、原图地址、匹配方式）。页面优先显示实物图。
+- **示意图**：尚未匹配到实物图的型号，由 `assets/js/part-art.js` 现场生成（类型决定形状、封装决定引脚比例、大类决定主色），保证每个型号都有图。
+- 抓取与同步：抓取结果落在 `work/lcsc/`（`index.json` + `raw/*.jpg`），运行 `python3 tools/sync_lcsc_images.py` 即压缩到 300×300、刷新清单；重新执行 `tools/build.py` 会自动把清单里的图片写进 `data.js` 的 `img` 字段。
+
+### 插图（示意图）是怎么来的
 
 - 每个型号都有一张由 `assets/js/part-art.js` 现场生成的矢量示意图：按「类型 → 形状」（123 个类型全部显式映射）+「封装 → 引脚与尺寸」（`LQFP-48` 四边各 12 脚、`SOIC-8` 两边各 4 脚、`0603`/`0805` 片式、`TO-220` 带散热片等）+「分类 → 主色」自动生成；同一型号永远得到同一张图，不需要任何图片文件，也不产生额外网络请求。
 - 三种尺寸：表格缩略图 `sm`（56×42，不排文字）、默认 `md`（带型号）、浮层大图 `lg`（型号 + 封装）。点击表格缩略图打开浮层，浮层内可直接加入询价、复制型号、跳到所属分类；Esc、右上角 ✕ 或点击空白处关闭。
@@ -1432,12 +1469,13 @@ def write_docs():
 - 语言偏好与询价清单仅保存在访客本机浏览器（`localStorage`），清除浏览器数据即会丢失。
 - 询价邮件由访客本机邮件客户端发送，站点不代发、不留存。
 
-## 五、产品插图说明
+## 五、产品图片来源与说明
 
-- 站内所有产品图均由代码生成（`assets/js/part-art.js`），按器件类型与封装绘制，属于**示意图**，用于快速识别品类。
-- 示意图**不是实物照片**，也不代表具体品牌、批次或包装形态；页面表格下方与浮层内均标注「插图为示意图，非实物照片，实际以品牌与批次包装为准」。
-- 需要展示实拍图时，在 `assets/js/data.js` 对应型号上增加 `img` 字段（图片放 `assets/img/parts/`）即可覆盖示意图；建议 640×480、JPG/WebP、单张 ≤ 80KB。
-- 插图不涉及第三方素材与版权问题，可放心商用。
+- 站点产品图分两类：**立创商城实物图**（`assets/img/parts/<立创编号>.jpg`，300×300，来源与型号对应关系记录在 `assets/img/parts/manifest.json`）与**代码生成的示意图**（`assets/js/part-art.js`，用于暂未匹配到实物图的型号）。
+- 实物图按型号从立创商城检索并匹配（优先型号完全一致，其次品牌+封装+关键参数一致），匹配结果与来源地址都记录在清单里，便于复核与追溯。
+- 实物图**仅供参考**，可能与实际到货的品牌、批次、包装存在差异；页面表格下方与浮层内均标注「部分型号为立创商城实物图，部分为示意图……实际以品牌与批次包装为准」，浮层内另标注图片来源。
+- 版权提示：立创商城商品图版权归立创商城/原厂所有。若需完全规避风险，建议逐步替换为自有实拍图——把新图放进 `assets/img/parts/` 并在 `assets/js/data.js` 对应型号上填写 `img` 字段即可覆盖；替换后建议从清单中删除对应条目。
+- 同步脚本：`tools/sync_lcsc_images.py` 会把抓取结果压缩成 300×300 并刷新清单与图片。
 """.format(cats=len(CATEGORIES), subs=TOTAL_SUBS, parts=TOTAL_PARTS, brands=len(catalog.BRANDS))
 
     with open(os.path.join(OUT, "docs", "使用说明.md"), "w", encoding="utf-8") as fh:
@@ -1460,7 +1498,9 @@ def write_site_files():
     for filename, page_id, title_key, desc_key, content in pages:
         with open(os.path.join(OUT, filename), "w", encoding="utf-8") as fh:
             fh.write(page(filename, page_id, title_key, desc_key, content))
-    write_js_file(os.path.join(OUT, "assets", "js", "data.js"), "XWK_DATA", build_data())
+    data, photos = build_data()
+    write_js_file(os.path.join(OUT, "assets", "js", "data.js"), "XWK_DATA", data)
+    globals()["PHOTO_COUNT"] = photos
     write_js_file(os.path.join(OUT, "assets", "js", "i18n.js"), "XWK_I18N", I18N)
     with open(os.path.join(OUT, "assets", "img", "favicon.svg"), "w", encoding="utf-8") as fh:
         fh.write(icons.FAVICON)
@@ -1479,6 +1519,8 @@ def main():
     print("site written to %s" % OUT)
     print("categories=%d subs=%d parts=%d brands=%d types=%d"
           % (len(CATEGORIES), TOTAL_SUBS, TOTAL_PARTS, len(catalog.BRANDS), len(catalog.TYPES)))
+    print("photos applied=%d (示意图用于其余 %d 个型号)"
+          % (globals().get("PHOTO_COUNT", 0), TOTAL_PARTS - globals().get("PHOTO_COUNT", 0)))
 
 
 if __name__ == "__main__":

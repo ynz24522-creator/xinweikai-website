@@ -205,6 +205,43 @@ def check_art_coverage():
         errors.append("part-art.js: types without a shape mapping: %s" % unmapped)
 
 
+def check_part_photos():
+    """Synced LCSC photos: every referenced file must exist and stay small."""
+    data = load_js_payload("data.js", "XWK_DATA")
+    photos = []
+    for cat in data["categories"]:
+        for sub in cat["subs"]:
+            for part in sub["parts"]:
+                if part.get("img"):
+                    photos.append((part["m"], part["img"]))
+    missing = [p for _, p in photos if not os.path.exists(os.path.join(SITE, p))]
+    if missing:
+        errors.append("data.js references %d missing photos, e.g. %s" % (len(missing), missing[:3]))
+    too_big = []
+    for _, rel in photos:
+        path = os.path.join(SITE, rel)
+        if os.path.exists(path) and os.path.getsize(path) > 60 * 1024:
+            too_big.append(rel)
+    if too_big:
+        warnings.append("%d photos exceed 60KB: %s" % (len(too_big), too_big[:3]))
+
+    manifest_path = os.path.join(SITE, "assets", "img", "parts", "manifest.json")
+    if os.path.exists(manifest_path):
+        manifest = json.loads(read(manifest_path))
+        entries = manifest.get("entries", [])
+        bad = [e["file"] for e in entries if not os.path.exists(os.path.join(SITE, e["file"]))]
+        if bad:
+            errors.append("manifest lists %d missing files, e.g. %s" % (len(bad), bad[:3]))
+        covered = sum(len(e.get("models", [])) for e in entries)
+        if covered < len(photos):
+            warnings.append("manifest covers %d models but data.js has %d photos" % (covered, len(photos)))
+    else:
+        warnings.append("no assets/img/parts/manifest.json yet (photos not synced)")
+    global PHOTO_STATS
+    PHOTO_STATS = (len(photos), sum(1 for c in data["categories"] for s in c["subs"] for p in s["parts"]))
+    return photos
+
+
 def main():
     check_pages()
     check_i18n()
@@ -212,6 +249,9 @@ def main():
     check_seo()
     check_assets()
     check_art_coverage()
+    photos = check_part_photos()
+    print("photos=%d/%d models (%d files)" % (len(photos), total,
+          len({p for _, p in photos})))
     print("pages=%d categories=%d subs=%d parts=%d brands=%d"
           % (len(PAGES), len(data["categories"]),
              sum(len(c["subs"]) for c in data["categories"]), total, len(data["brands"])))

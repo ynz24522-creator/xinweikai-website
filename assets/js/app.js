@@ -141,6 +141,29 @@
       artHtml(part, "sm") + "</button>";
   }
 
+  /* 实物图加载失败时，回落到该型号的矢量示意图，保证永远有图 */
+  function fallbackArtElement(part, size) {
+    var wrap = document.createElement("span");
+    wrap.className = "part-art-fallback";
+    if (window.XWK_PART_ART) {
+      wrap.innerHTML = window.XWK_PART_ART.svgFor(part, { size: size || "md", typeLabel: typeLabel(part.type) });
+    }
+    return wrap;
+  }
+
+  function handleArtError(ev) {
+    var img = ev.target;
+    if (!img || img.tagName !== "IMG" || !img.classList || !img.classList.contains("part-art")) { return; }
+    var model = img.getAttribute("data-model") || "";
+    var part = model ? partByModel(model) : null;
+    if (!part) { return; }
+    var size = img.getAttribute("data-art-size") || "md";
+    var node = fallbackArtElement(part, size);
+    if (node && img.parentNode) {
+      img.parentNode.replaceChild(node, img);
+    }
+  }
+
   /* ------------------------------------------------------------ data index */
   var BRAND_MAP = {};
   var TYPE_MAP = {};
@@ -155,7 +178,7 @@
       (sub.parts || []).forEach(function (p) {
         PART_INDEX.push({
           model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t,
-          catId: cat.id, subId: sub.id
+          catId: cat.id, subId: sub.id, img: p.img || ""
         });
       });
     });
@@ -944,6 +967,7 @@
       '<div class="lightbox-body">' +
       '<h3 class="lightbox-title" id="lightbox-title" data-art-title>—</h3>' +
       '<div class="lightbox-meta" data-art-meta></div>' +
+      '<p class="art-source" data-art-source hidden></p>' +
       '<p class="art-note">' + esc(t("common.imageNote")) + "</p>" +
       '<div class="lightbox-actions" data-art-actions></div>' +
       "</div></div>";
@@ -973,6 +997,11 @@
     var wrap = ensureLightbox();
     lightboxReturnFocus = document.activeElement;
     $("[data-art-figure]", wrap).innerHTML = artHtml(part, "lg");
+    var sourceNote = $("[data-art-source]", wrap);
+    if (sourceNote) {
+      sourceNote.hidden = !part.img;
+      sourceNote.textContent = t("common.imageSource");
+    }
     $("[data-art-title]", wrap).textContent = part.model;
     var rows = [
       [t("common.brand"), brandLabel(part.brand)],
@@ -1131,6 +1160,7 @@
       onScroll();
     }
     $$("[data-search-form]").forEach(setupSearchForm);
+    document.addEventListener("error", handleArtError, true);
     document.addEventListener("keydown", function (ev) {
       if (ev.key === "Escape") { closeArt(); return; }
       if (ev.key !== "/") { return; }

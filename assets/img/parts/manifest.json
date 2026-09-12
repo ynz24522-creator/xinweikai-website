@@ -1,0 +1,1439 @@
+{
+ "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
+ "count": 123,
+ "imageCount": 123,
+ "entries": [
+  {
+   "file": "assets/img/parts/C105635.jpg",
+   "code": "C105635",
+   "matched": "RUILON NTC 10D-15",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_RUILON-Shenzhen-Ruilongyuan-Elec-NTC-10D-15_C105635_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NTC 10D-15"
+   ],
+   "bytes": 34897
+  },
+  {
+   "file": "assets/img/parts/C106235.jpg",
+   "code": "C106235",
+   "matched": "YAGEO RC0402FR-071KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_YAGEO-RC0402FR-071KL_C106235_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RC0402FR-070000L",
+    "RC0402FR-071000L",
+    "RC0402FR-071001L",
+    "RC0402FR-071002L",
+    "RC0402FR-071003L",
+    "RC0402FR-071004L"
+   ],
+   "bytes": 25576
+  },
+  {
+   "file": "assets/img/parts/C107374.jpg",
+   "code": "C107374",
+   "matched": "YAGEO YC164-JR-0710KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_YAGEO-YC164-JR-0710KL_C107374_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "YC164-JR-0710KL"
+   ],
+   "bytes": 27152
+  },
+  {
+   "file": "assets/img/parts/C109392.jpg",
+   "code": "C109392",
+   "matched": "Rubycon 35ZLH100MEFC6.3X11",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Rubycon-35ZLH100MEFC6-3X11_C109392_front.jpg",
+   "matchedVia": "RUBYCON D6.3×L11 插件",
+   "models": [
+    "50YXF100MEFC6.3X11"
+   ],
+   "bytes": 27685
+  },
+  {
+   "file": "assets/img/parts/C109392.jpg",
+   "code": "C109392",
+   "matched": "Rubycon 35ZLH100MEFC6.3X11",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Rubycon-35ZLH100MEFC6-3X11_C109392_front.jpg",
+   "matchedVia": "RUBYCON D10×L12.5 插件",
+   "models": [
+    "25YXF470MEFC10X12.5"
+   ],
+   "bytes": 27685
+  },
+  {
+   "file": "assets/img/parts/C109392.jpg",
+   "code": "C109392",
+   "matched": "Rubycon 35ZLH100MEFC6.3X11",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Rubycon-35ZLH100MEFC6-3X11_C109392_front.jpg",
+   "matchedVia": "RUBYCON D10×L16 插件",
+   "models": [
+    "16YXF1000MEFC10X16"
+   ],
+   "bytes": 27685
+  },
+  {
+   "file": "assets/img/parts/C110051.jpg",
+   "code": "C110051",
+   "matched": "KEMET T491B226K016AT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_KEMET-T491B226K016AT_C110051_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "T491B226K016AT"
+   ],
+   "bytes": 27512
+  },
+  {
+   "file": "assets/img/parts/C110055.jpg",
+   "code": "C110055",
+   "matched": "KEMET T491A106K016AT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_KEMET-T491A106K016AT_C110055_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "T491A106K016AT"
+   ],
+   "bytes": 24789
+  },
+  {
+   "file": "assets/img/parts/C110251.jpg",
+   "code": "C110251",
+   "matched": "FH 0402B104K500NT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_FH--Guangdong-Fenghua-Advanced-Tech-0402B104K500NT_C110251_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0402B104K500NT",
+    "0402B102K500NT"
+   ],
+   "bytes": 27092
+  },
+  {
+   "file": "assets/img/parts/C111780.jpg",
+   "code": "C111780",
+   "matched": "BOURNS 3296X-1-503LF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_BOURNS-3296X-1-503LF_C111780_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3296X-1-503LF"
+   ],
+   "bytes": 30880
+  },
+  {
+   "file": "assets/img/parts/C112288.jpg",
+   "code": "C112288",
+   "matched": "TDK SPM6530T-100M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_TDK-SPM6530T-100M_C112288_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SPM6530T-100M"
+   ],
+   "bytes": 27619
+  },
+  {
+   "file": "assets/img/parts/C121953.jpg",
+   "code": "C121953",
+   "matched": "CCO(Chian Chia Elec) MOF5WS-10Ω±5% T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_CCO-Chian-Chia-Elec-MOF5WS-10R-5--T_C121953_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RX24-5W-10R",
+    "RX24-5W-100R"
+   ],
+   "bytes": 31834
+  },
+  {
+   "file": "assets/img/parts/C122248.jpg",
+   "code": "C122248",
+   "matched": "KEMET T491D476K016AT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_KEMET-T491D476K016AT_C122248_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "T491D476K016AT"
+   ],
+   "bytes": 28406
+  },
+  {
+   "file": "assets/img/parts/C125977.jpg",
+   "code": "C125977",
+   "matched": "Nichicon UWT1H221MNL1GS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Nichicon-UWT1H221MNL1GS_C125977_front.jpg",
+   "matchedVia": "NICHICON D6.3×L11 插件",
+   "models": [
+    "UFW1H101MCL1GB"
+   ],
+   "bytes": 29291
+  },
+  {
+   "file": "assets/img/parts/C125977.jpg",
+   "code": "C125977",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "NICHICON D10×L16 插件",
+   "models": [
+    "UFW1C102MPD"
+   ],
+   "bytes": 29291
+  },
+  {
+   "file": "assets/img/parts/C128462.jpg",
+   "code": "C128462",
+   "matched": "PANASONIC EEEFK1V101P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_PANASONIC-EEEFK1V101P_C128462_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EEE-FK1V101P",
+    "EEE-FT1V101AP"
+   ],
+   "bytes": 29427
+  },
+  {
+   "file": "assets/img/parts/C129905.jpg",
+   "code": "C129905",
+   "matched": "VISHAY 1N4148WS-E3-08",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260904_VISHAY-1N4148WS-E3-08_C129905_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N4148WS"
+   ],
+   "bytes": 25085
+  },
+  {
+   "file": "assets/img/parts/C131394.jpg",
+   "code": "C131394",
+   "matched": "YAGEO CC0402KRX7R9BB104",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_YAGEO-CC0402KRX7R9BB104_C131394_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CC0402KRX7R9BB104",
+    "CC0402KRX5R7BB105"
+   ],
+   "bytes": 25478
+  },
+  {
+   "file": "assets/img/parts/C13564.jpg",
+   "code": "C13564",
+   "matched": "muRata NCP18XH103F03RB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250809_muRata-NCP18XH103F03RB_C13564_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NCP18XH103F03RB"
+   ],
+   "bytes": 28622
+  },
+  {
+   "file": "assets/img/parts/C136853.jpg",
+   "code": "C136853",
+   "matched": "YAGEO YC124-FR-0710KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_YAGEO-YC124-FR-0710KL_C136853_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "YC324-FR-0710KL"
+   ],
+   "bytes": 24096
+  },
+  {
+   "file": "assets/img/parts/C13879.jpg",
+   "code": "C13879",
+   "matched": "Nanjing Shiheng Elec MF52A103F3950 (A1)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Nanjing-Shiheng-Elec-MF52A103F3950--A1_C13879_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MF52A103F3950"
+   ],
+   "bytes": 38540
+  },
+  {
+   "file": "assets/img/parts/C14663.jpg",
+   "code": "C14663",
+   "matched": "YAGEO CC0603KRX7R9BB104",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250715_YAGEO-CC0603KRX7R9BB104_C14663_front.jpg",
+   "matchedVia": "YAGEO D2.3×L6.3",
+   "models": [
+    "CFR-25JB-52-10R",
+    "CFR-25JB-52-100R",
+    "CFR-25JB-52-1K",
+    "CFR-25JB-52-4K7",
+    "CFR-25JB-52-10K",
+    "CFR-25JB-52-100K",
+    "MFR-25FBF52-10K",
+    "MFR-25FBF52-100K",
+    "MFR-25FBF52-4K7"
+   ],
+   "bytes": 27437
+  },
+  {
+   "file": "assets/img/parts/C14663.jpg",
+   "code": "C14663",
+   "matched": "YAGEO CC0603KRX7R9BB104",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250715_YAGEO-CC0603KRX7R9BB104_C14663_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CC0603KRX7R9BB104",
+    "CC0603KRX5R8BB106"
+   ],
+   "bytes": 27437
+  },
+  {
+   "file": "assets/img/parts/C14675.jpg",
+   "code": "C14675",
+   "matched": "YAGEO RC0603FR-07100KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250410_YAGEO-RC0603FR-07100KL_C14675_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RC0603FR-071000L",
+    "RC0603FR-071001L",
+    "RC0603FR-074701L",
+    "RC0603FR-071002L",
+    "RC0603FR-074702L",
+    "RC0603FR-071003L"
+   ],
+   "bytes": 30097
+  },
+  {
+   "file": "assets/img/parts/C14709.jpg",
+   "code": "C14709",
+   "matched": "muRata BLM18PG121SN1D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Murata-Electronics-BLM18PG121SN1D_C14709_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BLM18PG121SN1D",
+    "BLM18PG221SN1D"
+   ],
+   "bytes": 25323
+  },
+  {
+   "file": "assets/img/parts/C1518243.jpg",
+   "code": "C1518243",
+   "matched": "PANASONIC 16SVPT1000M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260912_PANASONIC-16SVPT1000M_C1518243_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PT1000-插件-A级"
+   ],
+   "bytes": 33774
+  },
+  {
+   "file": "assets/img/parts/C1525.jpg",
+   "code": "C1525",
+   "matched": "Samsung Electro-Mechanics CL05B104KO5NNNC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221227_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CL05B104KO5NNNC",
+    "CL05A105KA5NQNC"
+   ],
+   "bytes": 22478
+  },
+  {
+   "file": "assets/img/parts/C1591.jpg",
+   "code": "C1591",
+   "matched": "Samsung Electro-Mechanics CL10B104KB8NNNC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221227_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CL10B104KB8NNNC",
+    "CL10A106KP8NNNC"
+   ],
+   "bytes": 27636
+  },
+  {
+   "file": "assets/img/parts/C1591.jpg",
+   "code": "C1591",
+   "matched": "Samsung Electro-Mechanics CL10B104KB8NNNC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221227_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591_front.jpg",
+   "matchedVia": "SUNLORD 0603",
+   "models": [
+    "GZ1608D121TF",
+    "SDFL1608Q1R2KTF"
+   ],
+   "bytes": 27636
+  },
+  {
+   "file": "assets/img/parts/C16133.jpg",
+   "code": "C16133",
+   "matched": "Kyocera AVX TAJB107K006RNJ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260522_Kyocera-AVX-TAJB107K006RNJ_C16133_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TAJB107K006RNJ"
+   ],
+   "bytes": 32015
+  },
+  {
+   "file": "assets/img/parts/C16902.jpg",
+   "code": "C16902",
+   "matched": "muRata BLM31PG601SN1L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250820_muRata-BLM31PG601SN1L_C16902_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BLM31PG601SN1L"
+   ],
+   "bytes": 30476
+  },
+  {
+   "file": "assets/img/parts/C1711.jpg",
+   "code": "C1711",
+   "matched": "Samsung Electro-Mechanics CL21B104KBCNNNC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221227_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CL21B104KBCNNNC",
+    "CL21A106KAYNNNE"
+   ],
+   "bytes": 27847
+  },
+  {
+   "file": "assets/img/parts/C17168.jpg",
+   "code": "C17168",
+   "matched": "UNI-ROYAL 0402WGF0000TCE",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_UNI-ROYAL-Uniroyal-Elec-0402WGF0000TCE_C17168_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0402WGF0000TCE",
+    "0402WGF10R0TCE",
+    "0402WGF1000TCE",
+    "0402WGF2200TCE",
+    "0402WGF1001TCE",
+    "0402WGF4701TCE",
+    "0402WGF1002TCE",
+    "0402WGF4702TCE",
+    "0402WGF1003TCE",
+    "0402WGF1004TCE"
+   ],
+   "bytes": 25576
+  },
+  {
+   "file": "assets/img/parts/C17278851.jpg",
+   "code": "C17278851",
+   "matched": "YAGEO 32208392",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251126_YAGEO-32208392_C17278851_front.jpg",
+   "matchedVia": "FENGHUA 插件",
+   "models": [
+    "MZ11-10P1R5",
+    "MZ73-12V"
+   ],
+   "bytes": 35324
+  },
+  {
+   "file": "assets/img/parts/C17278851.jpg",
+   "code": "C17278851",
+   "matched": "YAGEO 32208392",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251126_YAGEO-32208392_C17278851_front.jpg",
+   "matchedVia": "CHIPSAILING EE25 插件",
+   "models": [
+    "EE25-24V2A-开关变压器"
+   ],
+   "bytes": 35324
+  },
+  {
+   "file": "assets/img/parts/C17278851.jpg",
+   "code": "C17278851",
+   "matched": "YAGEO 32208392",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251126_YAGEO-32208392_C17278851_front.jpg",
+   "matchedVia": "CHIPSAILING 插件 电流型",
+   "models": [
+    "ZMPT101B"
+   ],
+   "bytes": 35324
+  },
+  {
+   "file": "assets/img/parts/C173465.jpg",
+   "code": "C173465",
+   "matched": "MDD(Microdiode Semiconductor) MBR20100CT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250918_MDD-Microdiode-Semiconductor-MBR20100CT_C173465_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MBR20100CT"
+   ],
+   "bytes": 39940
+  },
+  {
+   "file": "assets/img/parts/C178549.jpg",
+   "code": "C178549",
+   "matched": "PANASONIC EEEFK1H221P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230111_PANASONIC-EEEFK1H221P_C178549_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EEE-FK1H221P",
+    "EEE-FK1E471P"
+   ],
+   "bytes": 25841
+  },
+  {
+   "file": "assets/img/parts/C182078.jpg",
+   "code": "C182078",
+   "matched": "TI LMR14030SDDAR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230110_Texas-Instruments-LMR14030SDDAR_C182078_front.jpg",
+   "matchedVia": "4030 power inductor",
+   "models": [
+    "SWPA4030S4R7MT",
+    "SWPA4030S100MT"
+   ],
+   "bytes": 27436
+  },
+  {
+   "file": "assets/img/parts/C184029.jpg",
+   "code": "C184029",
+   "matched": "muRata LQW15AN10NJ00D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Murata-Electronics-LQW15AN10NJ00D_C184029_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LQW15AN10NJ00D"
+   ],
+   "bytes": 23662
+  },
+  {
+   "file": "assets/img/parts/C190610.jpg",
+   "code": "C190610",
+   "matched": "PANASONIC ERA3AEB103V",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190118_PANASONIC-ERA3AEB103V_C190610_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ERA3AEB103V",
+    "ERA3AEB102V",
+    "ERA3AEB472V"
+   ],
+   "bytes": 23145
+  },
+  {
+   "file": "assets/img/parts/C19077467.jpg",
+   "code": "C19077467",
+   "matched": "R+O BZX84C3V3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231123_hongjiacheng-BZX84C3V3_C19077467_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BZX84C3V3",
+    "BZX84C5V1",
+    "BZX84C12",
+    "BZX84C24"
+   ],
+   "bytes": 27113
+  },
+  {
+   "file": "assets/img/parts/C19108954.jpg",
+   "code": "C19108954",
+   "matched": "CAZN M5-S3-GPF M7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231111_CAZN-M5-S3-GPF-M7_C19108954_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "M7"
+   ],
+   "bytes": 34327
+  },
+  {
+   "file": "assets/img/parts/C191101.jpg",
+   "code": "C191101",
+   "matched": "PANASONIC ERA6AEB103V",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_PANASONIC-ERA6AEB103V_C191101_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ERA6AEB103V",
+    "ERA6AEB223V"
+   ],
+   "bytes": 23835
+  },
+  {
+   "file": "assets/img/parts/C191915.jpg",
+   "code": "C191915",
+   "matched": "PANASONIC ERA2AEB103X",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20200503_PANASONIC-ERA2AEB103X_C191915_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ERA2AEB103X",
+    "ERA2AEB102X",
+    "ERA2AEB104X"
+   ],
+   "bytes": 25636
+  },
+  {
+   "file": "assets/img/parts/C19191680.jpg",
+   "code": "C19191680",
+   "matched": "Coilcraft 1008CS-471XJLC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240131_Coilcraft-1008CS-471XJLC_C19191680_front.jpg",
+   "matchedVia": "SUNLORD 2520",
+   "models": [
+    "WPN252012H1R0MT"
+   ],
+   "bytes": 27049
+  },
+  {
+   "file": "assets/img/parts/C19271437.jpg",
+   "code": "C19271437",
+   "matched": "APV ANR6045T101M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240419_APV-ANR6045T101M_C19271437_front.jpg",
+   "matchedVia": "SUNLORD 6045",
+   "models": [
+    "SWPA6045S470MT"
+   ],
+   "bytes": 32556
+  },
+  {
+   "file": "assets/img/parts/C19271437.jpg",
+   "code": "C19271437",
+   "matched": "APV ANR6045T101M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240419_APV-ANR6045T101M_C19271437_front.jpg",
+   "matchedVia": "6045 power inductor",
+   "models": [
+    "VLS6045EX-470M"
+   ],
+   "bytes": 32556
+  },
+  {
+   "file": "assets/img/parts/C19272431.jpg",
+   "code": "C19272431",
+   "matched": "FH UU10.5-5mH",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240731_FH--Guangdong-Fenghua-Advanced-Tech-UU10-5-5mH_C19272431_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "UU10.5-5MH"
+   ],
+   "bytes": 35377
+  },
+  {
+   "file": "assets/img/parts/C194437.jpg",
+   "code": "C194437",
+   "matched": "TDK MLZ1608N100LT000",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190116_TDK-MLZ1608N100LT000_C194437_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MLZ1608N300LT000",
+    "MMZ1608B601CTAH5"
+   ],
+   "bytes": 22644
+  },
+  {
+   "file": "assets/img/parts/C20416991.jpg",
+   "code": "C20416991",
+   "matched": "Coilcraft 0603CS-10NXGLW",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240516_Coilcraft-0603CS-10NXGLW_C20416991_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0603CS-10NXGLW",
+    "0603CS-47NXGLW"
+   ],
+   "bytes": 29007
+  },
+  {
+   "file": "assets/img/parts/C20609202.jpg",
+   "code": "C20609202",
+   "matched": "JSMSEMI SS24",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241128_JSMSEMI-SS24_C20609202_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS24",
+    "SS34"
+   ],
+   "bytes": 33570
+  },
+  {
+   "file": "assets/img/parts/C2175333.jpg",
+   "code": "C2175333",
+   "matched": "YAGEO CC1206KKX7R5BB106",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_YAGEO-CC1206KKX7R5BB106_C2175333_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CC1206KKX7RBBB106"
+   ],
+   "bytes": 29921
+  },
+  {
+   "file": "assets/img/parts/C22411105.jpg",
+   "code": "C22411105",
+   "matched": "Coilcraft 0402CS-1N0XJLW",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251230_Coilcraft-0402CS-1N0XJLW_C22411105_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0402CS-1N0XJLW",
+    "0402CS-4N7XJLW"
+   ],
+   "bytes": 25752
+  },
+  {
+   "file": "assets/img/parts/C22452.jpg",
+   "code": "C22452",
+   "matched": "MDD(Microdiode Semiconductor) SS54",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260709_MDD-Microdiode-Semiconductor-SS54_C22452_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS54"
+   ],
+   "bytes": 24833
+  },
+  {
+   "file": "assets/img/parts/C232460.jpg",
+   "code": "C232460",
+   "matched": "onsemi 1N5408RLG",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250824_onsemi-1N5408RLG_C232460_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N5408"
+   ],
+   "bytes": 39218
+  },
+  {
+   "file": "assets/img/parts/C232830.jpg",
+   "code": "C232830",
+   "matched": "onsemi ES1J",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250828_onsemi-ES1J_C232830_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ES1J"
+   ],
+   "bytes": 32045
+  },
+  {
+   "file": "assets/img/parts/C2479.jpg",
+   "code": "C2479",
+   "matched": "MDD(Microdiode Semiconductor) SS12",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230314_MDD-Microdiode-Semiconductor-SS12_C2479_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS12",
+    "SS14",
+    "SS16",
+    "SS310"
+   ],
+   "bytes": 27731
+  },
+  {
+   "file": "assets/img/parts/C258182.jpg",
+   "code": "C258182",
+   "matched": "onsemi 1N4148",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_onsemi-1N4148_C258182_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N4148"
+   ],
+   "bytes": 33343
+  },
+  {
+   "file": "assets/img/parts/C2803195.jpg",
+   "code": "C2803195",
+   "matched": "KNSCHA KJKF222M2FF7035A075E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230224_KNSCHA-KJKF222M2FF7035A075E_C2803195_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "Y2-472M250VAC"
+   ],
+   "bytes": 37239
+  },
+  {
+   "file": "assets/img/parts/C2839625.jpg",
+   "code": "C2839625",
+   "matched": "SURGING MF58-104F3950GB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230129_SURGING-MF58-104F3950GB_C2839625_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MF58-104F3950"
+   ],
+   "bytes": 37129
+  },
+  {
+   "file": "assets/img/parts/C2935356.jpg",
+   "code": "C2935356",
+   "matched": "ZHT ZHT103",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250527_ZHT-ZHT103_C2935356_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ZHT103-5A/5mA"
+   ],
+   "bytes": 35294
+  },
+  {
+   "file": "assets/img/parts/C29718.jpg",
+   "code": "C29718",
+   "matched": "UNI-ROYAL 4D03WGJ0103T5E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0103T5E_C29718_front_10.jpg",
+   "matchedVia": "model",
+   "models": [
+    "4D03WGJ0103T5E",
+    "4D03WGJ0102T5E"
+   ],
+   "bytes": 24544
+  },
+  {
+   "file": "assets/img/parts/C2982194.jpg",
+   "code": "C2982194",
+   "matched": "MSKSEMI ZMM5V1-MS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230127_MSKSEMI-ZMM5V1-MS_C2982194_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ZMM5V1"
+   ],
+   "bytes": 29008
+  },
+  {
+   "file": "assets/img/parts/C303950.jpg",
+   "code": "C303950",
+   "matched": "FH 1206B106K500NT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250809_FH-1206B106K500NT_C303950_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1206B106K500NT"
+   ],
+   "bytes": 31211
+  },
+  {
+   "file": "assets/img/parts/C3040442.jpg",
+   "code": "C3040442",
+   "matched": "cjiang FDCW3216-2-601TF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251022_cjiang-FDCW3216-2-601TF_C3040442_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SDCW3216-2-601TF"
+   ],
+   "bytes": 30679
+  },
+  {
+   "file": "assets/img/parts/C307859.jpg",
+   "code": "C307859",
+   "matched": "TDK VLS252010CX-4R7M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20181018_TDK-VLS252010CX-4R7M_C307859_blank.jpg",
+   "matchedVia": "model",
+   "models": [
+    "VLS252010CX-4R7M"
+   ],
+   "bytes": 5034
+  },
+  {
+   "file": "assets/img/parts/C32357.jpg",
+   "code": "C32357",
+   "matched": "onsemi 1SMA5929BT3G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_onsemi-1SMA5929BT3G_C32357_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1SMA5929BT3G"
+   ],
+   "bytes": 31964
+  },
+  {
+   "file": "assets/img/parts/C3408263.jpg",
+   "code": "C3408263",
+   "matched": "VISHAY PTF5610K000BYEK",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260730_VISHAY-PTF5610K000BYEK_C3408263_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PTF5610K000BYEK",
+    "PTF56100R00BYEK"
+   ],
+   "bytes": 31860
+  },
+  {
+   "file": "assets/img/parts/C34846.jpg",
+   "code": "C34846",
+   "matched": "BOURNS 3296W-1-103LF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190222_BOURNS-3296W-1-103LF_C34846_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3296W-1-103LF"
+   ],
+   "bytes": 32463
+  },
+  {
+   "file": "assets/img/parts/C3790.jpg",
+   "code": "C3790",
+   "matched": "RUILON NTC 10D-9",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_RUILON-Shenzhen-Ruilongyuan-Elec-NTC-10D-9_C3790_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NTC 10D-9"
+   ],
+   "bytes": 34479
+  },
+  {
+   "file": "assets/img/parts/C38141.jpg",
+   "code": "C38141",
+   "matched": "FH 0805B104K500NT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250705_FH--Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0805B104K500NT"
+   ],
+   "bytes": 29703
+  },
+  {
+   "file": "assets/img/parts/C39151690.jpg",
+   "code": "C39151690",
+   "matched": "Coilcraft 0805CS-100XJLC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260603_Coilcraft-0805CS-100XJLC_C39151690_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0805CS-100XJLC",
+    "0805CS-220XJLC"
+   ],
+   "bytes": 23202
+  },
+  {
+   "file": "assets/img/parts/C412436.jpg",
+   "code": "C412436",
+   "matched": "MDD(Microdiode Semiconductor) RS1M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230314_MDD-Microdiode-Semiconductor-RS1M_C412436_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RS1M",
+    "US1M"
+   ],
+   "bytes": 26253
+  },
+  {
+   "file": "assets/img/parts/C422182.jpg",
+   "code": "C422182",
+   "matched": "UNI-ROYAL 16P8WGF330JT4E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230109_UNI-ROYAL-Uniroyal-Elec-16P8WGF330JT4E_C422182_front.jpg",
+   "matchedVia": "UNI-ROYAL 0402×8",
+   "models": [
+    "8P4R0402A1002T"
+   ],
+   "bytes": 29578
+  },
+  {
+   "file": "assets/img/parts/C45406817.jpg",
+   "code": "C45406817",
+   "matched": "PSA FMF25JPKR0L5XBH",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251101_PSA-FMF25JPKR0L5XBH_C45406817_front.jpg",
+   "matchedVia": "2512 power",
+   "models": [
+    "2512W2F1M00T4E",
+    "2512W2F2M00T4E",
+    "2512W2F5M00T4E",
+    "2512W2F10M0T4E"
+   ],
+   "bytes": 31649
+  },
+  {
+   "file": "assets/img/parts/C455055.jpg",
+   "code": "C455055",
+   "matched": "Nexperia 1N4728A,113",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230118_Nexperia-1N4728A-113_C455055_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N4728A",
+    "1N4733A",
+    "1N4740A",
+    "1N4744A"
+   ],
+   "bytes": 36470
+  },
+  {
+   "file": "assets/img/parts/C46550600.jpg",
+   "code": "C46550600",
+   "matched": "PROD Tech PBBHAQ2012H-601T20",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250519_PROD-Tech-PBBHAQ2012H-601T20_C46550600_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GZ2012D601TF"
+   ],
+   "bytes": 28525
+  },
+  {
+   "file": "assets/img/parts/C470572.jpg",
+   "code": "C470572",
+   "matched": "ALPSALPINE RK09711110EL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230108_ALPSALPINE-RK09711110EL_C470572_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RK097-10K"
+   ],
+   "bytes": 40960
+  },
+  {
+   "file": "assets/img/parts/C48997969.jpg",
+   "code": "C48997969",
+   "matched": "JURCC JW222M400VACP10",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260309_JURCC-JW222M400VACP10_C48997969_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "Y1-222M400VAC"
+   ],
+   "bytes": 38933
+  },
+  {
+   "file": "assets/img/parts/C49023315.jpg",
+   "code": "C49023315",
+   "matched": "CND-tek HSDCW2012-2-900TF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260306_CND-tek-HSDCW2012-2-900TF_C49023315_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SDCW2012-2-900TF"
+   ],
+   "bytes": 30343
+  },
+  {
+   "file": "assets/img/parts/C49118499.jpg",
+   "code": "C49118499",
+   "matched": "XR XREE1610-0636",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250620_XR-XREE1610-0636_C49118499_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EE16-5V2A-开关变压器"
+   ],
+   "bytes": 38858
+  },
+  {
+   "file": "assets/img/parts/C49190454.jpg",
+   "code": "C49190454",
+   "matched": "JIERR 3296W-1-104LF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250820_jieerrui-3296W-1-104LF_C49190454_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3296W-1-104LF"
+   ],
+   "bytes": 35674
+  },
+  {
+   "file": "assets/img/parts/C49190514.jpg",
+   "code": "C49190514",
+   "matched": "JIERR 3386P-1-103LF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250812_jieerrui-3386P-1-103LF_C49190514_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3386P-1-103LF"
+   ],
+   "bytes": 35412
+  },
+  {
+   "file": "assets/img/parts/C49308288.jpg",
+   "code": "C49308288",
+   "matched": "JTD JTD6206S-3.0V",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250719_JTD-JTD6206S-3-0V_C49308288_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3.0V1F-法拉"
+   ],
+   "bytes": 30228
+  },
+  {
+   "file": "assets/img/parts/C49678.jpg",
+   "code": "C49678",
+   "matched": "YAGEO CC0805KRX7R9BB104",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_YAGEO-CC0805KRX7R9BB104_C49678_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CC0805KRX7R9BB104"
+   ],
+   "bytes": 23530
+  },
+  {
+   "file": "assets/img/parts/C5158822.jpg",
+   "code": "C5158822",
+   "matched": "PROD Tech PDMCAT1065-102MLN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250911_PROD-Tech-PDMCAT1065-102MLN_C5158822_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EMI-6A-1mH"
+   ],
+   "bytes": 38646
+  },
+  {
+   "file": "assets/img/parts/C5204901.jpg",
+   "code": "C5204901",
+   "matched": "TWGMC S3M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230213_TWGMC-S3M_C5204901_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "S3M"
+   ],
+   "bytes": 31587
+  },
+  {
+   "file": "assets/img/parts/C5248045.jpg",
+   "code": "C5248045",
+   "matched": "GOODWORK BAV70",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230125_GOODWORK-BAV70_C5248045_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BAV70"
+   ],
+   "bytes": 32223
+  },
+  {
+   "file": "assets/img/parts/C52741340.jpg",
+   "code": "C52741340",
+   "matched": "Magnetsyc CPN3015H2R2MT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260814_Magnetsyc-CPN3015H2R2MT_C52741340_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "WPN3015H2R2MT"
+   ],
+   "bytes": 26179
+  },
+  {
+   "file": "assets/img/parts/C53065973.jpg",
+   "code": "C53065973",
+   "matched": "SDAPO DP1425-12V1A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251220_SDAPO-DP1425-12V1A_C53065973_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EE19-12V1A-开关变压器"
+   ],
+   "bytes": 36960
+  },
+  {
+   "file": "assets/img/parts/C5358156.jpg",
+   "code": "C5358156",
+   "matched": "XR XRUU9.8-10mH-V",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230213_XR-XRUU9-8-10mH-V_C5358156_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "UU9.8-10MH"
+   ],
+   "bytes": 34335
+  },
+  {
+   "file": "assets/img/parts/C55219017.jpg",
+   "code": "C55219017",
+   "matched": "JIERR MPE105J100V0501",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260716_JIERR-MPE105J100V0501_C55219017_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CBB21-105J100V",
+    "CL21-474J100V"
+   ],
+   "bytes": 34596
+  },
+  {
+   "file": "assets/img/parts/C55219033.jpg",
+   "code": "C55219033",
+   "matched": "JIERR MPP104J630V1001",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260716_JIERR-MPP104J630V1001_C55219033_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CBB22-104J630V",
+    "CBB22-224J400V"
+   ],
+   "bytes": 33587
+  },
+  {
+   "file": "assets/img/parts/C557501.jpg",
+   "code": "C557501",
+   "matched": "KYET MMKP223J3A1001",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_KYET-MMKP223J3A1001_C557501_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MKP-105K275V"
+   ],
+   "bytes": 38168
+  },
+  {
+   "file": "assets/img/parts/C57112.jpg",
+   "code": "C57112",
+   "matched": "FH 0603B103K500NT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251028_FH-0603B103K500NT_C57112_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0603B103K500NT",
+    "0603B104K500NT"
+   ],
+   "bytes": 27746
+  },
+  {
+   "file": "assets/img/parts/C66198.jpg",
+   "code": "C66198",
+   "matched": "onsemi MMSZ5231BT1G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251013_onsemi-MMSZ5231BT1G_C66198_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MMSZ5231B"
+   ],
+   "bytes": 30290
+  },
+  {
+   "file": "assets/img/parts/C68883.jpg",
+   "code": "C68883",
+   "matched": "VISHAY LL4148-GS08",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251204_VISHAY-LL4148-GS08_C68883_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LL4148"
+   ],
+   "bytes": 30138
+  },
+  {
+   "file": "assets/img/parts/C6971165.jpg",
+   "code": "C6971165",
+   "matched": "MOLEX 1202530155",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240423_MOLEX-1202530155_C6971165_front.jpg",
+   "matchedVia": "3015 power inductor",
+   "models": [
+    "VLS3015CX-100M"
+   ],
+   "bytes": 11079
+  },
+  {
+   "file": "assets/img/parts/C71629.jpg",
+   "code": "C71629",
+   "matched": "muRata GRM155R71C104KA88D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Murata-Electronics-GRM155R71C104KA88D_C71629_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GRM155R71C104KA88D",
+    "GRM155R61A105KE15D"
+   ],
+   "bytes": 22318
+  },
+  {
+   "file": "assets/img/parts/C7171.jpg",
+   "code": "C7171",
+   "matched": "Kyocera AVX TAJA106K016RNJ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250425_Kyocera-AVX-TAJA106K016RNJ_C7171_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TAJA106K016RNJ"
+   ],
+   "bytes": 31054
+  },
+  {
+   "file": "assets/img/parts/C7214.jpg",
+   "code": "C7214",
+   "matched": "Kyocera AVX TAJC226K025RNJ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Kyocera-AVX-TAJC226K025RNJ_C7214_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TAJC226K025RNJ"
+   ],
+   "bytes": 29537
+  },
+  {
+   "file": "assets/img/parts/C7528875.jpg",
+   "code": "C7528875",
+   "matched": "MSKSEMI 1N4007",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230913_MSKSEMI-1N4007_C7528875_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N4007",
+    "1N4001"
+   ],
+   "bytes": 32049
+  },
+  {
+   "file": "assets/img/parts/C77055.jpg",
+   "code": "C77055",
+   "matched": "muRata GRM188R71H104KA93D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Murata-Electronics-GRM188R71H104KA93D_C77055_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GRM188R71H104KA93D",
+    "GRM188R61A226ME15D"
+   ],
+   "bytes": 26566
+  },
+  {
+   "file": "assets/img/parts/C77082.jpg",
+   "code": "C77082",
+   "matched": "muRata GRM21BR71H104KA01L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250824_muRata-GRM21BR71H104KA01L_C77082_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GRM21BR71H104KA01L",
+    "GRM21BR61E106KA73L"
+   ],
+   "bytes": 29426
+  },
+  {
+   "file": "assets/img/parts/C77090.jpg",
+   "code": "C77090",
+   "matched": "muRata GRM31CR61E106KA12L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251025_muRata-GRM31CR61E106KA12L_C77090_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GRM31CR61E106KA12L"
+   ],
+   "bytes": 31834
+  },
+  {
+   "file": "assets/img/parts/C77131.jpg",
+   "code": "C77131",
+   "matched": "muRata NCP15XH103F03RC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251020_muRata-NCP15XH103F03RC_C77131_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NCP15XH103F03RC"
+   ],
+   "bytes": 29219
+  },
+  {
+   "file": "assets/img/parts/C7840.jpg",
+   "code": "C7840",
+   "matched": "TI SN74LVC1G32DCKR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-SN74LVC1G32DCKR_C7840_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "5.5V1.0F-插件"
+   ],
+   "bytes": 28278
+  },
+  {
+   "file": "assets/img/parts/C81218.jpg",
+   "code": "C81218",
+   "matched": "muRata LQH32CN100K23L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Murata-Electronics-LQH32CN100K23L_C81218_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LQH32CN100K23L"
+   ],
+   "bytes": 27543
+  },
+  {
+   "file": "assets/img/parts/C84410.jpg",
+   "code": "C84410",
+   "matched": "onsemi 1N4148TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250319_onsemi-1N4148TR_C84410_front.jpg",
+   "matchedVia": "DO-35 electronic component",
+   "models": [
+    "BAV21"
+   ],
+   "bytes": 38551
+  },
+  {
+   "file": "assets/img/parts/C85840.jpg",
+   "code": "C85840",
+   "matched": "muRata BLM21PG221SN1D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251025_muRata-BLM21PG221SN1D_C85840_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BLM21PG221SN1D"
+   ],
+   "bytes": 29162
+  },
+  {
+   "file": "assets/img/parts/C87080.jpg",
+   "code": "C87080",
+   "matched": "TI LMR16006XDDCR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Texas-Instruments-LMR16006XDDCR_C87080_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "音频隔离变压器-600:600"
+   ],
+   "bytes": 28875
+  },
+  {
+   "file": "assets/img/parts/C875741.jpg",
+   "code": "C875741",
+   "matched": "YAGEO PE2512FKF070R01L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240514_YAGEO-PE2512FKF070R01L_C875741_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PE2512FKF070R01L"
+   ],
+   "bytes": 32649
+  },
+  {
+   "file": "assets/img/parts/C88182.jpg",
+   "code": "C88182",
+   "matched": "TDK MLZ2012N100LT000",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190116_TDK-MLZ2012N100LT000_C88182_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MLZ2012N100LT000"
+   ],
+   "bytes": 23225
+  },
+  {
+   "file": "assets/img/parts/C89632.jpg",
+   "code": "C89632",
+   "matched": "Samsung Electro-Mechanics CL31B106KBHNNNE",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Samsung-Electro-Mechanics-CL31B106KBHNNNE_C89632_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CL31B106KBHNNNE",
+    "CL31A226KAHNNNE"
+   ],
+   "bytes": 29170
+  },
+  {
+   "file": "assets/img/parts/C914482.jpg",
+   "code": "C914482",
+   "matched": "NDF X2-104K-275VAC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230201_NDF-X2-104K-275VAC_C914482_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "X2-104K275VAC",
+    "X2-224K275VAC"
+   ],
+   "bytes": 36297
+  },
+  {
+   "file": "assets/img/parts/C916421.jpg",
+   "code": "C916421",
+   "matched": "JSMSEMI BAV99",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_JSMSEMI-BAV99_C916421_blank.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BAV99"
+   ],
+   "bytes": 5071
+  },
+  {
+   "file": "assets/img/parts/C916424.jpg",
+   "code": "C916424",
+   "matched": "JSMSEMI BAT54C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_JSMSEMI-BAT54C_C916424_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BAT54C"
+   ],
+   "bytes": 30567
+  },
+  {
+   "file": "assets/img/parts/C916425.jpg",
+   "code": "C916425",
+   "matched": "JSMSEMI BAT54S",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_JSMSEMI-BAT54S_C916425_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BAT54S"
+   ],
+   "bytes": 30169
+  },
+  {
+   "file": "assets/img/parts/C917030.jpg",
+   "code": "C917030",
+   "matched": "JSMSEMI 1N4148W",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_JSMSEMI-1N4148W_C917030_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1N4148W"
+   ],
+   "bytes": 29303
+  },
+  {
+   "file": "assets/img/parts/C9179.jpg",
+   "code": "C9179",
+   "matched": "RUILON NTC 5D-11",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_RUILON-Shenzhen-Ruilongyuan-Elec-NTC-5D-11_C9179_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NTC 5D-11"
+   ],
+   "bytes": 35661
+  },
+  {
+   "file": "assets/img/parts/C95781.jpg",
+   "code": "C95781",
+   "matched": "YAGEO RC0805FR-071KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260525_YAGEO-RC0805FR-071KL_C95781_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RC0805FR-070000L",
+    "RC0805FR-071001L",
+    "RC0805FR-071002L",
+    "RC0805FR-071003L",
+    "RC0805FR-071004L",
+    "RC0805FR-071005L"
+   ],
+   "bytes": 29152
+  },
+  {
+   "file": "assets/img/parts/C98220.jpg",
+   "code": "C98220",
+   "matched": "YAGEO RC0603FR-0710KL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_YAGEO-RC0603FR-0710KL_C98220_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "WH148-10K"
+   ],
+   "bytes": 28898
+  }
+ ]
+}

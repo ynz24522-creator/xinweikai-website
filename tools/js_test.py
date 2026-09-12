@@ -48,7 +48,8 @@ function stubEl() {
     setAttribute: function (k, v) { self["attr_" + k] = v; },
     getAttribute: function (k) { return self["attr_" + k] === undefined ? null : self["attr_" + k]; },
     appendChild: function (child) { self._children = self._children || []; self._children.push(child); },
-    removeChild: function () {}, select: function () {},
+    removeChild: function () {}, replaceChild: function (n, o) { self._replaced = { next: n, prev: o }; },
+    select: function () {},
     addEventListener: function () {}, click: function () {}, focus: function () { self._focused = true; },
     contains: function () { return false; }, scrollIntoView: function () {},
     querySelector: function (sel) { if (!self._q[sel]) { self._q[sel] = stubEl(); } return self._q[sel]; },
@@ -171,18 +172,44 @@ check("large size shows package", ART.svgFor(samplePart, { size: "lg" }).indexOf
 
 var photo = ART.html({ model: "C25804", pkg: "SOT-223", type: "ldo", img: "assets/img/parts/c25804.jpg" }, { size: "sm" });
 check("img override renders a photo", photo.indexOf("<img") === 0 && photo.indexOf("assets/img/parts/c25804.jpg") >= 0, "");
+check("photo carries model and size hooks", photo.indexOf('data-model="C25804"') >= 0 && photo.indexOf('data-art-size="sm"') >= 0, "");
 
 var risky = ART.svgFor({ model: "<b>a&b</b>", pkg: "0402", type: "res-thick", catId: "resistors" }, { size: "lg" });
 check("model text is escaped", risky.indexOf("<b>a&b</b>") < 0 && risky.indexOf("&lt;b&gt;") >= 0, "");
 
 var rowHtml = api.partRowHtml(samplePart, "", true);
-check("row includes thumbnail button", rowHtml.indexOf("data-open-art") >= 0 && rowHtml.indexOf("<svg") >= 0, "");
+check("row includes thumbnail button",
+  rowHtml.indexOf("data-open-art") >= 0 && (rowHtml.indexOf("<svg") >= 0 || rowHtml.indexOf("<img") >= 0), "");
 check("row thumbnail is accessible", rowHtml.indexOf("aria-label") >= 0, "");
 
 var tableHtml = api.partsTableHtml([samplePart], "", true);
 check("table has image column", tableHtml.indexOf(api.t("common.image")) >= 0, "");
 check("table carries the art disclaimer", tableHtml.indexOf("art-note") >= 0, "");
 check("thumbnail helper returns markup", api.thumbHtml(samplePart).indexOf("part-thumb") >= 0, "");
+
+/* ---------- photos from LCSC + fallback ---------- */
+var photoParts = api.PART_INDEX.filter(function (p) { return p.img; });
+check("catalogue carries synced photos", photoParts.length > 0, photoParts.length);
+if (photoParts.length) {
+  var pp = photoParts[0];
+  var rowPhoto = api.partRowHtml(pp, "", true);
+  check("photo row renders an img tag", rowPhoto.indexOf("<img") >= 0 && rowPhoto.indexOf(pp.img) >= 0, pp.img);
+  var lbPhoto = api.artHtml(pp, "lg");
+  check("large photo uses lg size hook", lbPhoto.indexOf('data-art-size="lg"') >= 0, "");
+
+  var fakeImg = stubEl();
+  fakeImg.tagName = "IMG";
+  fakeImg._classes["part-art"] = true;
+  fakeImg.setAttribute("data-model", pp.model);
+  fakeImg.setAttribute("data-art-size", "sm");
+  var holder = stubEl();
+  holder.appendChild(fakeImg);
+  fakeImg.parentNode = holder;
+  api.handleArtError({ target: fakeImg });
+  var swapped = holder._replaced ? holder._replaced.next : null;
+  check("broken photo falls back to a vector illustration",
+    !!swapped && String(swapped.innerHTML).indexOf("<svg") >= 0, "");
+}
 
 /* ---------- lightbox behaviour (DOM shim) ---------- */
 var lbModel = "STM32F103C8T6";
@@ -238,7 +265,8 @@ def main():
               "PART_INDEX: PART_INDEX, readInquiry: readInquiry, writeInquiry: writeInquiry, "
               "addToInquiry: addToInquiry, inquiryText: inquiryText, t: t, setLang: setLang, "
               "partRowHtml: partRowHtml, partsTableHtml: partsTableHtml, thumbHtml: thumbHtml, "
-              "artHtml: artHtml, openArt: openArt, closeArt: closeArt, lightboxHtml: lightboxHtml };\n})();")
+              "artHtml: artHtml, openArt: openArt, closeArt: closeArt, lightboxHtml: lightboxHtml, "
+              "handleArtError: handleArtError };\n})();")
     app_test = app.replace(marker, export)
     with tempfile.TemporaryDirectory() as tmp:
         app_file = os.path.join(tmp, "app_test.js")

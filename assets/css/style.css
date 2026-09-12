@@ -297,6 +297,10 @@ button { font: inherit; }
 .part-thumb:hover { transform: translateY(-1px); border-color: var(--accent); box-shadow: var(--shadow-sm); }
 .part-thumb .part-art { display: block; width: 56px; height: 42px; }
 .part-art { display: block; width: 100%; height: auto; }
+.part-art--photo { object-fit: contain; background: #fff; }
+.part-thumb .part-art--photo { width: 56px; height: 42px; }
+.part-art-fallback { display: block; }
+.part-art-fallback .part-art { width: 56px; height: 42px; }
 .search-item-art { flex: 0 0 auto; width: 30px; height: 24px; border-radius: 6px; overflow: hidden; border: 1px solid var(--line); }
 .search-item-art .part-art { width: 30px; height: 24px; }
 .art-note { margin: 8px 2px 0; font-size: 0.78rem; color: var(--muted); }
@@ -318,6 +322,8 @@ body.no-scroll { overflow: hidden; }
 .lightbox-close:hover { color: var(--danger); border-color: var(--danger); }
 .lightbox-art { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--bg-soft); }
 .lightbox-art .part-art { width: 100%; height: auto; }
+.lightbox-art .part-art--photo { max-height: 320px; width: auto; max-width: 100%; margin: 0 auto; }
+.art-source { margin: 0 0 6px; font-size: 0.78rem; color: var(--brand); }
 .lightbox-title { font-family: var(--mono); font-size: 1.25rem; margin: 4px 36px 12px 0; word-break: break-all; }
 .lightbox-meta { display: grid; gap: 8px; margin: 0 0 12px; }
 .meta-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
