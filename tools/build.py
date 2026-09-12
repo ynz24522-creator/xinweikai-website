@@ -29,6 +29,8 @@ OUT = resolve_out(HERE)
 SCRIPT_LABEL = os.path.basename(HERE) + "/build.py"
 
 BASE_URL = "https://ynz24522-creator.github.io/xinweikai-website/"
+# Bump when CSS/JS change so browsers bypass the GitHub Pages 10-minute asset cache.
+ASSET_VERSION = "20260912b"
 
 COMPANY = {
     "nameZh": "深圳市鑫威凯科技有限公司",
@@ -388,7 +390,7 @@ def page_head(page, title_key, desc_key, page_file="index.html"):
   <meta property="og:url" content="{url}{page}">
   <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v={assetver}">
   <script type="application/ld+json">{jsonld}</script>""".format(
         title=title,
         desc=desc,
@@ -397,6 +399,7 @@ def page_head(page, title_key, desc_key, page_file="index.html"):
         url=BASE_URL,
         page="" if page_file == "index.html" else page_file,
         jsonld=json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")),
+        assetver=ASSET_VERSION,
     )
 
 
@@ -516,9 +519,9 @@ def footer():
 def drawer_and_scripts():
     return """<div class="drawer-backdrop" data-drawer-backdrop hidden></div>
   <div class="toast" data-toast hidden></div>
-  <script src="assets/js/data.js"></script>
-  <script src="assets/js/i18n.js"></script>
-  <script src="assets/js/app.js"></script>"""
+  <script src="assets/js/data.js?v={ver}"></script>
+  <script src="assets/js/i18n.js?v={ver}"></script>
+  <script src="assets/js/app.js?v={ver}"></script>""".format(ver=ASSET_VERSION)
 
 
 def page(filename, page_id, title_key, desc_key, content):
