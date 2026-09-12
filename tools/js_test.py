@@ -117,8 +117,16 @@ check("zh dictionary", api.t("nav.home") === "首页", api.t("nav.home"));
 api.setLang("en");
 check("en dictionary", api.t("nav.home") === "Home", api.t("nav.home"));
 check("en search label", api.t("search.placeholder").indexOf("Search") === 0, api.t("search.placeholder"));
+check("en placeholders filled", api.t("home.catLead").indexOf("{") < 0 && api.t("home.catLead").indexOf("119") >= 0,
+  api.t("home.catLead").slice(0, 60));
+check("en products lead filled", api.t("products.lead").indexOf("939") >= 0, api.t("products.lead").slice(0, 40));
 api.setLang("zh");
 check("back to zh", api.t("nav.home") === "首页", api.t("nav.home"));
+check("zh placeholders filled", api.t("home.catLead").indexOf("{") < 0 && api.t("home.catLead").indexOf("119") >= 0,
+  api.t("home.catLead").slice(0, 42));
+check("zh products lead filled", api.t("products.lead").indexOf("939") >= 0, api.t("products.lead").slice(0, 30));
+check("zh about data filled", api.t("about.dataText").indexOf("{") < 0 && api.t("about.dataText").indexOf("939") >= 0, "");
+check("inquiry note email filled", api.t("inquiry.note").indexOf("17317103@qq.com") >= 0, "");
 
 var row = api.partRowHtml({ model: "<b>x</b>", brand: "tsc", pkg: "SMA", params: "1A & 2A", type: "diode-rect", catId: "diodes" }, "x");
 check("html escaping", row.indexOf("&lt;b&gt;") >= 0 && row.indexOf("&amp;") >= 0, "");

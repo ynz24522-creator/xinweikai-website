@@ -47,6 +47,20 @@
 
   var lang = detectLang();
 
+  function fillVars(value) {
+    var meta = DATA.meta || {};
+    return String(value).replace(/\{(cats|subs|parts|email|phone|address|short)\}/g, function (match, key) {
+      if (key === "cats") { return String(meta.categories || ""); }
+      if (key === "subs") { return String(meta.subs || ""); }
+      if (key === "parts") { return String(meta.parts || ""); }
+      if (key === "email") { return COMPANY.email || ""; }
+      if (key === "phone") { return COMPANY.phone || ""; }
+      if (key === "address") { return COMPANY.addressZh || ""; }
+      if (key === "short") { return COMPANY.shortZh || ""; }
+      return match;
+    });
+  }
+
   function t(key, vars) {
     var dict = I18N[lang] || I18N.zh || {};
     var value = dict[key];
@@ -57,7 +71,7 @@
         value = value.split("{" + k + "}").join(vars[k]);
       });
     }
-    return value;
+    return fillVars(value);
   }
 
   function nameOf(obj, zhField, enField) {
