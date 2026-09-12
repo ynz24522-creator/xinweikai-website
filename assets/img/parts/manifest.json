@@ -1,8 +1,19 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 123,
- "imageCount": 123,
+ "count": 176,
+ "imageCount": 176,
  "entries": [
+  {
+   "file": "assets/img/parts/C10041.jpg",
+   "code": "C10041",
+   "matched": "Intel/Altera EPM240T100C5N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Intel-Altera-EPM240T100C5N_C10041_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EPM240T100C5N"
+   ],
+   "bytes": 36291
+  },
   {
    "file": "assets/img/parts/C105635.jpg",
    "code": "C105635",
@@ -131,6 +142,17 @@
    "bytes": 27619
   },
   {
+   "file": "assets/img/parts/C116151.jpg",
+   "code": "C116151",
+   "matched": "GigaDevice Semicon Beijing GD32F303CCT6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_GigaDevice-Semicon-Beijing-GD32F303CCT6_C116151_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD32F303CCT6"
+   ],
+   "bytes": 34076
+  },
+  {
    "file": "assets/img/parts/C121953.jpg",
    "code": "C121953",
    "matched": "CCO(Chian Chia Elec) MOF5WS-10Ω±5% T",
@@ -197,6 +219,17 @@
     "1N4148WS"
    ],
    "bytes": 25085
+  },
+  {
+   "file": "assets/img/parts/C131025.jpg",
+   "code": "C131025",
+   "matched": "Winbond W25Q16JVSSIQ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Winbond-Elec-W25Q16JVSSIQ_C131025_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W25Q16JVSSIQ"
+   ],
+   "bytes": 26596
   },
   {
    "file": "assets/img/parts/C131394.jpg",
@@ -301,6 +334,17 @@
     "BLM18PG221SN1D"
    ],
    "bytes": 25323
+  },
+  {
+   "file": "assets/img/parts/C14877.jpg",
+   "code": "C14877",
+   "matched": "MICROCHIP ATMEGA328P-AU",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230905_Microchip-Tech-ATMEGA328P-AU_C14877_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATmega328P-AU"
+   ],
+   "bytes": 35133
   },
   {
    "file": "assets/img/parts/C1518243.jpg",
@@ -459,6 +503,28 @@
     "EEE-FK1E471P"
    ],
    "bytes": 25841
+  },
+  {
+   "file": "assets/img/parts/C179171.jpg",
+   "code": "C179171",
+   "matched": "Winbond W25Q64JVSSIQ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20191226_Winbond-Elec-W25Q64JVSSIQ_C179171_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W25Q64JVSSIQ"
+   ],
+   "bytes": 34997
+  },
+  {
+   "file": "assets/img/parts/C179173.jpg",
+   "code": "C179173",
+   "matched": "Winbond W25Q32JVSSIQ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20191226_Winbond-Elec-W25Q32JVSSIQ_C179173_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W25Q32JVSSIQ"
+   ],
+   "bytes": 35137
   },
   {
    "file": "assets/img/parts/C182078.jpg",
@@ -708,6 +774,50 @@
    "bytes": 33343
   },
   {
+   "file": "assets/img/parts/C2655410.jpg",
+   "code": "C2655410",
+   "matched": "MICROCHIP 24LC02BT-I/OT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Microchip-Tech-24LC02BT-I-OT_C2655410_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "24LC02BT-I/OT"
+   ],
+   "bytes": 29208
+  },
+  {
+   "file": "assets/img/parts/C2685734.jpg",
+   "code": "C2685734",
+   "matched": "GigaDevice Semicon Beijing GD25Q64ESIG",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230605_GigaDevice-Semicon-Beijing-GD25Q64ESIG_C2685734_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD25Q64CSIG"
+   ],
+   "bytes": 31855
+  },
+  {
+   "file": "assets/img/parts/C2687447.jpg",
+   "code": "C2687447",
+   "matched": "ARTERY AT32F421C8T7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_ARTERY-AT32F421C8T7_C2687447_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AT32F421C8T7"
+   ],
+   "bytes": 34969
+  },
+  {
+   "file": "assets/img/parts/C2687451.jpg",
+   "code": "C2687451",
+   "matched": "WCH CH32F103C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230625_WCH-Jiangsu-Qin-Heng-CH32F103C8T6_C2687451_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH32F103C8T6"
+   ],
+   "bytes": 33474
+  },
+  {
    "file": "assets/img/parts/C2803195.jpg",
    "code": "C2803195",
    "matched": "KNSCHA KJKF222M2FF7035A075E",
@@ -730,6 +840,61 @@
    "bytes": 37129
   },
   {
+   "file": "assets/img/parts/C28730.jpg",
+   "code": "C28730",
+   "matched": "ST STM32F407VET6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260310_ST-STM32F407VET6_C28730_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM32F407VET6"
+   ],
+   "bytes": 37131
+  },
+  {
+   "file": "assets/img/parts/C2901876.jpg",
+   "code": "C2901876",
+   "matched": "STC Micro STC8G1K08-38I-SOP16",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230127_STC-Micro-STC8G1K08-38I-SOP16_C2901876_front.jpg",
+   "matchedVia": "STC SOP-16",
+   "models": [
+    "STC15W204S-35I-SOP16"
+   ],
+   "bytes": 33224
+  },
+  {
+   "file": "assets/img/parts/C2917207.jpg",
+   "code": "C2917207",
+   "matched": "NUVOTON M031TC1AE",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230122_Nuvoton-Tech-M031TC1AE_C2917207_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "M031TC1AE"
+   ],
+   "bytes": 31084
+  },
+  {
+   "file": "assets/img/parts/C2917796.jpg",
+   "code": "C2917796",
+   "matched": "micron MT29F4G08ABBDAH4:D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_Micron-Tech-MT29F4G08ABBDAH4-D_C2917796_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MT29F4G08ABBDAH4"
+   ],
+   "bytes": 29770
+  },
+  {
+   "file": "assets/img/parts/C2928891.jpg",
+   "code": "C2928891",
+   "matched": "GigaDevice Semicon Beijing GD25Q128ESIGR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230211_GigaDevice-Semicon-Beijing-GD25Q128ESIGR_C2928891_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD25Q128ESIGR"
+   ],
+   "bytes": 28875
+  },
+  {
    "file": "assets/img/parts/C2935356.jpg",
    "code": "C2935356",
    "matched": "ZHT ZHT103",
@@ -739,6 +904,17 @@
     "ZHT103-5A/5mA"
    ],
    "bytes": 35294
+  },
+  {
+   "file": "assets/img/parts/C2953577.jpg",
+   "code": "C2953577",
+   "matched": "Infineon/CYPRESS FM24C04B-G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230729_Infineon-Cypress-Semicon-FM24C04B-G_C2953577_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FM24C02B-G"
+   ],
+   "bytes": 31073
   },
   {
    "file": "assets/img/parts/C29718.jpg",
@@ -762,6 +938,39 @@
     "ZMM5V1"
    ],
    "bytes": 29008
+  },
+  {
+   "file": "assets/img/parts/C3001172.jpg",
+   "code": "C3001172",
+   "matched": "WCH CH32V203C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230127_WCH-Jiangsu-Qin-Heng-CH32V203C8T6_C3001172_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH32V203C8T6"
+   ],
+   "bytes": 33664
+  },
+  {
+   "file": "assets/img/parts/C3013145.jpg",
+   "code": "C3013145",
+   "matched": "STC Micro STC8H8K64U-45I-LQFP48",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230128_STC-Micro-STC8H8K64U-45I-LQFP48_C3013145_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STC8H8K64U-45I-LQFP48"
+   ],
+   "bytes": 33449
+  },
+  {
+   "file": "assets/img/parts/C3032170.jpg",
+   "code": "C3032170",
+   "matched": "Nations Technologies Inc N32G430C8L7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_Nations-Technologies-Inc-N32G430C8L7_C3032170_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "N32G430C8L7"
+   ],
+   "bytes": 32723
   },
   {
    "file": "assets/img/parts/C303950.jpg",
@@ -797,6 +1006,17 @@
    "bytes": 5034
   },
   {
+   "file": "assets/img/parts/C31540447.jpg",
+   "code": "C31540447",
+   "matched": "MICROCHIP ATTINY85-20SU",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241129_Microchip-Tech-ATTINY85-20SU_C31540447_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATtiny85-20SU"
+   ],
+   "bytes": 34001
+  },
+  {
    "file": "assets/img/parts/C32357.jpg",
    "code": "C32357",
    "matched": "onsemi 1SMA5929BT3G",
@@ -806,6 +1026,28 @@
     "1SMA5929BT3G"
    ],
    "bytes": 31964
+  },
+  {
+   "file": "assets/img/parts/C32726.jpg",
+   "code": "C32726",
+   "matched": "Intel/Altera EP4CE10E22C8N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Intel-Altera-EP4CE10E22C8N_C32726_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EP4CE10E22C8N"
+   ],
+   "bytes": 37327
+  },
+  {
+   "file": "assets/img/parts/C33901.jpg",
+   "code": "C33901",
+   "matched": "MICROCHIP ATMEGA328P-PU",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230905_Microchip-Tech-ATMEGA328P-PU_C33901_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATmega328P-PU"
+   ],
+   "bytes": 29961
   },
   {
    "file": "assets/img/parts/C3408263.jpg",
@@ -831,6 +1073,17 @@
    "bytes": 32463
   },
   {
+   "file": "assets/img/parts/C36238.jpg",
+   "code": "C36238",
+   "matched": "Intel/Altera EP4CE6E22C8N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20210223_Intel-Altera-EP4CE6E22C8N_C36238_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EP4CE6E22C8N"
+   ],
+   "bytes": 36461
+  },
+  {
    "file": "assets/img/parts/C3790.jpg",
    "code": "C3790",
    "matched": "RUILON NTC 10D-9",
@@ -840,6 +1093,17 @@
     "NTC 10D-9"
    ],
    "bytes": 34479
+  },
+  {
+   "file": "assets/img/parts/C380535.jpg",
+   "code": "C380535",
+   "matched": "GigaDevice Semicon Beijing GD32E230C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20191204_GigaDevice-Semicon-Beijing-GD32E230C8T6_C380535_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD32E230C8T6"
+   ],
+   "bytes": 35295
   },
   {
    "file": "assets/img/parts/C38141.jpg",
@@ -853,6 +1117,17 @@
    "bytes": 29703
   },
   {
+   "file": "assets/img/parts/C382509.jpg",
+   "code": "C382509",
+   "matched": "NUVOTON N76E003AT20-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250904_NUVOTON-N76E003AT20-T_C382509_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "N76E003AT20"
+   ],
+   "bytes": 33999
+  },
+  {
    "file": "assets/img/parts/C39151690.jpg",
    "code": "C39151690",
    "matched": "Coilcraft 0805CS-100XJLC",
@@ -863,6 +1138,28 @@
     "0805CS-220XJLC"
    ],
    "bytes": 23202
+  },
+  {
+   "file": "assets/img/parts/C39313.jpg",
+   "code": "C39313",
+   "matched": "AMD/XILINX XC6SLX16-2FTG256C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230324_AMD-XILINX-XC6SLX16-2FTG256C_C39313_front.jpg",
+   "matchedVia": "ANLOGIC FBGA-256",
+   "models": [
+    "EG4S20BG256"
+   ],
+   "bytes": 31231
+  },
+  {
+   "file": "assets/img/parts/C40382.jpg",
+   "code": "C40382",
+   "matched": "MICROCHIP ATTINY13A-SSUR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Microchip-Tech-ATTINY13A-SSUR_C40382_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATtiny13A-SSU"
+   ],
+   "bytes": 29994
   },
   {
    "file": "assets/img/parts/C412436.jpg",
@@ -1048,6 +1345,17 @@
    "bytes": 32223
   },
   {
+   "file": "assets/img/parts/C52717.jpg",
+   "code": "C52717",
+   "matched": "ST STM8S003F3P6TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_STMicroelectronics-STM8S003F3P6TR_C52717_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM8S003F3P6"
+   ],
+   "bytes": 32695
+  },
+  {
    "file": "assets/img/parts/C52741340.jpg",
    "code": "C52741340",
    "matched": "Magnetsyc CPN3015H2R2MT",
@@ -1057,6 +1365,39 @@
     "WPN3015H2R2MT"
    ],
    "bytes": 26179
+  },
+  {
+   "file": "assets/img/parts/C528438.jpg",
+   "code": "C528438",
+   "matched": "ARTERY AT32F403ACGU7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230104_ARTERY-AT32F403ACGU7_C528438_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AT32F403ACGU7"
+   ],
+   "bytes": 33285
+  },
+  {
+   "file": "assets/img/parts/C529329.jpg",
+   "code": "C529329",
+   "matched": "ST STM32G030C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230104_STMicroelectronics-STM32G030C8T6_C529329_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM32G030C8T6"
+   ],
+   "bytes": 36699
+  },
+  {
+   "file": "assets/img/parts/C529330.jpg",
+   "code": "C529330",
+   "matched": "ST STM32G030F6P6TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230104_STMicroelectronics-STM32G030F6P6TR_C529330_front.jpg",
+   "matchedVia": "TSSOP-20 component",
+   "models": [
+    "STM32F030F4P6"
+   ],
+   "bytes": 32416
   },
   {
    "file": "assets/img/parts/C53065973.jpg",
@@ -1128,6 +1469,39 @@
    "bytes": 27746
   },
   {
+   "file": "assets/img/parts/C5799578.jpg",
+   "code": "C5799578",
+   "matched": "GOWIN GW1NR-LV9QN88PC6/I5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260817_GOWIN-GW1NR-LV9QN88PC6-I5_C5799578_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GW1NR-LV9QN88PC6/I5"
+   ],
+   "bytes": 26486
+  },
+  {
+   "file": "assets/img/parts/C6203.jpg",
+   "code": "C6203",
+   "matched": "MICROCHIP AT24C02C-SSHM-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Microchip-Tech-AT24C02C-SSHM-T_C6203_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AT24C02C-SSHM-T"
+   ],
+   "bytes": 26803
+  },
+  {
+   "file": "assets/img/parts/C6487.jpg",
+   "code": "C6487",
+   "matched": "MICROCHIP AT24C64D-SSHM-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Microchip-Tech-AT24C64D-SSHM-T_C6487_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AT24C64D-SSHM-T"
+   ],
+   "bytes": 26706
+  },
+  {
    "file": "assets/img/parts/C66198.jpg",
    "code": "C66198",
    "matched": "onsemi MMSZ5231BT1G",
@@ -1159,6 +1533,17 @@
     "VLS3015CX-100M"
    ],
    "bytes": 11079
+  },
+  {
+   "file": "assets/img/parts/C706695.jpg",
+   "code": "C706695",
+   "matched": "MXIC MX25L6433FM2I-08G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_MXIC-Macronix-MX25L6433FM2I-08G_C706695_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MX25L6433FM2I-08G"
+   ],
+   "bytes": 32486
   },
   {
    "file": "assets/img/parts/C71629.jpg",
@@ -1207,6 +1592,17 @@
    "bytes": 32049
   },
   {
+   "file": "assets/img/parts/C7562.jpg",
+   "code": "C7562",
+   "matched": "ST M24C02-WMN6TP",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_STMicroelectronics-M24C02-WMN6TP_C7562_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "M24C02-WMN6TP"
+   ],
+   "bytes": 28089
+  },
+  {
    "file": "assets/img/parts/C77055.jpg",
    "code": "C77055",
    "matched": "muRata GRM188R71H104KA93D",
@@ -1253,6 +1649,17 @@
    "bytes": 29219
   },
   {
+   "file": "assets/img/parts/C77994.jpg",
+   "code": "C77994",
+   "matched": "GigaDevice Semicon Beijing GD32F103C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_GigaDevice-Semicon-Beijing-GD32F103C8T6_C77994_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD32F103C8T6"
+   ],
+   "bytes": 31291
+  },
+  {
    "file": "assets/img/parts/C7840.jpg",
    "code": "C7840",
    "matched": "TI SN74LVC1G32DCKR",
@@ -1264,6 +1671,50 @@
    "bytes": 28278
   },
   {
+   "file": "assets/img/parts/C784660.jpg",
+   "code": "C784660",
+   "matched": "XHSC HC32F460PETB-LQFP100",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_XHSC-HC32F460PETB-LQFP100_C784660_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HC32F460PETB"
+   ],
+   "bytes": 36583
+  },
+  {
+   "file": "assets/img/parts/C79861.jpg",
+   "code": "C79861",
+   "matched": "ST STM32F401CCU6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_STMicroelectronics-STM32F401CCU6_C79861_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM32F401CCU6"
+   ],
+   "bytes": 28337
+  },
+  {
+   "file": "assets/img/parts/C80687.jpg",
+   "code": "C80687",
+   "matched": "GigaDevice Semicon Beijing GD32F103RCT6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_GigaDevice-Semicon-Beijing-GD32F103RCT6_C80687_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GD32F103RCT6"
+   ],
+   "bytes": 32688
+  },
+  {
+   "file": "assets/img/parts/C80801.jpg",
+   "code": "C80801",
+   "matched": "onsemi CAT24C08WI-GT3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_onsemi-CAT24C08WI-GT3_C80801_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CAT24C08WI-GT3"
+   ],
+   "bytes": 25854
+  },
+  {
    "file": "assets/img/parts/C81218.jpg",
    "code": "C81218",
    "matched": "muRata LQH32CN100K23L",
@@ -1273,6 +1724,28 @@
     "LQH32CN100K23L"
    ],
    "bytes": 27543
+  },
+  {
+   "file": "assets/img/parts/C81480.jpg",
+   "code": "C81480",
+   "matched": "HOLTEK HT66F018",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Holtek-Semicon-HT66F018_C81480_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HT66F018"
+   ],
+   "bytes": 27197
+  },
+  {
+   "file": "assets/img/parts/C8323.jpg",
+   "code": "C8323",
+   "matched": "ST STM32F103RCT6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260904_ST-STM32F103RCT6_C8323_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM32F103RCT6"
+   ],
+   "bytes": 33251
   },
   {
    "file": "assets/img/parts/C84410.jpg",
@@ -1308,6 +1781,28 @@
    "bytes": 28875
   },
   {
+   "file": "assets/img/parts/C8734.jpg",
+   "code": "C8734",
+   "matched": "ST STM32F103C8T6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_STMicroelectronics-STM32F103C8T6_C8734_front.jpg",
+   "matchedVia": "LQFP-48 component",
+   "models": [
+    "MM32F103C8T6"
+   ],
+   "bytes": 30386
+  },
+  {
+   "file": "assets/img/parts/C8734.jpg",
+   "code": "C8734",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "GEEHY LQFP-48",
+   "models": [
+    "APM32F103C8T6"
+   ],
+   "bytes": 30386
+  },
+  {
    "file": "assets/img/parts/C875741.jpg",
    "code": "C875741",
    "matched": "YAGEO PE2512FKF070R01L",
@@ -1317,6 +1812,39 @@
     "PE2512FKF070R01L"
    ],
    "bytes": 32649
+  },
+  {
+   "file": "assets/img/parts/C87905.jpg",
+   "code": "C87905",
+   "matched": "POWER INTEGRATIONS LNK302DN-TL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_POWER-INTEGRATIONS-LNK302DN-TL_C87905_front.jpg",
+   "matchedVia": "SOP-8 component",
+   "models": [
+    "AT24C02N-10SU-2.7"
+   ],
+   "bytes": 28532
+  },
+  {
+   "file": "assets/img/parts/C87905.jpg",
+   "code": "C87905",
+   "matched": "POWER INTEGRATIONS LNK302DN-TL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_POWER-INTEGRATIONS-LNK302DN-TL_C87905_front.jpg",
+   "matchedVia": "SOP-8 component",
+   "models": [
+    "AT24C32E-SSHM-T"
+   ],
+   "bytes": 28532
+  },
+  {
+   "file": "assets/img/parts/C88030.jpg",
+   "code": "C88030",
+   "matched": "TI TMS320F28027FPTT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Texas-Instruments-TMS320F28027FPTT_C88030_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TMS320F28027FPTT"
+   ],
+   "bytes": 34001
   },
   {
    "file": "assets/img/parts/C88182.jpg",
@@ -1352,6 +1880,17 @@
     "X2-224K275VAC"
    ],
    "bytes": 36297
+  },
+  {
+   "file": "assets/img/parts/C915663.jpg",
+   "code": "C915663",
+   "matched": "STC Micro STC8G1K08A-36I-SOP8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_STC-Micro-STC8G1K08A-36I-SOP8_C915663_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STC8G1K08A-8PIN"
+   ],
+   "bytes": 31801
   },
   {
    "file": "assets/img/parts/C916421.jpg",
@@ -1409,6 +1948,17 @@
    "bytes": 35661
   },
   {
+   "file": "assets/img/parts/C92081.jpg",
+   "code": "C92081",
+   "matched": "ST STM8S103F3P6TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_STMicroelectronics-STM8S103F3P6TR_C92081_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM8S103F3P6"
+   ],
+   "bytes": 30738
+  },
+  {
    "file": "assets/img/parts/C95781.jpg",
    "code": "C95781",
    "matched": "YAGEO RC0805FR-071KL",
@@ -1423,6 +1973,39 @@
     "RC0805FR-071005L"
    ],
    "bytes": 29152
+  },
+  {
+   "file": "assets/img/parts/C9652.jpg",
+   "code": "C9652",
+   "matched": "ADI AD9833BRMZ-REEL7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Analog-Devices-AD9833BRMZ-REEL7_C9652_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AD9833BRMZ"
+   ],
+   "bytes": 24719
+  },
+  {
+   "file": "assets/img/parts/C97521.jpg",
+   "code": "C97521",
+   "matched": "Winbond W25Q128JVSIQ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Winbond-Elec-W25Q128JVSIQ_C97521_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W25Q128JVSIQ"
+   ],
+   "bytes": 29145
+  },
+  {
+   "file": "assets/img/parts/C97522.jpg",
+   "code": "C97522",
+   "matched": "Winbond W25Q256JVEIQ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Winbond-Elec-W25Q256JVEIQ_C97522_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W25Q256JVEIQ"
+   ],
+   "bytes": 31629
   },
   {
    "file": "assets/img/parts/C98220.jpg",
