@@ -1221,6 +1221,17 @@ def apply_part_images(data):
     Keeps the generated data.js in sync with whatever photos have been synced
     from LCSC, so re-running the generator never drops the img fields.
     """
+    # 外观由「类型 + 封装」决定的被动/通用件，允许同族复用同一张实物图
+    PASSIVE_TYPES = {
+        "res-thick", "res-prec", "res-array", "res-lead", "res-power",
+        "res-ntc", "res-ptc", "pot",
+        "cap-mlcc", "cap-tantalum", "cap-electrolytic", "cap-film", "cap-super", "cap-safety",
+        "ind-chip", "ind-hf", "bead", "cmc",
+        "diode-rect", "diode-switch", "diode-schottky", "diode-zener", "diode-tvs",
+        "led-smd", "led-tht", "esd", "fuse", "ptc-resettable",
+        "hardware-screw", "hardware-standoff", "cons-heat", "cons-clean", "thermal-paste",
+        "conn-header", "conn-terminal", "sw-tact",
+    }
     manifest_path = os.path.join(OUT, "assets", "img", "parts", "manifest.json")
     if not os.path.exists(manifest_path):
         return 0
@@ -1231,6 +1242,7 @@ def apply_part_images(data):
         for model in entry.get("models", []):
             mapping[model] = entry["file"]
     applied = 0
+    family = {}
     for cat in data["categories"]:
         for sub in cat["subs"]:
             for part in sub["parts"]:
@@ -1238,6 +1250,20 @@ def apply_part_images(data):
                 if img:
                     part["img"] = img
                     applied += 1
+                    if part["t"] in PASSIVE_TYPES:
+                        family.setdefault((part["t"], part["k"]), img)
+    reused = 0
+    for cat in data["categories"]:
+        for sub in cat["subs"]:
+            for part in sub["parts"]:
+                if part.get("img"):
+                    continue
+                img = family.get((part["t"], part["k"]))
+                if img:
+                    part["img"] = img
+                    part["imgShared"] = True
+                    reused += 1
+    globals()["SHARED_PHOTOS"] = reused
     return applied
 
 
@@ -1501,6 +1527,7 @@ def write_site_files():
     data, photos = build_data()
     write_js_file(os.path.join(OUT, "assets", "js", "data.js"), "XWK_DATA", data)
     globals()["PHOTO_COUNT"] = photos
+    globals()["PHOTO_TOTAL"] = sum(1 for c in data["categories"] for s in c["subs"] for p in s["parts"] if p.get("img"))
     write_js_file(os.path.join(OUT, "assets", "js", "i18n.js"), "XWK_I18N", I18N)
     with open(os.path.join(OUT, "assets", "img", "favicon.svg"), "w", encoding="utf-8") as fh:
         fh.write(icons.FAVICON)
@@ -1519,8 +1546,9 @@ def main():
     print("site written to %s" % OUT)
     print("categories=%d subs=%d parts=%d brands=%d types=%d"
           % (len(CATEGORIES), TOTAL_SUBS, TOTAL_PARTS, len(catalog.BRANDS), len(catalog.TYPES)))
-    print("photos applied=%d (示意图用于其余 %d 个型号)"
-          % (globals().get("PHOTO_COUNT", 0), TOTAL_PARTS - globals().get("PHOTO_COUNT", 0)))
+    print("photos: matched=%d shared=%d total_with_photo=%d illustrative=%d"
+          % (globals().get("PHOTO_COUNT", 0), globals().get("SHARED_PHOTOS", 0),
+             globals().get("PHOTO_TOTAL", 0), TOTAL_PARTS - globals().get("PHOTO_TOTAL", 0)))
 
 
 if __name__ == "__main__":
