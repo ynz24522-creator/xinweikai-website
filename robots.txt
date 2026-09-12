@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ynz24522-creator.github.io/xinweikai-website/sitemap.xml

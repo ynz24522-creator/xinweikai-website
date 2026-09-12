@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>询价清单 | 鑫威凯科技</title>
+  <meta name="description" content="询价清单 · 一键生成询价邮件">
+  <meta name="keywords" content="电子元器件,现货,华强北,都会电子城,电阻,电容,IC,模块,连接器,鑫威凯科技">
+  <meta name="theme-color" content="#0f3d75">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="深圳市鑫威凯科技有限公司">
+  <meta property="og:title" content="询价清单 | 鑫威凯科技">
+  <meta property="og:description" content="询价清单 · 一键生成询价邮件">
+  <meta property="og:url" content="https://ynz24522-creator.github.io/xinweikai-website/inquiry">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"深圳市鑫威凯科技有限公司","alternateName":"鑫威凯科技","description":"电子元器件现货供应 · 电阻电容 IC 模块 连接器","telephone":"13926520605","email":"17317103@qq.com","address":{"@type":"PostalAddress","streetAddress":"中航路都会电子城 2C030","addressLocality":"深圳市","addressRegion":"广东省","addressCountry":"CN"},"areaServed":"CN","knowsAbout":["电阻器","电容器","电感 · 磁珠 · 变压器","二极管","三极管 · MOS · IGBT","电源管理","MCU · 处理器 · FPGA","存储器","放大器 · 比较器","接口与驱动 IC","逻辑器件","晶振 · 时钟","传感器","连接器 · 端子","开关 · 按键 · 继电器","光电器件","射频 · 无线模块","电路保护","电源 · 电池","工具 · 仪器 · 耗材","PCB · 线材 · 辅料","散热 · 五金结构"],"url":"https://ynz24522-creator.github.io/xinweikai-website/"}</script>
+</head>
+<body data-page="inquiry">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">跳到主要内容</a>
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        
+<svg class="logo-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <rect x="3" y="3" width="42" height="42" rx="11" fill="#0f3d75"/>
+  <path d="M12 32l7-16 5 11 5-11 7 16" stroke="#7dd3fc" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="16" r="2.6" fill="#f9a825"/>
+</svg>
+
+        <span class="brand-text">
+          <b data-i18n="brand.short">鑫威凯科技</b>
+          <span data-i18n="brand.sub">Xinweikai Technology</span>
+        </span>
+      </a>
+      <form class="search" role="search" data-search-form autocomplete="off">
+        <label class="sr-only" for="site-search" data-i18n="search.label">搜索产品</label>
+        <input id="site-search" class="search-input" type="search" data-search-input
+               placeholder="搜索型号 / 分类 / 品牌，例如 0603、STM32、电阻" data-i18n-placeholder="search.placeholder">
+        <button class="search-submit" type="submit" data-i18n-title="search.button"
+                aria-label="搜索"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/></svg></button>
+        <div class="search-panel" data-search-panel hidden></div>
+      </form>
+      <nav class="nav" data-nav aria-label="主导航">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="products.html" data-i18n="nav.products">产品中心</a>
+        <a href="brands.html" data-i18n="nav.brands">品牌合作</a>
+        <a href="about.html" data-i18n="nav.about">关于我们</a>
+        <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+      </nav>
+      <div class="header-tools">
+        <div class="lang-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-lang-btn="zh" aria-pressed="true">中文</button>
+          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm inquiry-btn" href="inquiry.html">
+          <span data-i18n="nav.inquiry">询价清单</span>
+          <span class="inquiry-count" data-inquiry-count hidden>0</span>
+        </a>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false"
+                aria-label="菜单" data-i18n-title="a11y.menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="breadcrumb">
+          <a href="index.html" data-i18n="nav.home">首页</a><span>/</span>
+          <span data-i18n="inquiry.title">询价清单</span>
+        </nav>
+        <h1 data-i18n="inquiry.title">询价清单</h1>
+        <p class="lead" data-i18n="inquiry.lead">把需要的型号加进清单，填好数量与备注，一键生成邮件或复制文本发微信。</p>
+      </div>
+    </section>
+    <section class="section section--tight">
+      <div class="container inquiry-layout">
+        <div class="inquiry-main">
+          <div class="table-wrap table-wrap--parts" data-inquiry-table></div>
+          <div class="empty-state empty-state--card" data-inquiry-empty hidden>
+            <p data-i18n="inquiry.empty">清单还是空的，去产品中心搜索型号并点「加入询价」吧。</p>
+            <a class="btn btn-primary" href="products.html" data-i18n="inquiry.emptyCta">去搜索型号</a>
+          </div>
+          <p class="muted" data-i18n="inquiry.savedHint">清单保存在本机浏览器中，刷新或关闭页面都不会丢失。</p>
+        </div>
+        <aside class="inquiry-side">
+          <h2 data-i18n="inquiry.formTitle">你的联系方式</h2>
+          <div class="form-grid">
+            <label>
+              <span data-i18n="inquiry.company">公司名称</span>
+              <input type="text" data-inquiry-field="company" autocomplete="organization">
+            </label>
+            <label>
+              <span data-i18n="inquiry.person">联系人</span>
+              <input type="text" data-inquiry-field="person" autocomplete="name">
+            </label>
+            <label>
+              <span data-i18n="inquiry.tel">电话 / 微信</span>
+              <input type="text" data-inquiry-field="tel" autocomplete="tel">
+            </label>
+            <label>
+              <span data-i18n="inquiry.remarkAll">其他要求</span>
+              <textarea rows="3" data-inquiry-field="remark"></textarea>
+            </label>
+          </div>
+          <div class="inquiry-actions">
+            <button type="button" class="btn btn-primary" data-inquiry-mail
+                    data-i18n="inquiry.mail">生成询价邮件</button>
+            <button type="button" class="btn btn-outline" data-inquiry-copy
+                    data-i18n="inquiry.copy">复制询价内容</button>
+            <button type="button" class="btn btn-text" data-inquiry-clear
+                    data-i18n="inquiry.clear">清空清单</button>
+          </div>
+          <p class="muted" data-i18n="inquiry.note">生成邮件会调用本机默认邮件客户端，收件人 17317103@qq.com；若不方便发邮件，点「复制询价内容」后直接发微信或 QQ 也可以。</p>
+          <div class="quick-contact">
+            <a class="btn btn-outline btn-sm" href="tel:13926520605">13926520605</a>
+            <button type="button" class="btn btn-outline btn-sm" data-copy="17317103">QQ 17317103</button>
+            <a class="btn btn-outline btn-sm" href="mailto:17317103@qq.com">17317103@qq.com</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="index.html">
+          
+<svg class="logo-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <rect x="3" y="3" width="42" height="42" rx="11" fill="#0f3d75"/>
+  <path d="M12 32l7-16 5 11 5-11 7 16" stroke="#7dd3fc" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="19" cy="16" r="2.6" fill="#f9a825"/>
+</svg>
+
+          <span class="brand-text"><b>鑫威凯科技</b><span>Xinweikai Technology</span></span>
+        </a>
+        <p data-i18n="footer.about">电子元器件现货供应与 BOM 配单服务，覆盖常用料号，支持小批量与量产备料。</p>
+        <p class="footer-note" data-i18n="footer.note">站内型号与参数为行业通用资料，实际库存与报价请以电话 / 微信确认为准。</p>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.catsTitle">热门分类</h4>
+        <div class="footer-links">
+        <a href="category.html?cat=resistors" data-cat-name="resistors">电阻器</a>
+        <a href="category.html?cat=capacitors" data-cat-name="capacitors">电容器</a>
+        <a href="category.html?cat=inductors" data-cat-name="inductors">电感 · 磁珠 · 变压器</a>
+        <a href="category.html?cat=diodes" data-cat-name="diodes">二极管</a>
+        <a href="category.html?cat=transistors" data-cat-name="transistors">三极管 · MOS · IGBT</a>
+        <a href="category.html?cat=power" data-cat-name="power">电源管理</a>
+        <a href="category.html?cat=mcu" data-cat-name="mcu">MCU · 处理器 · FPGA</a>
+        <a href="category.html?cat=memory" data-cat-name="memory">存储器</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactTitle">联系方式</h4>
+        <ul class="footer-contact">
+          <li><span data-i18n="common.person">负责人</span>：张维群</li>
+          <li><span data-i18n="common.call">拨打电话</span>：
+            <a href="tel:13926520605">13926520605</a></li>
+          <li><span data-i18n="common.wechat">微信 / 同手机号</span>：13926520605</li>
+          <li><span data-i18n="common.qq">QQ</span>：17317103</li>
+          <li><span data-i18n="common.email">邮箱</span>：
+            <a href="mailto:17317103@qq.com">17317103@qq.com</a></li>
+          <li><span data-i18n="common.address">地址</span>：深圳市福田区中航路都会电子城 2C030</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> 深圳市鑫威凯科技有限公司</span>
+      <span class="footer-icp" data-i18n="footer.icp">粤ICP备XXXXXXXX号（备案完成后替换）</span>
+    </div>
+  </footer>
+  <div class="drawer-backdrop" data-drawer-backdrop hidden></div>
+  <div class="toast" data-toast hidden></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
