@@ -1,8 +1,41 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 176,
- "imageCount": 176,
+ "count": 306,
+ "imageCount": 306,
  "entries": [
+  {
+   "file": "assets/img/parts/C10002.jpg",
+   "code": "C10002",
+   "matched": "TI LM2596SX-5.0/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM2596SX-5-0-NOPB_C10002_front.jpg",
+   "matchedVia": "TO-263-5 component",
+   "models": [
+    "XL4015E1"
+   ],
+   "bytes": 31150
+  },
+  {
+   "file": "assets/img/parts/C10002.jpg",
+   "code": "C10002",
+   "matched": "TI LM2596SX-5.0/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM2596SX-5-0-NOPB_C10002_front.jpg",
+   "matchedVia": "TO-263-5 component",
+   "models": [
+    "XL6009E1"
+   ],
+   "bytes": 31150
+  },
+  {
+   "file": "assets/img/parts/C100023.jpg",
+   "code": "C100023",
+   "matched": "TI MC34063ADR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Texas-Instruments-MC34063ADR_C100023_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MC34063ADR"
+   ],
+   "bytes": 25894
+  },
   {
    "file": "assets/img/parts/C10041.jpg",
    "code": "C10041",
@@ -13,6 +46,17 @@
     "EPM240T100C5N"
    ],
    "bytes": 36291
+  },
+  {
+   "file": "assets/img/parts/C105266.jpg",
+   "code": "C105266",
+   "matched": "TI TXB0104RUTR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Texas-Instruments-TXB0104RUTR_C105266_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TXB0104"
+   ],
+   "bytes": 24323
   },
   {
    "file": "assets/img/parts/C105635.jpg",
@@ -131,6 +175,17 @@
    "bytes": 30880
   },
   {
+   "file": "assets/img/parts/C111875.jpg",
+   "code": "C111875",
+   "matched": "Silergy SY8205FCC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Silergy-Corp-SY8205FCC_C111875_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SY8205FQC"
+   ],
+   "bytes": 24237
+  },
+  {
    "file": "assets/img/parts/C112288.jpg",
    "code": "C112288",
    "matched": "TDK SPM6530T-100M",
@@ -153,6 +208,28 @@
    "bytes": 34076
   },
   {
+   "file": "assets/img/parts/C116490.jpg",
+   "code": "C116490",
+   "matched": "MICROCHIP MCP6001T-I/OT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_Microchip-Tech-MCP6001T-I-OT_C116490_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MCP6001T-I/OT"
+   ],
+   "bytes": 25103
+  },
+  {
+   "file": "assets/img/parts/C116713.jpg",
+   "code": "C116713",
+   "matched": "TI LM2596S-5.0/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_Texas-Instruments-LM2596S-5-0-NOPB_C116713_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM2596S-5.0"
+   ],
+   "bytes": 30082
+  },
+  {
    "file": "assets/img/parts/C121953.jpg",
    "code": "C121953",
    "matched": "CCO(Chian Chia Elec) MOF5WS-10Ω±5% T",
@@ -165,6 +242,17 @@
    "bytes": 31834
   },
   {
+   "file": "assets/img/parts/C122228.jpg",
+   "code": "C122228",
+   "matched": "TI INA180A1IDBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_Texas-Instruments-INA180A1IDBVR_C122228_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "INA180A1IDBVR"
+   ],
+   "bytes": 24234
+  },
+  {
    "file": "assets/img/parts/C122248.jpg",
    "code": "C122248",
    "matched": "KEMET T491D476K016AT",
@@ -174,6 +262,17 @@
     "T491D476K016AT"
    ],
    "bytes": 28406
+  },
+  {
+   "file": "assets/img/parts/C12597.jpg",
+   "code": "C12597",
+   "matched": "TI LM311DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM311DR_C12597_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM311DR"
+   ],
+   "bytes": 29531
   },
   {
    "file": "assets/img/parts/C125977.jpg",
@@ -196,6 +295,28 @@
     "UFW1C102MPD"
    ],
    "bytes": 29291
+  },
+  {
+   "file": "assets/img/parts/C126161.jpg",
+   "code": "C126161",
+   "matched": "PowTech(CR-PowTech(Shanghai)) PT4115EE89E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230218_PowTech-CR-PowTech-Shanghai-PT4115EE89E_C126161_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PT4115E"
+   ],
+   "bytes": 25092
+  },
+  {
+   "file": "assets/img/parts/C127839.jpg",
+   "code": "C127839",
+   "matched": "POWER INTEGRATIONS LNK3204P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_POWER-INTEGRATIONS-LNK3204P_C127839_front.jpg",
+   "matchedVia": "DIP-8 component",
+   "models": [
+    "TC4427A"
+   ],
+   "bytes": 29424
   },
   {
    "file": "assets/img/parts/C128462.jpg",
@@ -221,6 +342,28 @@
    "bytes": 25085
   },
   {
+   "file": "assets/img/parts/C130204.jpg",
+   "code": "C130204",
+   "matched": "TI TCA9535PWR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Texas-Instruments-TCA9535PWR_C130204_front.jpg",
+   "matchedVia": "TSSOP-24 component",
+   "models": [
+    "74LVC4245A"
+   ],
+   "bytes": 25681
+  },
+  {
+   "file": "assets/img/parts/C130259.jpg",
+   "code": "C130259",
+   "matched": "Shenzhen Sunmoon Micro SM7012",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Shenzhen-Sunmoon-Micro-SM7012_C130259_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SM7012"
+   ],
+   "bytes": 29401
+  },
+  {
    "file": "assets/img/parts/C131025.jpg",
    "code": "C131025",
    "matched": "Winbond W25Q16JVSSIQ",
@@ -242,6 +385,28 @@
     "CC0402KRX5R7BB105"
    ],
    "bytes": 25478
+  },
+  {
+   "file": "assets/img/parts/C13517.jpg",
+   "code": "C13517",
+   "matched": "WCH CH341A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_WCH-Jiangsu-Qin-Heng-CH341A_C13517_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH341A"
+   ],
+   "bytes": 31283
+  },
+  {
+   "file": "assets/img/parts/C1355333.jpg",
+   "code": "C1355333",
+   "matched": "TI LM2596S-ADJ/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Texas-Instruments-LM2596S-ADJ-NOPB_C1355333_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM2596S-ADJ"
+   ],
+   "bytes": 32352
   },
   {
    "file": "assets/img/parts/C13564.jpg",
@@ -275,6 +440,39 @@
     "MF52A103F3950"
    ],
    "bytes": 38540
+  },
+  {
+   "file": "assets/img/parts/C141517.jpg",
+   "code": "C141517",
+   "matched": "TOSHIBA TB6612FNG,C,8,EL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250824_TOSHIBA-TB6612FNG-C-8-EL_C141517_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TB6612FNG"
+   ],
+   "bytes": 33476
+  },
+  {
+   "file": "assets/img/parts/C14267.jpg",
+   "code": "C14267",
+   "matched": "WCH CH340G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_WCH-Jiangsu-Qin-Heng-CH340G_C14267_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH340G"
+   ],
+   "bytes": 31698
+  },
+  {
+   "file": "assets/img/parts/C146580.jpg",
+   "code": "C146580",
+   "matched": "Ckmtw Z-ICS0S16P-NG00",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250807_Ckmtw-Z-ICS0S16P-NG00_C146580_front.jpg",
+   "matchedVia": "DIP-16 component",
+   "models": [
+    "MAX232"
+   ],
+   "bytes": 41024
   },
   {
    "file": "assets/img/parts/C14663.jpg",
@@ -370,6 +568,17 @@
    "bytes": 22478
   },
   {
+   "file": "assets/img/parts/C154992.jpg",
+   "code": "C154992",
+   "matched": "CONSONANCE CN3791",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_ShangHai-Consonance-Elec-CN3791_C154992_front.jpg",
+   "matchedVia": "CONSONANCE COG",
+   "models": [
+    "ST7789V2"
+   ],
+   "bytes": 28071
+  },
+  {
    "file": "assets/img/parts/C1591.jpg",
    "code": "C1591",
    "matched": "Samsung Electro-Mechanics CL10B104KB8NNNC",
@@ -403,6 +612,17 @@
     "TAJB107K006RNJ"
    ],
    "bytes": 32015
+  },
+  {
+   "file": "assets/img/parts/C16581.jpg",
+   "code": "C16581",
+   "matched": "TOP POWER ASIC TP4056-42-ESOP8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TP4056"
+   ],
+   "bytes": 26391
   },
   {
    "file": "assets/img/parts/C16902.jpg",
@@ -448,6 +668,17 @@
    "bytes": 25576
   },
   {
+   "file": "assets/img/parts/C17206.jpg",
+   "code": "C17206",
+   "matched": "TI TXS0108EPWR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260730_TI-TXS0108EPWR_C17206_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TXS0108E"
+   ],
+   "bytes": 26385
+  },
+  {
    "file": "assets/img/parts/C17278851.jpg",
    "code": "C17278851",
    "matched": "YAGEO 32208392",
@@ -480,6 +711,17 @@
     "ZMPT101B"
    ],
    "bytes": 35324
+  },
+  {
+   "file": "assets/img/parts/C17337.jpg",
+   "code": "C17337",
+   "matched": "DIODES PAM8403DR-H",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Diodes-Incorporated-PAM8403DR-H_C17337_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PAM8403"
+   ],
+   "bytes": 32789
   },
   {
    "file": "assets/img/parts/C173465.jpg",
@@ -527,6 +769,28 @@
    "bytes": 35137
   },
   {
+   "file": "assets/img/parts/C18148.jpg",
+   "code": "C18148",
+   "matched": "MAXIM MAX3485ESA+T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260905_MAXIM-MAX3485ESA-T_C18148_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MAX3485ESA"
+   ],
+   "bytes": 26460
+  },
+  {
+   "file": "assets/img/parts/C181692.jpg",
+   "code": "C181692",
+   "matched": "INJOINIC IP5306",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INJOINIC-IP5306_C181692_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IP5306"
+   ],
+   "bytes": 24110
+  },
+  {
    "file": "assets/img/parts/C182078.jpg",
    "code": "C182078",
    "matched": "TI LMR14030SDDAR",
@@ -537,6 +801,17 @@
     "SWPA4030S100MT"
    ],
    "bytes": 27436
+  },
+  {
+   "file": "assets/img/parts/C18211636.jpg",
+   "code": "C18211636",
+   "matched": "TM(Shenzhen Titan Micro Elec) TM1650",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240221_TM-Shenzhen-Titan-Micro-Elec-TM1650_C18211636_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TM1650"
+   ],
+   "bytes": 32597
   },
   {
    "file": "assets/img/parts/C184029.jpg",
@@ -575,6 +850,17 @@
     "BZX84C24"
    ],
    "bytes": 27113
+  },
+  {
+   "file": "assets/img/parts/C191014.jpg",
+   "code": "C191014",
+   "matched": "TI THVD1500DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Texas-Instruments-THVD1500DR_C191014_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "THVD1500DR"
+   ],
+   "bytes": 26200
   },
   {
    "file": "assets/img/parts/C19108954.jpg",
@@ -624,6 +910,17 @@
    "bytes": 27049
   },
   {
+   "file": "assets/img/parts/C192392.jpg",
+   "code": "C192392",
+   "matched": "Ai-Thinker CP2102",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260525_Ai-Thinker-CP2102_C192392_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CP2102"
+   ],
+   "bytes": 13884
+  },
+  {
    "file": "assets/img/parts/C19271437.jpg",
    "code": "C19271437",
    "matched": "APV ANR6045T101M",
@@ -657,6 +954,39 @@
    "bytes": 35377
   },
   {
+   "file": "assets/img/parts/C19272815.jpg",
+   "code": "C19272815",
+   "matched": "MSKSEMI L9110S-MS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240722_MSKSEMI-L9110S-MS_C19272815_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "L9110S"
+   ],
+   "bytes": 33161
+  },
+  {
+   "file": "assets/img/parts/C193413.jpg",
+   "code": "C193413",
+   "matched": "TI TLV3501AIDBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Texas-Instruments-TLV3501AIDBVR_C193413_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TLV3501AIDBVR"
+   ],
+   "bytes": 24789
+  },
+  {
+   "file": "assets/img/parts/C194312.jpg",
+   "code": "C194312",
+   "matched": "WiseChip VG-6432TSWAG01/IIC/sh1106",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230108_WiseChip-VG-6432TSWAG01-IIC-sh1106_C194312_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SSD1306Z"
+   ],
+   "bytes": 36766
+  },
+  {
    "file": "assets/img/parts/C194437.jpg",
    "code": "C194437",
    "matched": "TDK MLZ1608N100LT000",
@@ -667,6 +997,61 @@
     "MMZ1608B601CTAH5"
    ],
    "bytes": 22644
+  },
+  {
+   "file": "assets/img/parts/C19450.jpg",
+   "code": "C19450",
+   "matched": "TI INA333AIDGKR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260522_TI-INA333AIDGKR_C19450_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "INA333AIDGKR"
+   ],
+   "bytes": 27745
+  },
+  {
+   "file": "assets/img/parts/C194673.jpg",
+   "code": "C194673",
+   "matched": "WIZNET W5100S-L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_WIZNET-W5100S-L_C194673_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W5100S-L"
+   ],
+   "bytes": 34119
+  },
+  {
+   "file": "assets/img/parts/C19579.jpg",
+   "code": "C19579",
+   "matched": "TM(Shenzhen Titan Micro Elec) TM1620",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_TM-Shenzhen-Titan-Micro-Elec-TM1620_C19579_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TM1620"
+   ],
+   "bytes": 31718
+  },
+  {
+   "file": "assets/img/parts/C19738.jpg",
+   "code": "C19738",
+   "matched": "MAXIM MAX485ESA+T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260902_MAXIM-MAX485ESA-T_C19738_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MAX485ESA"
+   ],
+   "bytes": 32231
+  },
+  {
+   "file": "assets/img/parts/C19922.jpg",
+   "code": "C19922",
+   "matched": "ST L298N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_STMicroelectronics-L298N_C19922_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "L298N"
+   ],
+   "bytes": 31147
   },
   {
    "file": "assets/img/parts/C20416991.jpg",
@@ -681,6 +1066,28 @@
    "bytes": 29007
   },
   {
+   "file": "assets/img/parts/C20542.jpg",
+   "code": "C20542",
+   "matched": "RICHTEK RT8059GJ5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Richtek-Tech-RT8059GJ5_C20542_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RT8059GJ5"
+   ],
+   "bytes": 30830
+  },
+  {
+   "file": "assets/img/parts/C2060769.jpg",
+   "code": "C2060769",
+   "matched": "TI INA240A1DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260617_TI-INA240A1DR_C2060769_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "INA240A1DR"
+   ],
+   "bytes": 26483
+  },
+  {
    "file": "assets/img/parts/C20609202.jpg",
    "code": "C20609202",
    "matched": "JSMSEMI SS24",
@@ -691,6 +1098,28 @@
     "SS34"
    ],
    "bytes": 33570
+  },
+  {
+   "file": "assets/img/parts/C2156989.jpg",
+   "code": "C2156989",
+   "matched": "MAXIM LM4040AIM3-2.5+T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260904_MAXIM-LM4040AIM3-2-5-T_C2156989_blank.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM4040AIM3-2.5"
+   ],
+   "bytes": 5391
+  },
+  {
+   "file": "assets/img/parts/C21714368.jpg",
+   "code": "C21714368",
+   "matched": "JSMSEMI SSIT1050T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240315_JSMSEMI-SSIT1050T_C21714368_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SIT1050T"
+   ],
+   "bytes": 33063
   },
   {
    "file": "assets/img/parts/C2175333.jpg",
@@ -749,6 +1178,17 @@
    "bytes": 32045
   },
   {
+   "file": "assets/img/parts/C241848.jpg",
+   "code": "C241848",
+   "matched": "Shenzhen Sunmoon Micro SM2082EGS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Shenzhen-Sunmoon-Micro-SM2082EGS_C241848_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SM2082EG"
+   ],
+   "bytes": 28114
+  },
+  {
    "file": "assets/img/parts/C2479.jpg",
    "code": "C2479",
    "matched": "MDD(Microdiode Semiconductor) SS12",
@@ -783,6 +1223,17 @@
     "24LC02BT-I/OT"
    ],
    "bytes": 29208
+  },
+  {
+   "file": "assets/img/parts/C26833.jpg",
+   "code": "C26833",
+   "matched": "TI TLV70233DBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Texas-Instruments-TLV70233DBVR_C26833_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TLV70233"
+   ],
+   "bytes": 28417
   },
   {
    "file": "assets/img/parts/C2685734.jpg",
@@ -829,6 +1280,28 @@
    "bytes": 37239
   },
   {
+   "file": "assets/img/parts/C2827823.jpg",
+   "code": "C2827823",
+   "matched": "ZHONGKEWEI AT8236",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250911_ZHONGKEWEI-AT8236_C2827823_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AT8236"
+   ],
+   "bytes": 32880
+  },
+  {
+   "file": "assets/img/parts/C2829423.jpg",
+   "code": "C2829423",
+   "matched": "JSCJ LMV321",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--LMV321_C2829423_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LMV321"
+   ],
+   "bytes": 29003
+  },
+  {
    "file": "assets/img/parts/C2839625.jpg",
    "code": "C2839625",
    "matched": "SURGING MF58-104F3950GB",
@@ -838,6 +1311,50 @@
     "MF58-104F3950"
    ],
    "bytes": 37129
+  },
+  {
+   "file": "assets/img/parts/C2846043.jpg",
+   "code": "C2846043",
+   "matched": "WCH CH343P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250807_WCH-CH343P_C2846043_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH343P"
+   ],
+   "bytes": 30753
+  },
+  {
+   "file": "assets/img/parts/C2848424.jpg",
+   "code": "C2848424",
+   "matched": "XINLUDA XD3085",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_XINLUDA-XD3085_C2848424_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "XD308H"
+   ],
+   "bytes": 34361
+  },
+  {
+   "file": "assets/img/parts/C2858418.jpg",
+   "code": "C2858418",
+   "matched": "WCH CH9102F",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230121_WCH-Jiangsu-Qin-Heng-CH9102F_C2858418_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH9102F"
+   ],
+   "bytes": 31156
+  },
+  {
+   "file": "assets/img/parts/C2865240.jpg",
+   "code": "C2865240",
+   "matched": "TI DP83848IVV/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Texas-Instruments-DP83848IVV-NOPB_C2865240_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DP83848IVV"
+   ],
+   "bytes": 34664
   },
   {
    "file": "assets/img/parts/C28730.jpg",
@@ -860,6 +1377,17 @@
     "STC15W204S-35I-SOP16"
    ],
    "bytes": 33224
+  },
+  {
+   "file": "assets/img/parts/C29160.jpg",
+   "code": "C29160",
+   "matched": "MAXIM MAX7219CNG+",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260905_MAXIM-MAX7219CNG-_C29160_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MAX7219CNG"
+   ],
+   "bytes": 26954
   },
   {
    "file": "assets/img/parts/C2917207.jpg",
@@ -917,6 +1445,17 @@
    "bytes": 31073
   },
   {
+   "file": "assets/img/parts/C2960.jpg",
+   "code": "C2960",
+   "matched": "Infineon IR2104STRPBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Infineon-Technologies-IR2104STRPBF_C2960_front_10.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IR2104S"
+   ],
+   "bytes": 28871
+  },
+  {
    "file": "assets/img/parts/C29718.jpg",
    "code": "C29718",
    "matched": "UNI-ROYAL 4D03WGJ0103T5E",
@@ -927,6 +1466,17 @@
     "4D03WGJ0102T5E"
    ],
    "bytes": 24544
+  },
+  {
+   "file": "assets/img/parts/C2977777.jpg",
+   "code": "C2977777",
+   "matched": "WCH CH340N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230122_WCH-Jiangsu-Qin-Heng-CH340N_C2977777_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH340N"
+   ],
+   "bytes": 29769
   },
   {
    "file": "assets/img/parts/C2982194.jpg",
@@ -962,6 +1512,17 @@
    "bytes": 33449
   },
   {
+   "file": "assets/img/parts/C30197555.jpg",
+   "code": "C30197555",
+   "matched": "MSKSEMI MP2359DJ-LF-Z-MS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240806_MSKSEMI-MP2359DJ-LF-Z-MS_C30197555_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MP2359DJ"
+   ],
+   "bytes": 31892
+  },
+  {
    "file": "assets/img/parts/C3032170.jpg",
    "code": "C3032170",
    "matched": "Nations Technologies Inc N32G430C8L7",
@@ -995,6 +1556,17 @@
    "bytes": 30679
   },
   {
+   "file": "assets/img/parts/C30442.jpg",
+   "code": "C30442",
+   "matched": "ADI AD8065ARZ-REEL7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Analog-Devices-AD8065ARZ-REEL7_C30442_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AD8065ARZ"
+   ],
+   "bytes": 25894
+  },
+  {
    "file": "assets/img/parts/C307859.jpg",
    "code": "C307859",
    "matched": "TDK VLS252010CX-4R7M",
@@ -1004,6 +1576,17 @@
     "VLS252010CX-4R7M"
    ],
    "bytes": 5034
+  },
+  {
+   "file": "assets/img/parts/C30878.jpg",
+   "code": "C30878",
+   "matched": "TI OPA333AIDBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Texas-Instruments-OPA333AIDBVR_C30878_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "OPA333AIDBVR"
+   ],
+   "bytes": 24694
   },
   {
    "file": "assets/img/parts/C31540447.jpg",
@@ -1037,6 +1620,39 @@
     "EP4CE10E22C8N"
    ],
    "bytes": 37327
+  },
+  {
+   "file": "assets/img/parts/C32843.jpg",
+   "code": "C32843",
+   "matched": "WIZNET W5500",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_WIZNET-W5500_C32843_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W5500"
+   ],
+   "bytes": 32300
+  },
+  {
+   "file": "assets/img/parts/C32982.jpg",
+   "code": "C32982",
+   "matched": "PowTech(CR-PowTech(Shanghai)) PT4205",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_PowTech-CR-PowTech-Shanghai-PT4205_C32982_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PT4205"
+   ],
+   "bytes": 30712
+  },
+  {
+   "file": "assets/img/parts/C33196.jpg",
+   "code": "C33196",
+   "matched": "TI PCA9306DCUR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Texas-Instruments-PCA9306DCUR_C33196_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PCA9306"
+   ],
+   "bytes": 28822
   },
   {
    "file": "assets/img/parts/C33901.jpg",
@@ -1073,6 +1689,17 @@
    "bytes": 32463
   },
   {
+   "file": "assets/img/parts/C352866.jpg",
+   "code": "C352866",
+   "matched": "TI LMV393IDGKR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190120_Texas-Instruments-LMV393IDGKR_C352866_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LMV393IDGKR"
+   ],
+   "bytes": 25020
+  },
+  {
    "file": "assets/img/parts/C36238.jpg",
    "code": "C36238",
    "matched": "Intel/Altera EP4CE6E22C8N",
@@ -1082,6 +1709,17 @@
     "EP4CE6E22C8N"
    ],
    "bytes": 36461
+  },
+  {
+   "file": "assets/img/parts/C36658.jpg",
+   "code": "C36658",
+   "matched": "TI REF3033AIDBZR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20200912_Texas-Instruments-REF3033AIDBZR_C36658_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "REF3033AIDBZR"
+   ],
+   "bytes": 30793
   },
   {
    "file": "assets/img/parts/C3790.jpg",
@@ -1126,6 +1764,28 @@
     "N76E003AT20"
    ],
    "bytes": 33999
+  },
+  {
+   "file": "assets/img/parts/C38437.jpg",
+   "code": "C38437",
+   "matched": "ALLEGRO A4988SETTR-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190627_Allegro-MicroSystems--LLC-A4988SETTR-T_C38437_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "A4988"
+   ],
+   "bytes": 30395
+  },
+  {
+   "file": "assets/img/parts/C386280.jpg",
+   "code": "C386280",
+   "matched": "ADI ADM2483BRWZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250925_ADI-ADM2483BRWZ_C386280_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ADM2483BRWZ"
+   ],
+   "bytes": 35021
   },
   {
    "file": "assets/img/parts/C39151690.jpg",
@@ -1185,6 +1845,17 @@
    "bytes": 29578
   },
   {
+   "file": "assets/img/parts/C45284.jpg",
+   "code": "C45284",
+   "matched": "CONSONANCE CN3065",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_ShangHai-Consonance-Elec-CN3065_C45284_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CN3065"
+   ],
+   "bytes": 26002
+  },
+  {
    "file": "assets/img/parts/C45406817.jpg",
    "code": "C45406817",
    "matched": "PSA FMF25JPKR0L5XBH",
@@ -1224,6 +1895,17 @@
    "bytes": 28525
   },
   {
+   "file": "assets/img/parts/C46749.jpg",
+   "code": "C46749",
+   "matched": "TI NE555P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-NE555P_C46749_front.jpg",
+   "matchedVia": "CHIPSAILING DIP-8",
+   "models": [
+    "DK1203"
+   ],
+   "bytes": 34689
+  },
+  {
    "file": "assets/img/parts/C470572.jpg",
    "code": "C470572",
    "matched": "ALPSALPINE RK09711110EL",
@@ -1233,6 +1915,28 @@
     "RK097-10K"
    ],
    "bytes": 40960
+  },
+  {
+   "file": "assets/img/parts/C47967293.jpg",
+   "code": "C47967293",
+   "matched": "Minos IR2110S-MNS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250508_Minos-IR2110S-MNS_C47967293_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IR2110S"
+   ],
+   "bytes": 34715
+  },
+  {
+   "file": "assets/img/parts/C480653.jpg",
+   "code": "C480653",
+   "matched": "EG Micro EG2104M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230119_EG-Micro-EG2104M_C480653_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EG2104"
+   ],
+   "bytes": 28361
   },
   {
    "file": "assets/img/parts/C48997969.jpg",
@@ -1268,6 +1972,17 @@
    "bytes": 38858
   },
   {
+   "file": "assets/img/parts/C49118552.jpg",
+   "code": "C49118552",
+   "matched": "WCH CH395F",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250729_WCH-CH395F_C49118552_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH395Q"
+   ],
+   "bytes": 31164
+  },
+  {
    "file": "assets/img/parts/C49190454.jpg",
    "code": "C49190454",
    "matched": "JIERR 3296W-1-104LF",
@@ -1301,6 +2016,28 @@
    "bytes": 30228
   },
   {
+   "file": "assets/img/parts/C49367328.jpg",
+   "code": "C49367328",
+   "matched": "JSMSEMI MP1584EN-LF-Z-JSM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260617_JSMSEMI-MP1584EN-LF-Z-JSM_C49367328_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MP1584EN"
+   ],
+   "bytes": 25331
+  },
+  {
+   "file": "assets/img/parts/C49375228.jpg",
+   "code": "C49375228",
+   "matched": "MSKSEMI MSMP2307DN-LF-Z",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251118_MSKSEMI-MSMP2307DN-LF-Z_C49375228_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MP2307DN"
+   ],
+   "bytes": 33555
+  },
+  {
    "file": "assets/img/parts/C49678.jpg",
    "code": "C49678",
    "matched": "YAGEO CC0805KRX7R9BB104",
@@ -1310,6 +2047,39 @@
     "CC0805KRX7R9BB104"
    ],
    "bytes": 23530
+  },
+  {
+   "file": "assets/img/parts/C49851.jpg",
+   "code": "C49851",
+   "matched": "TI INA226AIDGSR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-INA226AIDGSR_C49851_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "INA226AIDGSR"
+   ],
+   "bytes": 29773
+  },
+  {
+   "file": "assets/img/parts/C50734.jpg",
+   "code": "C50734",
+   "matched": "Prolific Tech PL2303HXD",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Prolific-Tech-PL2303HXD_C50734_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PL2303HX"
+   ],
+   "bytes": 35158
+  },
+  {
+   "file": "assets/img/parts/C511283.jpg",
+   "code": "C511283",
+   "matched": "MICROCHIP LAN8720AI-CP-ABC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230103_Microchip-Tech-LAN8720AI-CP-ABC_C511283_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LAN8720A"
+   ],
+   "bytes": 28786
   },
   {
    "file": "assets/img/parts/C5158822.jpg",
@@ -1400,6 +2170,17 @@
    "bytes": 32416
   },
   {
+   "file": "assets/img/parts/C5296731.jpg",
+   "code": "C5296731",
+   "matched": "JSMSEMI TDA2030A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260527_JSMSEMI-TDA2030A_C5296731_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TDA2030A"
+   ],
+   "bytes": 37935
+  },
+  {
    "file": "assets/img/parts/C53065973.jpg",
    "code": "C53065973",
    "matched": "SDAPO DP1425-12V1A",
@@ -1411,6 +2192,28 @@
    "bytes": 36960
   },
   {
+   "file": "assets/img/parts/C5342108.jpg",
+   "code": "C5342108",
+   "matched": "Tokmas TJA1051T/3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260527_Tokmas-TJA1051T-3_C5342108_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TJA1051T/3"
+   ],
+   "bytes": 33518
+  },
+  {
+   "file": "assets/img/parts/C53434.jpg",
+   "code": "C53434",
+   "matched": "TI TXS0102DCUR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-TXS0102DCUR_C53434_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TXS0102DCUR"
+   ],
+   "bytes": 27285
+  },
+  {
    "file": "assets/img/parts/C5358156.jpg",
    "code": "C5358156",
    "matched": "XR XRUU9.8-10mH-V",
@@ -1420,6 +2223,50 @@
     "UU9.8-10MH"
    ],
    "bytes": 34335
+  },
+  {
+   "file": "assets/img/parts/C5423.jpg",
+   "code": "C5423",
+   "matched": "TI LM358DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240112_Texas-Instruments-LM358DR_C5423_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM358DR"
+   ],
+   "bytes": 30404
+  },
+  {
+   "file": "assets/img/parts/C54313.jpg",
+   "code": "C54313",
+   "matched": "TI BQ24074RGTR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-BQ24074RGTR_C54313_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BQ24074"
+   ],
+   "bytes": 24225
+  },
+  {
+   "file": "assets/img/parts/C5446.jpg",
+   "code": "C5446",
+   "matched": "TOREX XC6206P332MR-G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Torex-Semicon-XC6206P332MR-G_C5446_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "XC6206P332MR"
+   ],
+   "bytes": 28451
+  },
+  {
+   "file": "assets/img/parts/C55136.jpg",
+   "code": "C55136",
+   "matched": "Silergy SY6280AAC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Silergy-Corp-SY6280AAC_C55136_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SY6280AAC"
+   ],
+   "bytes": 24782
   },
   {
    "file": "assets/img/parts/C55219017.jpg",
@@ -1457,6 +2304,94 @@
    "bytes": 38168
   },
   {
+   "file": "assets/img/parts/C5586.jpg",
+   "code": "C5586",
+   "matched": "Nexperia 74HC00D,653",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260105_Nexperia-74HC00D-653_C5586_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC00D"
+   ],
+   "bytes": 33863
+  },
+  {
+   "file": "assets/img/parts/C5593.jpg",
+   "code": "C5593",
+   "matched": "Nexperia 74HC08D,653",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250911_Nexperia-74HC08D-653_C5593_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC08D"
+   ],
+   "bytes": 35035
+  },
+  {
+   "file": "assets/img/parts/C5605.jpg",
+   "code": "C5605",
+   "matched": "Nexperia 74HC14D,653",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Nexperia-74HC14D-653_C5605_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC14D"
+   ],
+   "bytes": 32838
+  },
+  {
+   "file": "assets/img/parts/C5632.jpg",
+   "code": "C5632",
+   "matched": "Nexperia 74HC32D,653",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Nexperia-74HC32D-653_C5632_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC32D"
+   ],
+   "bytes": 33917
+  },
+  {
+   "file": "assets/img/parts/C57082.jpg",
+   "code": "C57082",
+   "matched": "ADI ADR441BRZ-REEL7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Analog-Devices-ADR441BRZ-REEL7_C57082_front.jpg",
+   "matchedVia": "CHIPSAILING SOP-8",
+   "models": [
+    "LP3773"
+   ],
+   "bytes": 26565
+  },
+  {
+   "file": "assets/img/parts/C57082.jpg",
+   "code": "C57082",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CHIPSAILING SOP-8",
+   "models": [
+    "BP3105"
+   ],
+   "bytes": 26565
+  },
+  {
+   "file": "assets/img/parts/C57082.jpg",
+   "code": "C57082",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CHIPSAILING SOP-8",
+   "models": [
+    "HV9910"
+   ],
+   "bytes": 26565
+  },
+  {
+   "file": "assets/img/parts/C57082.jpg",
+   "code": "C57082",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CHIPSAILING SOP-8",
+   "models": [
+    "MX1508"
+   ],
+   "bytes": 26565
+  },
+  {
    "file": "assets/img/parts/C57112.jpg",
    "code": "C57112",
    "matched": "FH 0603B103K500NT",
@@ -1478,6 +2413,17 @@
     "GW1NR-LV9QN88PC6/I5"
    ],
    "bytes": 26486
+  },
+  {
+   "file": "assets/img/parts/C605433.jpg",
+   "code": "C605433",
+   "matched": "INJOINIC IP2312-4V35",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_INJOINIC-IP2312-4V35_C605433_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IP2312"
+   ],
+   "bytes": 31137
   },
   {
    "file": "assets/img/parts/C6203.jpg",
@@ -1513,6 +2459,28 @@
    "bytes": 30290
   },
   {
+   "file": "assets/img/parts/C67470.jpg",
+   "code": "C67470",
+   "matched": "TI LM393DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-LM393DR_C67470_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM393DR"
+   ],
+   "bytes": 32072
+  },
+  {
+   "file": "assets/img/parts/C67473.jpg",
+   "code": "C67473",
+   "matched": "TI TL072CDR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Texas-Instruments-TL072CDR_C67473_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TL072CDR"
+   ],
+   "bytes": 28621
+  },
+  {
    "file": "assets/img/parts/C68883.jpg",
    "code": "C68883",
    "matched": "VISHAY LL4148-GS08",
@@ -1522,6 +2490,17 @@
     "LL4148"
    ],
    "bytes": 30138
+  },
+  {
+   "file": "assets/img/parts/C6952.jpg",
+   "code": "C6952",
+   "matched": "NXP TJA1050T/CM,118",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_NXP-Semicon-TJA1050T-CM-118_C6952_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TJA1050T"
+   ],
+   "bytes": 30329
   },
   {
    "file": "assets/img/parts/C6971165.jpg",
@@ -1580,6 +2559,116 @@
    "bytes": 29537
   },
   {
+   "file": "assets/img/parts/C725341.jpg",
+   "code": "C725341",
+   "matched": "HGSEMI TDA2822M/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_HGSEMI-TDA2822M-TR_C725341_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TDA2822M"
+   ],
+   "bytes": 31527
+  },
+  {
+   "file": "assets/img/parts/C725791.jpg",
+   "code": "C725791",
+   "matched": "UMW TP4057",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_UMW-Youtai-Semiconductor-Co---Ltd--TP4057_C725791_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TP4057"
+   ],
+   "bytes": 30537
+  },
+  {
+   "file": "assets/img/parts/C726001.jpg",
+   "code": "C726001",
+   "matched": "TDK InvenSense ICM-20948",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241207_TDK-InvenSense-ICM-20948_C726001_front.jpg",
+   "matchedVia": "QFN-24 component",
+   "models": [
+    "CP2104"
+   ],
+   "bytes": 29970
+  },
+  {
+   "file": "assets/img/parts/C726001.jpg",
+   "code": "C726001",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "QFN-24 component",
+   "models": [
+    "KSZ8081RNBIA"
+   ],
+   "bytes": 29970
+  },
+  {
+   "file": "assets/img/parts/C7376.jpg",
+   "code": "C7376",
+   "matched": "MICROCHIP MCP2551-I/SN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Microchip-Tech-MCP2551-I-SN_C7376_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MCP2551-I/SN"
+   ],
+   "bytes": 27085
+  },
+  {
+   "file": "assets/img/parts/C7377.jpg",
+   "code": "C7377",
+   "matched": "MICROCHIP MCP6002T-I/SN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Microchip-Tech-MCP6002T-I-SN_C7377_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MCP6002T-I/SN"
+   ],
+   "bytes": 30648
+  },
+  {
+   "file": "assets/img/parts/C7426.jpg",
+   "code": "C7426",
+   "matched": "TI NE5532DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-NE5532DR_C7426_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NE5532DR"
+   ],
+   "bytes": 28909
+  },
+  {
+   "file": "assets/img/parts/C7434207.jpg",
+   "code": "C7434207",
+   "matched": "MSKSEMI RT9013-33GB-MS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230808_MSKSEMI-RT9013-33GB-MS_C7434207_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RT9013-33GB"
+   ],
+   "bytes": 27861
+  },
+  {
+   "file": "assets/img/parts/C7456762.jpg",
+   "code": "C7456762",
+   "matched": "MAXIM MAX4466EXK+T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260902_MAXIM-MAX4466EXK-T_C7456762_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MAX4466EXK+T"
+   ],
+   "bytes": 28987
+  },
+  {
+   "file": "assets/img/parts/C7512.jpg",
+   "code": "C7512",
+   "matched": "TI ULN2003ADR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-ULN2003ADR_C7512_front.jpg",
+   "matchedVia": "SOIC-16 component",
+   "models": [
+    "ULN2003ADR"
+   ],
+   "bytes": 34594
+  },
+  {
    "file": "assets/img/parts/C7528875.jpg",
    "code": "C7528875",
    "matched": "MSKSEMI 1N4007",
@@ -1590,6 +2679,28 @@
     "1N4001"
    ],
    "bytes": 32049
+  },
+  {
+   "file": "assets/img/parts/C7549.jpg",
+   "code": "C7549",
+   "matched": "TI LM2903DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM2903DR_C7549_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM2903DR"
+   ],
+   "bytes": 30856
+  },
+  {
+   "file": "assets/img/parts/C7554.jpg",
+   "code": "C7554",
+   "matched": "TI LM4871MX/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM4871MX-NOPB_C7554_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM4871"
+   ],
+   "bytes": 31908
   },
   {
    "file": "assets/img/parts/C7562.jpg",
@@ -1671,6 +2782,17 @@
    "bytes": 28278
   },
   {
+   "file": "assets/img/parts/C7843.jpg",
+   "code": "C7843",
+   "matched": "TI SN74LVC1T45DBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-SN74LVC1T45DBVR_C7843_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SN74LVC1T45"
+   ],
+   "bytes": 28739
+  },
+  {
    "file": "assets/img/parts/C784660.jpg",
    "code": "C784660",
    "matched": "XHSC HC32F460PETB-LQFP100",
@@ -1680,6 +2802,61 @@
     "HC32F460PETB"
    ],
    "bytes": 36583
+  },
+  {
+   "file": "assets/img/parts/C7873.jpg",
+   "code": "C7873",
+   "matched": "HOLTEK HT1621B",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Holtek-Semicon-HT1621B_C7873_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HT1621B"
+   ],
+   "bytes": 30780
+  },
+  {
+   "file": "assets/img/parts/C78751.jpg",
+   "code": "C78751",
+   "matched": "Shenzhen DongKe Semicon DK112",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251009_Shenzhen-DongKe-Semicon-DK112_C78751_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DK112"
+   ],
+   "bytes": 35647
+  },
+  {
+   "file": "assets/img/parts/C7943.jpg",
+   "code": "C7943",
+   "matched": "TI LM324DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM324DR_C7943_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM324DR"
+   ],
+   "bytes": 27456
+  },
+  {
+   "file": "assets/img/parts/C7948.jpg",
+   "code": "C7948",
+   "matched": "TI LM339DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260622_TI-LM339DR_C7948_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM339DR"
+   ],
+   "bytes": 28307
+  },
+  {
+   "file": "assets/img/parts/C79689.jpg",
+   "code": "C79689",
+   "matched": "SGMICRO SGM6603-5.0YN6G/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_SGMICRO-SGM6603-5-0YN6G-TR_C79689_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SGM6603-5.0"
+   ],
+   "bytes": 29276
   },
   {
    "file": "assets/img/parts/C79861.jpg",
@@ -1737,6 +2914,17 @@
    "bytes": 27197
   },
   {
+   "file": "assets/img/parts/C81582.jpg",
+   "code": "C81582",
+   "matched": "TI DRV8825PWPR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Texas-Instruments-DRV8825PWPR_C81582_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DRV8825"
+   ],
+   "bytes": 31679
+  },
+  {
    "file": "assets/img/parts/C8323.jpg",
    "code": "C8323",
    "matched": "ST STM32F103RCT6",
@@ -1746,6 +2934,28 @@
     "STM32F103RCT6"
    ],
    "bytes": 33251
+  },
+  {
+   "file": "assets/img/parts/C83409.jpg",
+   "code": "C83409",
+   "matched": "SGMICRO SGM8541XN5/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_SGMICRO-SGM8541XN5-TR_C83409_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SGM8541XN5/TR"
+   ],
+   "bytes": 28698
+  },
+  {
+   "file": "assets/img/parts/C84138.jpg",
+   "code": "C84138",
+   "matched": "DIODES AZ431AN-ATRE1",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Diodes-Incorporated-AZ431AN-ATRE1_C84138_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AZ431AN-ATRE1"
+   ],
+   "bytes": 31477
   },
   {
    "file": "assets/img/parts/C84410.jpg",
@@ -1759,6 +2969,28 @@
    "bytes": 38551
   },
   {
+   "file": "assets/img/parts/C84681.jpg",
+   "code": "C84681",
+   "matched": "WCH CH340C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_WCH-Jiangsu-Qin-Heng-CH340C_C84681_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CH340C"
+   ],
+   "bytes": 33993
+  },
+  {
+   "file": "assets/img/parts/C84817.jpg",
+   "code": "C84817",
+   "matched": "XI'AN Aerosemi Tech MT3608",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_XI-AN-Aerosemi-Tech-MT3608_C84817_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MT3608"
+   ],
+   "bytes": 31511
+  },
+  {
    "file": "assets/img/parts/C85840.jpg",
    "code": "C85840",
    "matched": "muRata BLM21PG221SN1D",
@@ -1768,6 +3000,39 @@
     "BLM21PG221SN1D"
    ],
    "bytes": 29162
+  },
+  {
+   "file": "assets/img/parts/C86534.jpg",
+   "code": "C86534",
+   "matched": "TOREX XC6220B331MR-G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250927_TOREX-XC6220B331MR-G_C86534_front.jpg",
+   "matchedVia": "SOT-25 component",
+   "models": [
+    "AP22653"
+   ],
+   "bytes": 28977
+  },
+  {
+   "file": "assets/img/parts/C86613.jpg",
+   "code": "C86613",
+   "matched": "FM 74HC04D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Shenzhen-Fuman-Elec-74HC04D_C86613_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC04D"
+   ],
+   "bytes": 32628
+  },
+  {
+   "file": "assets/img/parts/C8690.jpg",
+   "code": "C8690",
+   "matched": "FTDI FT232RL-REEL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_FTDI-FT232RL-REEL_C8690_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FT232RL"
+   ],
+   "bytes": 31807
   },
   {
    "file": "assets/img/parts/C87080.jpg",
@@ -1803,6 +3068,17 @@
    "bytes": 30386
   },
   {
+   "file": "assets/img/parts/C87469.jpg",
+   "code": "C87469",
+   "matched": "TI INA219AIDCNR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Texas-Instruments-INA219AIDCNR_C87469_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "INA219AIDCNR"
+   ],
+   "bytes": 24589
+  },
+  {
    "file": "assets/img/parts/C875741.jpg",
    "code": "C875741",
    "matched": "YAGEO PE2512FKF070R01L",
@@ -1836,6 +3112,17 @@
    "bytes": 28532
   },
   {
+   "file": "assets/img/parts/C87905.jpg",
+   "code": "C87905",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "SOIC-8 component",
+   "models": [
+    "SN65HVD230DR"
+   ],
+   "bytes": 28532
+  },
+  {
    "file": "assets/img/parts/C88030.jpg",
    "code": "C88030",
    "matched": "TI TMS320F28027FPTT",
@@ -1858,6 +3145,28 @@
    "bytes": 23225
   },
   {
+   "file": "assets/img/parts/C8956.jpg",
+   "code": "C8956",
+   "matched": "TI TL084CDR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-TL084CDR_C8956_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TL084CDR"
+   ],
+   "bytes": 31543
+  },
+  {
+   "file": "assets/img/parts/C8963.jpg",
+   "code": "C8963",
+   "matched": "MaxLinear SP3485EN-L/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_MaxLinear-SP3485EN-L-TR_C8963_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SP3485EN"
+   ],
+   "bytes": 29661
+  },
+  {
    "file": "assets/img/parts/C89632.jpg",
    "code": "C89632",
    "matched": "Samsung Electro-Mechanics CL31B106KBHNNNE",
@@ -1868,6 +3177,17 @@
     "CL31A226KAHNNNE"
    ],
    "bytes": 29170
+  },
+  {
+   "file": "assets/img/parts/C9055.jpg",
+   "code": "C9055",
+   "matched": "MaxLinear SPX3819M5-L-3-3/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_MaxLinear-SPX3819M5-L-3-3-TR_C9055_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SPX3819M5-L-3-3"
+   ],
+   "bytes": 28398
   },
   {
    "file": "assets/img/parts/C914482.jpg",
@@ -1891,6 +3211,17 @@
     "STC8G1K08A-8PIN"
    ],
    "bytes": 31801
+  },
+  {
+   "file": "assets/img/parts/C916157.jpg",
+   "code": "C916157",
+   "matched": "MaxLinear SP485EN-L/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230201_MaxLinear-SP485EN-L-TR_C916157_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SP485EN"
+   ],
+   "bytes": 32526
   },
   {
    "file": "assets/img/parts/C916421.jpg",
@@ -1959,6 +3290,28 @@
    "bytes": 30738
   },
   {
+   "file": "assets/img/parts/C92402.jpg",
+   "code": "C92402",
+   "matched": "SGMICRO SGM2036-3.3YN5G/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_SGMICRO-SGM2036-3-3YN5G-TR_C92402_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SGM2036-3.3"
+   ],
+   "bytes": 28932
+  },
+  {
+   "file": "assets/img/parts/C9378.jpg",
+   "code": "C9378",
+   "matched": "MaxLinear SP3232EEN-L/TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_MaxLinear-SP3232EEN-L-TR_C9378_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SP3232EEN"
+   ],
+   "bytes": 34627
+  },
+  {
    "file": "assets/img/parts/C95781.jpg",
    "code": "C95781",
    "matched": "YAGEO RC0805FR-071KL",
@@ -1975,6 +3328,28 @@
    "bytes": 29152
   },
   {
+   "file": "assets/img/parts/C963380.jpg",
+   "code": "C963380",
+   "matched": "JSMSEMI TL431",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230201_JSMSEMI-TL431_C963380_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TL431"
+   ],
+   "bytes": 29414
+  },
+  {
+   "file": "assets/img/parts/C9641.jpg",
+   "code": "C9641",
+   "matched": "ADI AD8605ARTZ-REEL7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Analog-Devices-AD8605ARTZ-REEL7_C9641_front.jpg",
+   "matchedVia": "SOT-23-5 component",
+   "models": [
+    "RT9742"
+   ],
+   "bytes": 27951
+  },
+  {
    "file": "assets/img/parts/C9652.jpg",
    "code": "C9652",
    "matched": "ADI AD9833BRMZ-REEL7",
@@ -1984,6 +3359,39 @@
     "AD9833BRMZ"
    ],
    "bytes": 24719
+  },
+  {
+   "file": "assets/img/parts/C9680.jpg",
+   "code": "C9680",
+   "matched": "ADI AD620ANZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Analog-Devices-AD620ANZ_C9680_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AD620ANZ"
+   ],
+   "bytes": 35041
+  },
+  {
+   "file": "assets/img/parts/C9683.jpg",
+   "code": "C9683",
+   "matched": "TI ULN2803ADWR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-ULN2803ADWR_C9683_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ULN2803ADW"
+   ],
+   "bytes": 26683
+  },
+  {
+   "file": "assets/img/parts/C9723.jpg",
+   "code": "C9723",
+   "matched": "TI LM386N-1/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM386N-1-NOPB_C9723_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM386N-1"
+   ],
+   "bytes": 28871
   },
   {
    "file": "assets/img/parts/C97521.jpg",
@@ -2017,6 +3425,28 @@
     "WH148-10K"
    ],
    "bytes": 28898
+  },
+  {
+   "file": "assets/img/parts/C9864.jpg",
+   "code": "C9864",
+   "matched": "TI TPS5430DDAR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-TPS5430DDAR_C9864_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TPS5430DDAR"
+   ],
+   "bytes": 31623
+  },
+  {
+   "file": "assets/img/parts/C99395.jpg",
+   "code": "C99395",
+   "matched": "TI UCC27517DBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-UCC27517DBVR_C99395_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "UCC27517"
+   ],
+   "bytes": 23632
   }
  ]
 }
