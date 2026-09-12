@@ -19,7 +19,7 @@
 | 产品中心支持分类树 + 品牌 / 封装筛选，筛选状态写入 URL | Category tree plus brand / package filters, filters encoded in the URL |
 | 询价清单：逐行加入型号、填数量备注、一键生成邮件或复制文本发微信 | Inquiry list: add parts, set quantity and notes, generate an email or copy text for WeChat |
 | 响应式布局（手机导航抽屉、表格转卡片流）、可打印、无障碍友好 | Responsive layout, mobile drawer, card-style tables on phones, print friendly, a11y touches |
-| 图片为内联 SVG 线稿与 CSS 渐变，整套站点资源 < 300KB | All artwork is inline SVG line art and CSS gradients; total asset weight under 300KB |
+| 视觉为内联 SVG 线稿与 CSS 渐变，全站资源约 350KB、无图片文件 | Artwork is inline SVG line work and CSS gradients; about 350KB total with no image files |
 
 ## 页面 / Pages
 
