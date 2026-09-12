@@ -37,14 +37,24 @@ if (typeof setTimeout === "undefined") { var setTimeout = window.setTimeout; }
 if (typeof clearTimeout === "undefined") { var clearTimeout = window.clearTimeout; }
 var navigator = { clipboard: null };
 function stubEl() {
-  return {
-    style: {}, hidden: false, value: "", textContent: "", innerHTML: "",
-    classList: { add: function () {}, remove: function () {}, toggle: function () {} },
-    setAttribute: function () {}, getAttribute: function () { return null; },
-    appendChild: function () {}, removeChild: function () {}, select: function () {},
-    addEventListener: function () {}, click: function () {}, focus: function () {},
-    contains: function () { return false; }, scrollIntoView: function () {}
+  var self = {
+    style: {}, hidden: false, value: "", textContent: "", innerHTML: "", _classes: {}, _q: {},
+    classList: {
+      add: function (c) { self._classes[c] = true; },
+      remove: function (c) { delete self._classes[c]; },
+      toggle: function (c, on) { if (on) { self._classes[c] = true; } else { delete self._classes[c]; } },
+      contains: function (c) { return !!self._classes[c]; }
+    },
+    setAttribute: function (k, v) { self["attr_" + k] = v; },
+    getAttribute: function (k) { return self["attr_" + k] === undefined ? null : self["attr_" + k]; },
+    appendChild: function (child) { self._children = self._children || []; self._children.push(child); },
+    removeChild: function () {}, select: function () {},
+    addEventListener: function () {}, click: function () {}, focus: function () { self._focused = true; },
+    contains: function () { return false; }, scrollIntoView: function () {},
+    querySelector: function (sel) { if (!self._q[sel]) { self._q[sel] = stubEl(); } return self._q[sel]; },
+    querySelectorAll: function () { return []; }
   };
+  return self;
 }
 var document = {
   readyState: "complete",
@@ -57,6 +67,7 @@ var document = {
   createElement: function () { return stubEl(); }
 };
 document.body.getAttribute = function () { return "index"; };
+document.activeElement = stubEl();
 """
 
 TESTS = r"""
@@ -128,6 +139,73 @@ check("zh products lead filled", api.t("products.lead").indexOf("939") >= 0, api
 check("zh about data filled", api.t("about.dataText").indexOf("{") < 0 && api.t("about.dataText").indexOf("939") >= 0, "");
 check("inquiry note email filled", api.t("inquiry.note").indexOf("17317103@qq.com") >= 0, "");
 
+/* ---------- product illustrations ---------- */
+var ART = window.XWK_PART_ART;
+check("art api present", !!ART && typeof ART.svgFor === "function" && typeof ART.html === "function", "");
+check("art shape library", ART && ART.shapeIds.length >= 45, ART ? ART.shapeIds.length : 0);
+
+var artEmpty = 0, artMissing = 0, artShapes = {};
+var typeSet = {};
+window.XWK_DATA.types.forEach(function (x) { typeSet[x.id] = true; });
+api.PART_INDEX.forEach(function (p) {
+  var svg = ART.svgFor(p, { size: "lg", typeLabel: "类型" });
+  if (!svg || svg.length < 200 || svg.indexOf("<svg") !== 0) { artEmpty += 1; }
+  if (svg.indexOf(p.model) < 0) { artMissing += 1; }
+  var shape = ART.shapeFor(p);
+  artShapes[shape] = (artShapes[shape] || 0) + 1;
+  if (ART.typeShapes[p.type] === undefined) { artMissing += 1000; }
+});
+check("every part renders an illustration", artEmpty === 0, artEmpty);
+check("illustration contains its model", artMissing === 0, artMissing);
+check("all shapes in use exist", Object.keys(artShapes).every(function (s) { return ART.shapeIds.indexOf(s) >= 0; }),
+  Object.keys(artShapes).join(",").slice(0, 60));
+
+var unmapped = Object.keys(typeSet).filter(function (id) { return !ART.typeShapes[id]; });
+check("all 123 type keys mapped", unmapped.length === 0, unmapped.join(","));
+
+var samplePart = api.PART_INDEX[7];
+check("illustration is deterministic",
+  ART.svgFor(samplePart, { size: "lg" }) === ART.svgFor(samplePart, { size: "lg" }), "");
+check("thumbnail size has no caption", ART.svgFor(samplePart, { size: "sm" }).indexOf("<text") < 0, "");
+check("large size shows package", ART.svgFor(samplePart, { size: "lg" }).indexOf(samplePart.pkg) >= 0, samplePart.pkg);
+
+var photo = ART.html({ model: "C25804", pkg: "SOT-223", type: "ldo", img: "assets/img/parts/c25804.jpg" }, { size: "sm" });
+check("img override renders a photo", photo.indexOf("<img") === 0 && photo.indexOf("assets/img/parts/c25804.jpg") >= 0, "");
+
+var risky = ART.svgFor({ model: "<b>a&b</b>", pkg: "0402", type: "res-thick", catId: "resistors" }, { size: "lg" });
+check("model text is escaped", risky.indexOf("<b>a&b</b>") < 0 && risky.indexOf("&lt;b&gt;") >= 0, "");
+
+var rowHtml = api.partRowHtml(samplePart, "", true);
+check("row includes thumbnail button", rowHtml.indexOf("data-open-art") >= 0 && rowHtml.indexOf("<svg") >= 0, "");
+check("row thumbnail is accessible", rowHtml.indexOf("aria-label") >= 0, "");
+
+var tableHtml = api.partsTableHtml([samplePart], "", true);
+check("table has image column", tableHtml.indexOf(api.t("common.image")) >= 0, "");
+check("table carries the art disclaimer", tableHtml.indexOf("art-note") >= 0, "");
+check("thumbnail helper returns markup", api.thumbHtml(samplePart).indexOf("part-thumb") >= 0, "");
+
+/* ---------- lightbox behaviour (DOM shim) ---------- */
+var lbModel = "STM32F103C8T6";
+api.openArt(lbModel);
+var lbWrap = (document.body._children || [])[0] || null;
+var figure = lbWrap && lbWrap._q ? lbWrap._q["[data-art-figure]"] : null;
+var title = lbWrap && lbWrap._q ? lbWrap._q["[data-art-title]"] : null;
+var meta = lbWrap && lbWrap._q ? lbWrap._q["[data-art-meta]"] : null;
+var actions = lbWrap && lbWrap._q ? lbWrap._q["[data-art-actions]"] : null;
+check("lightbox created", !!lbWrap && lbWrap.hidden === false, "hidden=" + (lbWrap ? lbWrap.hidden : "n/a"));
+check("lightbox shows large illustration", !!figure && figure.innerHTML.indexOf("<svg") >= 0 && figure.innerHTML.indexOf(lbModel) >= 0, "");
+check("lightbox title is the model", !!title && title.textContent === lbModel, title ? title.textContent : "n/a");
+check("lightbox lists parameters", !!meta && meta.innerHTML.indexOf("LQFP-48") >= 0, "");
+check("lightbox offers inquiry actions",
+  !!actions && actions.innerHTML.indexOf("data-add-part") >= 0 && actions.innerHTML.indexOf("category.html?cat=") >= 0, "");
+check("lightbox locks page scroll", document.body._classes["no-scroll"] === true, "");
+api.closeArt();
+check("lightbox closes", lbWrap.hidden === true, "");
+check("scroll lock released", document.body._classes["no-scroll"] !== true, "");
+var lbHtml = api.lightboxHtml ? api.lightboxHtml() : "";
+check("lightbox markup is a modal dialog", lbHtml.indexOf('role="dialog"') >= 0 && lbHtml.indexOf('aria-modal="true"') >= 0,
+  lbHtml.slice(0, 40));
+
 var row = api.partRowHtml({ model: "<b>x</b>", brand: "tsc", pkg: "SMA", params: "1A & 2A", type: "diode-rect", catId: "diodes" }, "x");
 check("html escaping", row.indexOf("&lt;b&gt;") >= 0 && row.indexOf("&amp;") >= 0, "");
 
@@ -159,7 +237,8 @@ def main():
     export = ("  window.__XWK_TEST__ = { searchAll: searchAll, filterParts: filterParts, "
               "PART_INDEX: PART_INDEX, readInquiry: readInquiry, writeInquiry: writeInquiry, "
               "addToInquiry: addToInquiry, inquiryText: inquiryText, t: t, setLang: setLang, "
-              "partRowHtml: partRowHtml };\n})();")
+              "partRowHtml: partRowHtml, partsTableHtml: partsTableHtml, thumbHtml: thumbHtml, "
+              "artHtml: artHtml, openArt: openArt, closeArt: closeArt, lightboxHtml: lightboxHtml };\n})();")
     app_test = app.replace(marker, export)
     with tempfile.TemporaryDirectory() as tmp:
         app_file = os.path.join(tmp, "app_test.js")
@@ -169,6 +248,7 @@ def main():
             SHIM +
             'load("%s");\n' % os.path.join(SITE, "assets", "js", "data.js") +
             'load("%s");\n' % os.path.join(SITE, "assets", "js", "i18n.js") +
+            'load("%s");\n' % os.path.join(SITE, "assets", "js", "part-art.js") +
             'load("%s");\n' % app_file +
             TESTS
         )

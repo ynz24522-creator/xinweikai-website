@@ -229,15 +229,22 @@ TYPES = {
 }
 
 
-def P(model, brand, package, params, typ):
-    """One catalogue line: model, brand key, package, parameters, type key."""
-    return {
+def P(model, brand, package, params, typ, img=None):
+    """One catalogue line: model, brand key, package, parameters, type key.
+
+    ``img`` is optional: point it at a real photo (for example
+    "assets/img/parts/C25804.jpg") to override the generated illustration.
+    """
+    row = {
         "m": model,
         "b": brand,
         "k": package,
         "p": params,
         "t": typ,
     }
+    if img:
+        row["img"] = img
+    return row
 
 
 def SUB(sid, zh, en, parts, tip_zh="", tip_en=""):

@@ -124,6 +124,23 @@
       esc(raw.slice(idx + q.length));
   }
 
+  /* ------------------------------------------------------ part illustrations */
+  function artHtml(part, size) {
+    var art = window.XWK_PART_ART;
+    var typeName = part && part.type ? typeLabel(part.type) : "";
+    if (art && typeof art.html === "function") {
+      return art.html(part, { size: size || "sm", typeLabel: typeName });
+    }
+    return "";
+  }
+
+  function thumbHtml(part) {
+    return '<button type="button" class="part-thumb" data-open-art="' + esc(part.model) + '"' +
+      ' aria-label="' + esc(t("common.viewImage", { model: part.model })) + '"' +
+      ' title="' + esc(t("common.viewImage", { model: part.model })) + '">' +
+      artHtml(part, "sm") + "</button>";
+  }
+
   /* ------------------------------------------------------------ data index */
   var BRAND_MAP = {};
   var TYPE_MAP = {};
@@ -211,6 +228,7 @@
   function partRowHtml(p, query, withCat) {
     var catName = catLabel(p.catId);
     return '<tr data-model="' + esc(p.model) + '">' +
+      '<td data-label="' + esc(t("common.image")) + '" class="art-cell">' + thumbHtml(p) + "</td>" +
       '<td data-label="' + esc(t("common.model")) + '" class="model-cell">' + highlight(p.model, query) + "</td>" +
       (withCat !== false ? '<td data-label="' + esc(t("common.category")) + '"><span class="tag">' + esc(catName) + "</span></td>" : "") +
       '<td data-label="' + esc(t("common.brand")) + '">' + highlight(brandLabel(p.brand), query) + "</td>" +
@@ -226,6 +244,7 @@
   function partsTableHtml(parts, query, withCat) {
     if (!parts.length) { return ""; }
     return '<table class="parts-table"><thead><tr>' +
+      "<th>" + esc(t("common.image")) + "</th>" +
       "<th>" + esc(t("common.model")) + "</th>" +
       (withCat !== false ? "<th>" + esc(t("common.category")) + "</th>" : "") +
       "<th>" + esc(t("common.brand")) + "</th>" +
@@ -235,7 +254,8 @@
       "<th>" + esc(t("common.actions")) + "</th>" +
       "</tr></thead><tbody>" +
       parts.map(function (p) { return partRowHtml(p, query, withCat); }).join("") +
-      "</tbody></table>";
+      "</tbody></table>" +
+      '<p class="art-note" data-i18n="common.imageNote">' + esc(t("common.imageNote")) + "</p>";
   }
 
   /* ------------------------------------------------------- search dropdown */
@@ -268,6 +288,7 @@
       html += '<div class="search-group"><div class="search-group-title">' + esc(t("search.groupParts")) + "</div>";
       res.parts.forEach(function (p) {
         html += '<a class="search-item" href="category.html?cat=' + esc(p.catId) + "&hl=" + encodeURIComponent(p.model) + '">' +
+          '<span class="search-item-art">' + artHtml(p, "sm") + "</span>" +
           '<span class="search-item-main"><span class="search-item-model">' + highlight(p.model, q) + "</span>" +
           '<span class="search-item-meta">' + esc(brandLabel(p.brand)) + " · " + esc(p.pkg) + " · " + esc(p.params) + "</span></span></a>";
       });
@@ -807,12 +828,14 @@
     if (empty) { empty.hidden = list.length > 0; }
     if (!list.length) { host.innerHTML = ""; return; }
     host.innerHTML = '<table class="parts-table inquiry-table"><thead><tr>' +
+      "<th>" + esc(t("common.image")) + "</th>" +
       "<th>" + esc(t("common.model")) + "</th><th>" + esc(t("common.brand")) + "</th>" +
       "<th>" + esc(t("common.package")) + "</th><th>" + esc(t("common.params")) + "</th>" +
       "<th>" + esc(t("inquiry.qty")) + "</th><th>" + esc(t("inquiry.remark")) + "</th>" +
       "<th>" + esc(t("common.actions")) + "</th></tr></thead><tbody>" +
       list.map(function (item, i) {
         return '<tr data-index="' + i + '">' +
+          '<td data-label="' + esc(t("common.image")) + '" class="art-cell">' + thumbHtml(item) + "</td>" +
           '<td data-label="' + esc(t("common.model")) + '" class="model-cell">' + esc(item.model) + "</td>" +
           '<td data-label="' + esc(t("common.brand")) + '">' + esc(brandLabel(item.brand)) + "</td>" +
           '<td data-label="' + esc(t("common.package")) + '">' + esc(item.pkg) + "</td>" +
@@ -910,6 +933,82 @@
   }
 
   /* ------------------------------------------------------------- language */
+  var lightboxEl = null;
+  var lightboxReturnFocus = null;
+
+  function lightboxHtml() {
+    return '<div class="lightbox-backdrop" data-art-close></div>' +
+      '<div class="lightbox-card" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">' +
+      '<button type="button" class="lightbox-close" data-art-close aria-label="' + esc(t("common.close")) + '">×</button>' +
+      '<div class="lightbox-art" data-art-figure></div>' +
+      '<div class="lightbox-body">' +
+      '<h3 class="lightbox-title" id="lightbox-title" data-art-title>—</h3>' +
+      '<div class="lightbox-meta" data-art-meta></div>' +
+      '<p class="art-note">' + esc(t("common.imageNote")) + "</p>" +
+      '<div class="lightbox-actions" data-art-actions></div>' +
+      "</div></div>";
+  }
+
+  function ensureLightbox() {
+    if (lightboxEl) { return lightboxEl; }
+    var wrap = document.createElement("div");
+    wrap.className = "lightbox";
+    wrap.hidden = true;
+    wrap.innerHTML = lightboxHtml();
+    document.body.appendChild(wrap);
+    lightboxEl = wrap;
+    return wrap;
+  }
+
+  function partByModel(model) {
+    for (var i = 0; i < PART_INDEX.length; i += 1) {
+      if (PART_INDEX[i].model === model) { return PART_INDEX[i]; }
+    }
+    return null;
+  }
+
+  function openArt(model) {
+    var part = partByModel(model);
+    if (!part) { return; }
+    var wrap = ensureLightbox();
+    lightboxReturnFocus = document.activeElement;
+    $("[data-art-figure]", wrap).innerHTML = artHtml(part, "lg");
+    $("[data-art-title]", wrap).textContent = part.model;
+    var rows = [
+      [t("common.brand"), brandLabel(part.brand)],
+      [t("common.package"), part.pkg],
+      [t("common.params"), part.params],
+      [t("common.desc"), typeLabel(part.type)],
+      [t("common.category"), catLabel(part.catId)]
+    ];
+    $("[data-art-meta]", wrap).innerHTML = rows.map(function (row) {
+      return '<div class="meta-row"><dt>' + esc(row[0]) + "</dt><dd>" + esc(row[1]) + "</dd></div>";
+    }).join("");
+    $("[data-art-actions]", wrap).innerHTML =
+      '<button type="button" class="btn btn-primary" data-add-part="' + esc(part.model) + '">' +
+      esc(t("common.addInquiry")) + "</button>" +
+      '<button type="button" class="btn btn-outline" data-copy-part="' + esc(part.model) + '">' +
+      esc(t("common.copyModel")) + "</button>" +
+      '<a class="btn btn-outline" href="category.html?cat=' + esc(part.catId) + '">' +
+      esc(t("common.viewCategory")) + "</a>";
+    wrap.hidden = false;
+    document.body.classList.add("no-scroll");
+    var closeBtn = $(".lightbox-close", wrap);
+    if (closeBtn) { closeBtn.focus(); }
+    var figure = $("[data-art-figure]", wrap);
+    if (figure) { figure.scrollTop = 0; }
+  }
+
+  function closeArt() {
+    if (!lightboxEl || lightboxEl.hidden) { return; }
+    lightboxEl.hidden = true;
+    document.body.classList.remove("no-scroll");
+    if (lightboxReturnFocus && lightboxReturnFocus.focus) {
+      try { lightboxReturnFocus.focus(); } catch (err) { /* ignore */ }
+    }
+    lightboxReturnFocus = null;
+  }
+
   var PAGE_META = {
     index: ["meta.home", "meta.home"],
     products: ["products.title", "meta.products"],
@@ -974,6 +1073,7 @@
   function setLang(next) {
     lang = next;
     store(LANG_KEY, next);
+    closeArt();
     applyTranslations();
     $$(".search-panel").forEach(function (p) { p.hidden = true; });
     if (document.body.getAttribute("data-page") === "products") {
@@ -1032,6 +1132,7 @@
     }
     $$("[data-search-form]").forEach(setupSearchForm);
     document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") { closeArt(); return; }
       if (ev.key !== "/") { return; }
       var tag = (ev.target.tagName || "").toLowerCase();
       if (tag === "input" || tag === "textarea" || tag === "select") { return; }
@@ -1040,6 +1141,9 @@
       if (input) { input.focus(); }
     });
     document.addEventListener("click", function (ev) {
+      var opener = ev.target.closest ? ev.target.closest("[data-open-art]") : null;
+      if (opener) { openArt(opener.getAttribute("data-open-art")); return; }
+      if (ev.target.closest && ev.target.closest("[data-art-close]")) { closeArt(); return; }
       var add = ev.target.closest("[data-add-part]");
       if (add) { addToInquiry(add.getAttribute("data-add-part")); return; }
       var copy = ev.target.closest("[data-copy-part]");

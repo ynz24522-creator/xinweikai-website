@@ -30,7 +30,7 @@ SCRIPT_LABEL = os.path.basename(HERE) + "/build.py"
 
 BASE_URL = "https://ynz24522-creator.github.io/xinweikai-website/"
 # Bump when CSS/JS change so browsers bypass the GitHub Pages 10-minute asset cache.
-ASSET_VERSION = "20260912b"
+ASSET_VERSION = "20260912c"
 
 COMPANY = {
     "nameZh": "深圳市鑫威凯科技有限公司",
@@ -107,6 +107,11 @@ I18N = {
         "common.brand": "品牌",
         "common.package": "封装",
         "common.model": "型号",
+        "common.image": "图片",
+        "common.viewImage": "查看 {model} 的示意图",
+        "common.viewCategory": "查看该分类",
+        "common.close": "关闭",
+        "common.imageNote": "插图为示意图，非实物照片，实际以品牌与批次包装为准。",
         "common.params": "关键参数",
         "common.desc": "说明",
         "common.actions": "操作",
@@ -250,6 +255,11 @@ I18N = {
         "common.brand": "Brand",
         "common.package": "Package",
         "common.model": "Model",
+        "common.image": "Image",
+        "common.viewImage": "View illustration of {model}",
+        "common.viewCategory": "View category",
+        "common.close": "Close",
+        "common.imageNote": "Illustrations are schematic, not photographs. Refer to the actual brand and batch packaging.",
         "common.params": "Key parameters",
         "common.desc": "Type",
         "common.actions": "Actions",
@@ -521,6 +531,7 @@ def drawer_and_scripts():
   <div class="toast" data-toast hidden></div>
   <script src="assets/js/data.js?v={ver}"></script>
   <script src="assets/js/i18n.js?v={ver}"></script>
+  <script src="assets/js/part-art.js?v={ver}"></script>
   <script src="assets/js/app.js?v={ver}"></script>""".format(ver=ASSET_VERSION)
 
 
@@ -1244,6 +1255,7 @@ def write_readme():
 | 全站即时搜索：型号 / 封装 / 品牌 / 分类关键词，下拉分组 + 高亮 | Instant site-wide search across model, package, brand and category with grouping and highlighting |
 | 产品中心支持分类树 + 品牌 / 封装筛选，筛选状态写入 URL | Category tree plus brand / package filters, filters encoded in the URL |
 | 询价清单：逐行加入型号、填数量备注、一键生成邮件或复制文本发微信 | Inquiry list: add parts, set quantity and notes, generate an email or copy text for WeChat |
+| 每个型号一张矢量示意图，点击放大看型号/品牌/封装/参数并可直接询价 | One vector illustration per part with click-to-zoom details and inquiry actions |
 | 响应式布局（手机导航抽屉、表格转卡片流）、可打印、无障碍友好 | Responsive layout, mobile drawer, card-style tables on phones, print friendly, a11y touches |
 | 视觉为内联 SVG 线稿与 CSS 渐变，全站资源约 350KB、无图片文件 | Artwork is inline SVG line work and CSS gradients; about 350KB total with no image files |
 
@@ -1331,6 +1343,8 @@ def write_docs():
 | 首页常备型号 | `assets/js/data.js` 的 `hot[]`（填型号字符串即可） |
 | 颜色、圆角、间距等视觉变量 | `assets/css/style.css` 顶部的 `:root` |
 | 图标 | `assets/js/data.js` 的 `icons`（48×48 SVG 路径，`stroke=currentColor`） |
+| 产品插图（示意图） | `assets/js/part-art.js`：形状库与「类型 → 形状」映射表；型号文字与配色自动生成 |
+| 某个型号改用实拍图 | 在该型号的 `parts[]` 条目里加 `"img":"assets/img/parts/xxx.jpg"`（放图到 `assets/img/parts/`） |
 | 备案号 | `assets/js/i18n.js` 的 `footer.icp`（中英两处） |
 
 ## 二、产品数据格式
@@ -1343,6 +1357,13 @@ def write_docs():
 - `t` 必须存在于 `types[]` 的 `id` 中，用于生成「说明」列的品类名称（中英自动切换）。
 - 新增分类时，同时在 `categories[]` 中补 `id / zh / en / blurbZh / blurbEn / tipsZh / tipsEn / count / subs`。
 - 每个分类的 `count` 用于首页卡片显示，等于该分类下所有 `parts` 数量之和。
+
+### 产品插图（示意图）是怎么来的
+
+- 每个型号都有一张由 `assets/js/part-art.js` 现场生成的矢量示意图：按「类型 → 形状」（123 个类型全部显式映射）+「封装 → 引脚与尺寸」（`LQFP-48` 四边各 12 脚、`SOIC-8` 两边各 4 脚、`0603`/`0805` 片式、`TO-220` 带散热片等）+「分类 → 主色」自动生成；同一型号永远得到同一张图，不需要任何图片文件，也不产生额外网络请求。
+- 三种尺寸：表格缩略图 `sm`（56×42，不排文字）、默认 `md`（带型号）、浮层大图 `lg`（型号 + 封装）。点击表格缩略图打开浮层，浮层内可直接加入询价、复制型号、跳到所属分类；Esc、右上角 ✕ 或点击空白处关闭。
+- **换成实拍图**：把图片放进 `assets/img/parts/`，在该型号条目上加 `img` 字段即可（示例：`{ m:"STM32F103C8T6", b:"st", k:"LQFP-48", p:"Cortex-M3 72MHz 64KB Flash", t:"mcu32", img:"assets/img/parts/stm32f103c8t6.jpg" }`）。配置了 `img` 的型号优先显示实拍图，其余继续用示意图。建议实拍图 640×480、JPG/WebP、单张 ≤ 80KB。
+- **调整形状**：编辑 `assets/js/part-art.js` 中的 `SHAPES`（绘制）与 `TYPE_SHAPE`（类型映射）；改完把 `tools/build.py` 的 `ASSET_VERSION` 换成新值再发布，避免访客用到旧缓存。
 
 ## 三、搜索与筛选
 
@@ -1410,6 +1431,13 @@ def write_docs():
 - 站点为纯静态页面，没有后端与数据库，不收集、不上传访客数据。
 - 语言偏好与询价清单仅保存在访客本机浏览器（`localStorage`），清除浏览器数据即会丢失。
 - 询价邮件由访客本机邮件客户端发送，站点不代发、不留存。
+
+## 五、产品插图说明
+
+- 站内所有产品图均由代码生成（`assets/js/part-art.js`），按器件类型与封装绘制，属于**示意图**，用于快速识别品类。
+- 示意图**不是实物照片**，也不代表具体品牌、批次或包装形态；页面表格下方与浮层内均标注「插图为示意图，非实物照片，实际以品牌与批次包装为准」。
+- 需要展示实拍图时，在 `assets/js/data.js` 对应型号上增加 `img` 字段（图片放 `assets/img/parts/`）即可覆盖示意图；建议 640×480、JPG/WebP、单张 ≤ 80KB。
+- 插图不涉及第三方素材与版权问题，可放心商用。
 """.format(cats=len(CATEGORIES), subs=TOTAL_SUBS, parts=TOTAL_PARTS, brands=len(catalog.BRANDS))
 
     with open(os.path.join(OUT, "docs", "使用说明.md"), "w", encoding="utf-8") as fh:

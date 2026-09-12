@@ -80,6 +80,7 @@ def check_pages():
             errors.append("%s: %s" % (page, problem))
         for marker in ("data-header", "data-search-form", "data-inquiry-count",
                        "assets/js/data.js", "assets/js/i18n.js", "assets/js/app.js",
+                       "assets/js/part-art.js",
                        'class="site-footer"', "data-lang-btn"):
             if marker not in html:
                 errors.append("%s: missing %s" % (page, marker))
@@ -175,11 +176,42 @@ def check_seo():
         errors.append("robots.txt has no sitemap line")
 
 
+def check_assets():
+    """Illustration engine, styles and lightbox hooks must ship with the site."""
+    art_js = os.path.join(SITE, "assets", "js", "part-art.js")
+    if not os.path.exists(art_js):
+        errors.append("missing assets/js/part-art.js")
+    else:
+        text = read(art_js)
+        for needle in ("window.XWK_PART_ART", "svgFor", "shapeFor", "paletteFor", "TYPE_SHAPE"):
+            if needle not in text:
+                errors.append("part-art.js: missing %s" % needle)
+    css = read(os.path.join(SITE, "assets", "css", "style.css"))
+    for needle in (".part-thumb", ".lightbox", ".art-note", ".art-cell"):
+        if needle not in css:
+            errors.append("style.css: missing %s" % needle)
+    app = read(os.path.join(SITE, "assets", "js", "app.js"))
+    for needle in ("openArt", "closeArt", "data-open-art", "common.imageNote"):
+        if needle not in app:
+            errors.append("app.js: missing %s" % needle)
+
+
+def check_art_coverage():
+    """Every catalogue type key must have an explicit shape mapping entry."""
+    data = load_js_payload("data.js", "XWK_DATA")
+    art = read(os.path.join(SITE, "assets", "js", "part-art.js"))
+    unmapped = [entry["id"] for entry in data["types"] if '"%s"' % entry["id"] not in art]
+    if unmapped:
+        errors.append("part-art.js: types without a shape mapping: %s" % unmapped)
+
+
 def main():
     check_pages()
     check_i18n()
     data, total = check_data()
     check_seo()
+    check_assets()
+    check_art_coverage()
     print("pages=%d categories=%d subs=%d parts=%d brands=%d"
           % (len(PAGES), len(data["categories"]),
              sum(len(c["subs"]) for c in data["categories"]), total, len(data["brands"])))
