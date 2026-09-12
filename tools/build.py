@@ -208,7 +208,7 @@ I18N = {
         "a11y.skip": "Skip to main content",
         "a11y.menu": "Open navigation menu",
         "brand.short": "Xinweikai Technology",
-        "brand.sub": "电子元器件现货供应",
+        "brand.sub": "Electronic Components Supplier",
         "nav.home": "Home",
         "nav.products": "Products",
         "nav.brands": "Brands",
@@ -350,7 +350,7 @@ I18N = {
 }
 
 
-def page_head(page, title_key, desc_key):
+def page_head(page, title_key, desc_key, page_file="index.html"):
     """Build <head> contents. Every page carries the same SEO scaffolding."""
     zh = I18N["zh"]
     en = I18N["en"]
@@ -395,7 +395,7 @@ def page_head(page, title_key, desc_key):
         short=COMPANY["shortZh"],
         name=COMPANY["nameZh"],
         url=BASE_URL,
-        page="" if page == "index.html" else page,
+        page="" if page_file == "index.html" else page_file,
         jsonld=json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")),
     )
 
@@ -538,7 +538,7 @@ def page(filename, page_id, title_key, desc_key, content):
 </body>
 </html>
 """.format(
-        head=page_head(page_id, title_key, desc_key),
+        head=page_head(page_id, title_key, desc_key, filename),
         page_id=page_id,
         header=header(filename),
         content=content,
