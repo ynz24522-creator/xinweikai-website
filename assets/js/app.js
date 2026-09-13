@@ -983,6 +983,13 @@
     wrap.innerHTML = lightboxHtml();
     document.body.appendChild(wrap);
     lightboxEl = wrap;
+    /* 直接绑定关闭事件：不依赖事件委托，点背景或 ✕ 都能稳定关闭 */
+    $$("[data-art-close]", wrap).forEach(function (el) {
+      el.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        closeArt();
+      });
+    });
     return wrap;
   }
 
