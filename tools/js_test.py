@@ -208,6 +208,26 @@ if (photoParts.length) {
   check("photo row renders an img tag", rowPhoto.indexOf("<img") >= 0 && rowPhoto.indexOf(pp.img) >= 0, pp.img);
   var lbPhoto = api.artHtml(pp, "lg");
   check("large photo uses lg size hook", lbPhoto.indexOf('data-art-size="lg"') >= 0, "");
+  check("photo part carries a credit", !!pp.imgCredit, pp.imgCredit);
+
+  var ccPart = api.PART_INDEX.filter(function (p) { return p.img && /Commons/i.test(p.imgCredit || ""); })[0];
+  if (ccPart) {
+    api.openArt(ccPart.model);
+    var ccWrap = (document.body._children || [])[0];
+    var ccNote = ccWrap && ccWrap._q ? ccWrap._q["[data-art-source]"] : null;
+    check("lightbox shows the CC credit", !!ccNote && ccNote.textContent.indexOf("Commons") >= 0,
+      ccNote ? ccNote.textContent : "n/a");
+    api.closeArt();
+  }
+  var lcscPart = api.PART_INDEX.filter(function (p) { return p.img && /立创/.test(p.imgCredit || ""); })[0];
+  if (lcscPart) {
+    api.openArt(lcscPart.model);
+    var lcWrap = (document.body._children || [])[0];
+    var lcNote = lcWrap && lcWrap._q ? lcWrap._q["[data-art-source]"] : null;
+    check("lightbox shows the LCSC credit", !!lcNote && lcNote.textContent.indexOf("立创") >= 0,
+      lcNote ? lcNote.textContent : "n/a");
+    api.closeArt();
+  }
 
   var fakeImg = stubEl();
   fakeImg.tagName = "IMG";

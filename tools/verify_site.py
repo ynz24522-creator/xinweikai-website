@@ -237,6 +237,20 @@ def check_part_photos():
         bad = [e["file"] for e in entries if not os.path.exists(os.path.join(SITE, e["file"]))]
         if bad:
             errors.append("manifest lists %d missing files, e.g. %s" % (len(bad), bad[:3]))
+        # 外部图源必须能追溯；CC 图必须带许可与作者
+        for e in entries:
+            if e.get("source") in ("commons", "web", "brand"):
+                if not e.get("sourceUrl"):
+                    errors.append("manifest entry without sourceUrl: %s" % e["file"])
+                if e["source"] == "commons" and (not e.get("license") or not e.get("author")):
+                    errors.append("CC image missing licence/author: %s" % e["file"])
+        # 每个有图的型号都要有来源文案
+        no_credit = [p["m"] for c in data["categories"] for s in c["subs"] for p in s["parts"]
+                     if p.get("img") and not p.get("imgCredit")]
+        if no_credit:
+            warnings.append("%d parts with a photo but no credit, e.g. %s" % (len(no_credit), no_credit[:3]))
+        if not os.path.exists(os.path.join(SITE, "docs", "图片复核.html")):
+            warnings.append("docs/图片复核.html not generated yet")
         covered = sum(len(e.get("models", [])) for e in entries)
         shared = len(photos) - covered
         print("manifest: %d photos, %d exact models, %d shared-family models" % (len(entries), covered, shared))

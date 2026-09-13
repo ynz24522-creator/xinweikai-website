@@ -30,7 +30,7 @@ SCRIPT_LABEL = os.path.basename(HERE) + "/build.py"
 
 BASE_URL = "https://ynz24522-creator.github.io/xinweikai-website/"
 # Bump when CSS/JS change so browsers bypass the GitHub Pages 10-minute asset cache.
-ASSET_VERSION = "20260912e"
+ASSET_VERSION = "20260912f"
 
 COMPANY = {
     "nameZh": "深圳市鑫威凯科技有限公司",
@@ -112,7 +112,8 @@ I18N = {
         "common.viewCategory": "查看该分类",
         "common.close": "关闭",
         "common.imageNote": "部分型号为立创商城实物图，部分为示意图，图片仅供参考；实际以品牌与批次包装为准。",
-        "common.imageSource": "图片来源：立创商城",
+        "common.imageSource": "图片来源：{source}",
+        "common.imageSourceDefault": "立创商城",
         "common.params": "关键参数",
         "common.desc": "说明",
         "common.actions": "操作",
@@ -261,7 +262,8 @@ I18N = {
         "common.viewCategory": "View category",
         "common.close": "Close",
         "common.imageNote": "Some images are LCSC product photos, others are schematic illustrations. For reference only - the actual brand and batch packaging prevail.",
-        "common.imageSource": "Image source: LCSC",
+        "common.imageSource": "Image source: {source}",
+        "common.imageSourceDefault": "LCSC",
         "common.params": "Key parameters",
         "common.desc": "Type",
         "common.actions": "Actions",
@@ -1238,29 +1240,38 @@ def apply_part_images(data):
     with open(manifest_path, encoding="utf-8") as fh:
         manifest = json.load(fh)
     mapping = {}
+    credits = {}
     for entry in manifest.get("entries", []):
         for model in entry.get("models", []):
             mapping[model] = entry["file"]
+            credits[model] = entry.get("credit") or ""
     applied = 0
     family = {}
+    family_credit = {}
     for cat in data["categories"]:
         for sub in cat["subs"]:
             for part in sub["parts"]:
                 img = mapping.get(part["m"])
                 if img:
                     part["img"] = img
+                    if credits.get(part["m"]):
+                        part["imgCredit"] = credits[part["m"]]
                     applied += 1
                     if part["t"] in PASSIVE_TYPES:
                         family.setdefault((part["t"], part["k"]), img)
+                        family_credit.setdefault((part["t"], part["k"]), credits.get(part["m"], ""))
     reused = 0
     for cat in data["categories"]:
         for sub in cat["subs"]:
             for part in sub["parts"]:
                 if part.get("img"):
                     continue
-                img = family.get((part["t"], part["k"]))
+                key = (part["t"], part["k"])
+                img = family.get(key)
                 if img:
                     part["img"] = img
+                    if not part.get("imgCredit"):
+                        part["imgCredit"] = family_credit.get(key, "")
                     part["imgShared"] = True
                     reused += 1
     globals()["SHARED_PHOTOS"] = reused
@@ -1418,8 +1429,14 @@ def write_docs():
 ### 产品图片是怎么来的
 
 - **实物图**：`assets/img/parts/<立创编号>.jpg`（300×300），从立创商城按型号检索匹配而来，清单见 `assets/img/parts/manifest.json`（含型号、立创编号、原图地址、匹配方式）。页面优先显示实物图。
-- **示意图**：尚未匹配到实物图的型号，由 `assets/js/part-art.js` 现场生成（类型决定形状、封装决定引脚比例、大类决定主色），保证每个型号都有图。
-- 抓取与同步：抓取结果落在 `work/lcsc/`（`index.json` + `raw/*.jpg`），运行 `python3 tools/sync_lcsc_images.py` 即压缩到 300×300、刷新清单；重新执行 `tools/build.py` 会自动把清单里的图片写进 `data.js` 的 `img` 字段。
+- **外部图源实物图**：`assets/img/parts/web/*.jpg`（300×300），来自 Wikimedia Commons（CC 授权，带署名）或品牌官网/网络检索，记录在 `work/webimg/index.json`。
+- **示意图**：确实找不到实物图的型号，由 `assets/js/part-art.js` 现场生成（类型决定形状、封装决定引脚比例、大类决定主色），保证每个型号都有图。
+- 抓取与同步流程：
+  1. 立创图：`work/lcsc/index.json` + `raw/*.jpg`（浏览器会话里跑 `work/lcsc/cua_runner.js` 续抓）。
+  2. 外部图：`python3 tools/fetch_web_images.py [--limit N] [--only 型号1,型号2] [--reencode]`（Commons → 品牌官网 → 必应兜底，结果写 `work/webimg/index.json`）。
+  3. 合并与压缩：`python3 tools/sync_images.py`（300×300 白底、体积 < 60KB、刷新清单与 `docs/图片复核.html`）。
+  4. 生成站点：`python3 tools/build.py` 会把清单里的图片与来源写进 `data.js` 的 `img` / `imgCredit`。
+  5. 复核与撤回：在 `docs/图片复核.html` 里挑出不符合的型号，写进 `work/webimg/blocklist.txt` 后重复第 3-4 步即可恢复为示意图。
 
 ### 插图（示意图）是怎么来的
 
@@ -1497,11 +1514,14 @@ def write_docs():
 
 ## 五、产品图片来源与说明
 
-- 站点产品图分两类：**立创商城实物图**（`assets/img/parts/<立创编号>.jpg`，300×300，来源与型号对应关系记录在 `assets/img/parts/manifest.json`）与**代码生成的示意图**（`assets/js/part-art.js`，用于暂未匹配到实物图的型号）。
-- 实物图按型号从立创商城检索并匹配（优先型号完全一致，其次品牌+封装+关键参数一致），匹配结果与来源地址都记录在清单里，便于复核与追溯。
-- 实物图**仅供参考**，可能与实际到货的品牌、批次、包装存在差异；页面表格下方与浮层内均标注「部分型号为立创商城实物图，部分为示意图……实际以品牌与批次包装为准」，浮层内另标注图片来源。
-- 版权提示：立创商城商品图版权归立创商城/原厂所有。若需完全规避风险，建议逐步替换为自有实拍图——把新图放进 `assets/img/parts/` 并在 `assets/js/data.js` 对应型号上填写 `img` 字段即可覆盖；替换后建议从清单中删除对应条目。
-- 同步脚本：`tools/sync_lcsc_images.py` 会把抓取结果压缩成 300×300 并刷新清单与图片。
+- 站点产品图分两类：**实物图**（`assets/img/parts/**`，300×300 白底 JPEG）与**代码生成的示意图**（`assets/js/part-art.js`，仅用于确实找不到实物图的型号，目前 10 个）。
+- 实物图来源（每次同步都会写入 `assets/img/parts/manifest.json` 的 `source` 字段）：
+  - `lcsc`：立创商城商品图（按型号检索匹配，含品牌+封装兜底），credit 记为「立创商城」。
+  - `commons`：Wikimedia Commons 的 CC0 / 公共领域 / CC BY / CC BY-SA 图片，清单里保存作者、许可名称与许可链接，站内浮层会显示「Wikimedia Commons / 许可」。
+  - `brand` / `web`：品牌官网、授权分销或公开网络图片（部分来自图片搜索引擎），credit 记为来源域名。
+- 站点浮层逐图显示「图片来源：<具体来源>」，表格与浮层同时保留「图片仅供参考，以品牌与批次包装为准」的免责声明。
+- 版权提示：外部图片版权归原站/原作者所有；CC 图片已按许可保留署名信息。若需完全规避风险，建议替换为自有实拍图——把新图放进 `assets/img/parts/` 并在 `assets/js/data.js` 对应型号上填写 `img`/`imgCredit` 即可覆盖。
+- 同步脚本：`tools/sync_images.py` 合并「立创抓取结果 + 外部图源结果」，压缩成 300×300、刷新清单，并生成人工复核页 `docs/图片复核.html`；被判定不适合的型号写入 `work/webimg/blocklist.txt` 后重新同步即可恢复为示意图。
 """.format(cats=len(CATEGORIES), subs=TOTAL_SUBS, parts=TOTAL_PARTS, brands=len(catalog.BRANDS))
 
     with open(os.path.join(OUT, "docs", "使用说明.md"), "w", encoding="utf-8") as fh:

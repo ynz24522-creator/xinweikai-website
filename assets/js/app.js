@@ -178,7 +178,7 @@
       (sub.parts || []).forEach(function (p) {
         PART_INDEX.push({
           model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t,
-          catId: cat.id, subId: sub.id, img: p.img || ""
+          catId: cat.id, subId: sub.id, img: p.img || "", imgCredit: p.imgCredit || ""
         });
       });
     });
@@ -789,7 +789,8 @@
       if (!parts.length) { return; }
       total += parts.length;
       var mapped = parts.map(function (p) {
-        return { model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t, catId: cat.id, subId: sub.id, img: p.img || "" };
+        return { model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t, catId: cat.id,
+                 subId: sub.id, img: p.img || "", imgCredit: p.imgCredit || "" };
       });
       html += '<section class="sub-section" id="sub-' + esc(sub.id) + '">' +
         '<div class="sub-head"><h3>' + esc(nameOf(sub, "zh", "en")) + "</h3>" +
@@ -836,7 +837,8 @@
     } else {
       list.push({
         model: part.model, brand: part.brand, pkg: part.pkg, params: part.params,
-        type: part.type, catId: part.catId, img: part.img || "", qty: "1", note: ""
+        type: part.type, catId: part.catId, img: part.img || "",
+        imgCredit: part.imgCredit || "", qty: "1", note: ""
       });
     }
     writeInquiry(list);
@@ -1000,7 +1002,9 @@
     var sourceNote = $("[data-art-source]", wrap);
     if (sourceNote) {
       sourceNote.hidden = !part.img;
-      sourceNote.textContent = t("common.imageSource");
+      sourceNote.textContent = t("common.imageSource", {
+        source: part.imgCredit || t("common.imageSourceDefault")
+      });
     }
     $("[data-art-title]", wrap).textContent = part.model;
     var rows = [
