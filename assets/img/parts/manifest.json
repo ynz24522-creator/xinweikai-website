@@ -1,7 +1,7 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 672,
- "imageCount": 672,
+ "count": 695,
+ "imageCount": 695,
  "entries": [
   {
    "file": "assets/img/parts/C10002.jpg",
@@ -506,6 +506,17 @@
    "bytes": 33381
   },
   {
+   "file": "assets/img/parts/C125331.jpg",
+   "code": "C125331",
+   "matched": "HIWA E0508",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250809_HIWA-E0508_C125331_front.jpg",
+   "matchedVia": "CHIPSAILING E0508",
+   "models": [
+    "冷压端子-管型"
+   ],
+   "bytes": 36564
+  },
+  {
    "file": "assets/img/parts/C125626.jpg",
    "code": "C125626",
    "matched": "Senba Sensing Tech GL5516",
@@ -849,6 +860,17 @@
    "bytes": 22903
   },
   {
+   "file": "assets/img/parts/C14655.jpg",
+   "code": "C14655",
+   "matched": "ST TIP127",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_STMicroelectronics-TIP127_C14655_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TIP127"
+   ],
+   "bytes": 37539
+  },
+  {
    "file": "assets/img/parts/C146580.jpg",
    "code": "C146580",
    "matched": "Ckmtw Z-ICS0S16P-NG00",
@@ -1040,6 +1062,17 @@
    "bytes": 33774
   },
   {
+   "file": "assets/img/parts/C1523867.jpg",
+   "code": "C1523867",
+   "matched": "Alliance Memory AS6C62256-55SIN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250428_Alliance-Memory-AS6C62256-55SIN_C1523867_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AS6C62256-55SIN"
+   ],
+   "bytes": 36377
+  },
+  {
    "file": "assets/img/parts/C1525.jpg",
    "code": "C1525",
    "matched": "Samsung Electro-Mechanics CL05B104KO5NNNC",
@@ -1070,6 +1103,17 @@
    "matchedVia": "CONSONANCE COG",
    "models": [
     "ST7789V2"
+   ],
+   "bytes": 28071
+  },
+  {
+   "file": "assets/img/parts/C154992.jpg",
+   "code": "C154992",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CONSONANCE COG",
+   "models": [
+    "ILI9341V"
    ],
    "bytes": 28071
   },
@@ -1273,6 +1317,17 @@
     "CL21A106KAYNNNE"
    ],
    "bytes": 27847
+  },
+  {
+   "file": "assets/img/parts/C171428.jpg",
+   "code": "C171428",
+   "matched": "Shikues TL432",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251127_Shikues-TL432_C171428_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TL432"
+   ],
+   "bytes": 29389
   },
   {
    "file": "assets/img/parts/C17168.jpg",
@@ -2442,6 +2497,17 @@
    "bytes": 30501
   },
   {
+   "file": "assets/img/parts/C2650.jpg",
+   "code": "C2650",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "TSC TO-220",
+   "models": [
+    "BT151-800R"
+   ],
+   "bytes": 30501
+  },
+  {
    "file": "assets/img/parts/C2655410.jpg",
    "code": "C2655410",
    "matched": "MICROCHIP 24LC02BT-I/OT",
@@ -2685,6 +2751,17 @@
    "bytes": 33629
   },
   {
+   "file": "assets/img/parts/C2837530.jpg",
+   "code": "C2837530",
+   "matched": "kinghelm KH-6X6X4.3H-STM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_Shenzhen-Kinghelm-Elec-KH-6X6X4-3H-STM_C2837530_front.jpg",
+   "matchedVia": "CHIPSAILING SMD 6×6×4.3",
+   "models": [
+    "6x6-轻触开关-贴片"
+   ],
+   "bytes": 34994
+  },
+  {
    "file": "assets/img/parts/C2838502.jpg",
    "code": "C2838502",
    "matched": "ESPRESSIF ESP32-C3-MINI-1-N4",
@@ -2705,6 +2782,17 @@
     "MF58-104F3950"
    ],
    "bytes": 37129
+  },
+  {
+   "file": "assets/img/parts/C2842183.jpg",
+   "code": "C2842183",
+   "matched": "HCI FR08S4-32.768-N06LLDT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230127_HCI-FR08S4-32-768-N06LLDT_C2842183_front.jpg",
+   "matchedVia": "SUNLORD MC-306",
+   "models": [
+    "MC-306-32.768KHZ"
+   ],
+   "bytes": 32326
   },
   {
    "file": "assets/img/parts/C2842312.jpg",
@@ -3778,6 +3866,17 @@
    "bytes": 34100
   },
   {
+   "file": "assets/img/parts/C398940.jpg",
+   "code": "C398940",
+   "matched": "ALPSALPINE SPPJ322300",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230113_ALPSALPINE-SPPJ322300_C398940_front.jpg",
+   "matchedVia": "CHIPSAILING 插件 22mm",
+   "models": [
+    "旋钮开关-LAY37"
+   ],
+   "bytes": 32807
+  },
+  {
    "file": "assets/img/parts/C40382.jpg",
    "code": "C40382",
    "matched": "MICROCHIP ATTINY13A-SSUR",
@@ -4279,6 +4378,17 @@
     "3386P-1-103LF"
    ],
    "bytes": 35412
+  },
+  {
+   "file": "assets/img/parts/C49234125.jpg",
+   "code": "C49234125",
+   "matched": "hanxia HX-3x6x2.5-X SMD tact Switch",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250704_hanxia-HX-3x6x2-5-X-SMD-tact-Switch_C49234125_front.jpg",
+   "matchedVia": "CHIPSAILING SMD 3×6×2.5",
+   "models": [
+    "TS-1187A-3x6-贴片"
+   ],
+   "bytes": 32910
   },
   {
    "file": "assets/img/parts/C49234140.jpg",
@@ -5313,6 +5423,17 @@
    "code": "C57082",
    "matched": "",
    "sourceUrl": "",
+   "matchedVia": "NANLIN SOP-8",
+   "models": [
+    "TP4100"
+   ],
+   "bytes": 26565
+  },
+  {
+   "file": "assets/img/parts/C57082.jpg",
+   "code": "C57082",
+   "matched": "",
+   "sourceUrl": "",
    "matchedVia": "CHIPSAILING SOP-8",
    "models": [
     "BP3105"
@@ -5431,6 +5552,17 @@
    "bytes": 27895
   },
   {
+   "file": "assets/img/parts/C5947.jpg",
+   "code": "C5947",
+   "matched": "Nexperia 74HC595D,118",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Nexperia-74HC595D-118_C5947_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "74HC595D"
+   ],
+   "bytes": 33114
+  },
+  {
    "file": "assets/img/parts/C5955.jpg",
    "code": "C5955",
    "matched": "",
@@ -5539,6 +5671,115 @@
     "NEO-M8N"
    ],
    "bytes": 33065
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "Hanbo Electronic HB-PH3-25413PB2GOP",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230606_Hanbo-Electronic-HB-PH3-25413PB2GOP_C6332196_front.jpg",
+   "matchedVia": "electronic component",
+   "models": [
+    "0603WGF0000TCE",
+    "0603WGF10R0TCE",
+    "0603WGF1000TCE",
+    "0603WGF1001TCE",
+    "0603WGF2201TCE",
+    "0603WGF4701TCE",
+    "0603WGF1002TCE",
+    "0603WGF2202TCE",
+    "0603WGF4702TCE",
+    "0603WGF1003TCE"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "Hanbo Electronic HB-PH3-25413PB2GOP",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230606_Hanbo-Electronic-HB-PH3-25413PB2GOP_C6332196_front.jpg",
+   "matchedVia": "electronic component",
+   "models": [
+    "0805WGF0000TCE",
+    "0805WGF1000TCE",
+    "0805WGF1001TCE",
+    "0805WGF4701TCE",
+    "0805WGF1002TCE",
+    "0805WGF4702TCE",
+    "0805WGF1003TCE",
+    "0805WGF1004TCE"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "Hanbo Electronic HB-PH3-25413PB2GOP",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230606_Hanbo-Electronic-HB-PH3-25413PB2GOP_C6332196_front.jpg",
+   "matchedVia": "electronic component",
+   "models": [
+    "1206WGF0000TCE",
+    "1206WGF1000TCE",
+    "1206WGF1001TCE",
+    "1206WGF1002TCE",
+    "1206WGF1003TCE",
+    "1206WGF1004TCE"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "electronic component",
+   "models": [
+    "M4"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "electronic component",
+   "models": [
+    "SL22"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "electronic component",
+   "models": [
+    "TPA3116D2"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "electronic component",
+   "models": [
+    "MAX3232ESE"
+   ],
+   "bytes": 35052
+  },
+  {
+   "file": "assets/img/parts/C6332196.jpg",
+   "code": "C6332196",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "electronic component",
+   "models": [
+    "ENC28J60-I/SO"
+   ],
+   "bytes": 35052
   },
   {
    "file": "assets/img/parts/C63451.jpg",
@@ -6022,6 +6263,17 @@
    "matchedVia": "model",
    "models": [
     "TS-1088-3x6-插件"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "6x6-轻触开关-插件"
    ],
    "bytes": 37701
   },
@@ -6959,6 +7211,17 @@
    "bytes": 28971
   },
   {
+   "file": "assets/img/parts/C903228.jpg",
+   "code": "C903228",
+   "matched": "onsemi SS8550DTA",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241128_onsemi-SS8550DTA_C903228_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS8550"
+   ],
+   "bytes": 39210
+  },
+  {
    "file": "assets/img/parts/C9055.jpg",
    "code": "C9055",
    "matched": "MaxLinear SPX3819M5-L-3-3/TR",
@@ -7381,6 +7644,17 @@
     "W25Q256JVEIQ"
    ],
    "bytes": 31629
+  },
+  {
+   "file": "assets/img/parts/C9753.jpg",
+   "code": "C9753",
+   "matched": "MAXIM DS18B20+",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260905_MAXIM-DS18B20-_C9753_front.jpg",
+   "matchedVia": "CONSONANCE TO-92",
+   "models": [
+    "TL431A"
+   ],
+   "bytes": 39590
   },
   {
    "file": "assets/img/parts/C976032.jpg",
