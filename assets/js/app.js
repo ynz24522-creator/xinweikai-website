@@ -789,7 +789,7 @@
       if (!parts.length) { return; }
       total += parts.length;
       var mapped = parts.map(function (p) {
-        return { model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t, catId: cat.id, subId: sub.id };
+        return { model: p.m, brand: p.b, pkg: p.k, params: p.p, type: p.t, catId: cat.id, subId: sub.id, img: p.img || "" };
       });
       html += '<section class="sub-section" id="sub-' + esc(sub.id) + '">' +
         '<div class="sub-head"><h3>' + esc(nameOf(sub, "zh", "en")) + "</h3>" +
@@ -836,7 +836,7 @@
     } else {
       list.push({
         model: part.model, brand: part.brand, pkg: part.pkg, params: part.params,
-        type: part.type, catId: part.catId, qty: "1", note: ""
+        type: part.type, catId: part.catId, img: part.img || "", qty: "1", note: ""
       });
     }
     writeInquiry(list);

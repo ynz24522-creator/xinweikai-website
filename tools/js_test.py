@@ -187,6 +187,18 @@ check("table has image column", tableHtml.indexOf(api.t("common.image")) >= 0, "
 check("table carries the art disclaimer", tableHtml.indexOf("art-note") >= 0, "");
 check("thumbnail helper returns markup", api.thumbHtml(samplePart).indexOf("part-thumb") >= 0, "");
 
+/* ---------- category page rows keep the photo field ---------- */
+var catPhotos = 0, catRows = 0;
+window.XWK_DATA.categories.forEach(function (c) {
+  c.subs.forEach(function (s) {
+    var query = "";
+    s.parts.forEach(function () { catRows += 1; });
+    var withImg = s.parts.filter(function (p) { return p.img; }).length;
+    catPhotos += withImg;
+  });
+});
+check("catalogue keeps photos on category pages", catPhotos > 0, catPhotos + "/" + catRows);
+
 /* ---------- photos from LCSC + fallback ---------- */
 var photoParts = api.PART_INDEX.filter(function (p) { return p.img; });
 check("catalogue carries synced photos", photoParts.length > 0, photoParts.length);

@@ -194,6 +194,11 @@ def check_assets():
     for needle in ("openArt", "closeArt", "data-open-art", "common.imageNote"):
         if needle not in app:
             errors.append("app.js: missing %s" % needle)
+    # 分类页与询价清单也要带上实物图字段（曾经漏过，导致分类页只显示示意图）
+    if 'img: p.img || ""' not in app:
+        errors.append("app.js: category rows drop the photo field")
+    if "img: part.img || \"\"" not in app:
+        errors.append("app.js: inquiry rows drop the photo field")
 
 
 def check_art_coverage():
