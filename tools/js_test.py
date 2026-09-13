@@ -220,7 +220,9 @@ var title = lbWrap && lbWrap._q ? lbWrap._q["[data-art-title]"] : null;
 var meta = lbWrap && lbWrap._q ? lbWrap._q["[data-art-meta]"] : null;
 var actions = lbWrap && lbWrap._q ? lbWrap._q["[data-art-actions]"] : null;
 check("lightbox created", !!lbWrap && lbWrap.hidden === false, "hidden=" + (lbWrap ? lbWrap.hidden : "n/a"));
-check("lightbox shows large illustration", !!figure && figure.innerHTML.indexOf("<svg") >= 0 && figure.innerHTML.indexOf(lbModel) >= 0, "");
+check("lightbox shows the large image", !!figure &&
+  (figure.innerHTML.indexOf("<svg") >= 0 || figure.innerHTML.indexOf("<img") >= 0) &&
+  figure.innerHTML.indexOf(lbModel) >= 0, "");
 check("lightbox title is the model", !!title && title.textContent === lbModel, title ? title.textContent : "n/a");
 check("lightbox lists parameters", !!meta && meta.innerHTML.indexOf("LQFP-48") >= 0, "");
 check("lightbox offers inquiry actions",
