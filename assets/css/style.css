@@ -45,6 +45,9 @@ body {
 }
 
 img, svg { max-width: 100%; }
+/* hidden 属性是唯一的显示开关：组件样式（如 .lightbox{display:grid}、.btn{display:inline-flex}）
+   优先级高于浏览器默认的 [hidden]，必须显式兜底，否则 JS 设了 hidden 也关不掉。 */
+[hidden] { display: none !important; }
 a { color: var(--brand); text-decoration: none; }
 a:hover { color: var(--accent); }
 h1, h2, h3, h4 { line-height: 1.25; margin: 0 0 12px; color: var(--ink); }

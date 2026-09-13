@@ -30,7 +30,7 @@ SCRIPT_LABEL = os.path.basename(HERE) + "/build.py"
 
 BASE_URL = "https://ynz24522-creator.github.io/xinweikai-website/"
 # Bump when CSS/JS change so browsers bypass the GitHub Pages 10-minute asset cache.
-ASSET_VERSION = "20260912f"
+ASSET_VERSION = "20260912g"
 
 COMPANY = {
     "nameZh": "深圳市鑫威凯科技有限公司",

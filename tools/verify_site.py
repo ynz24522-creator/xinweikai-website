@@ -190,6 +190,9 @@ def check_assets():
     for needle in (".part-thumb", ".lightbox", ".art-note", ".art-cell"):
         if needle not in css:
             errors.append("style.css: missing %s" % needle)
+    # hidden 属性必须能真正隐藏元素（浮层 ✕、询价角标、加载更多都依赖它）
+    if not re.search(r"\[hidden\]\s*\{[^}]*display:\s*none", css):
+        errors.append("style.css: missing [hidden] { display: none } rule")
     app = read(os.path.join(SITE, "assets", "js", "app.js"))
     for needle in ("openArt", "closeArt", "data-open-art", "common.imageNote"):
         if needle not in app:
