@@ -1,7 +1,7 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 475,
- "imageCount": 475,
+ "count": 552,
+ "imageCount": 552,
  "entries": [
   {
    "file": "assets/img/parts/C10002.jpg",
@@ -141,6 +141,17 @@
    "bytes": 27152
   },
   {
+   "file": "assets/img/parts/C109322.jpg",
+   "code": "C109322",
+   "matched": "TI TPS63070RNMR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Texas-Instruments-TPS63070RNMR_C109322_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "9V-碳性电池"
+   ],
+   "bytes": 24339
+  },
+  {
    "file": "assets/img/parts/C109392.jpg",
    "code": "C109392",
    "matched": "Rubycon 35ZLH100MEFC6.3X11",
@@ -217,6 +228,17 @@
     "FFC-0.5-40P-上接"
    ],
    "bytes": 6486
+  },
+  {
+   "file": "assets/img/parts/C111566.jpg",
+   "code": "C111566",
+   "matched": "onsemi ESD9B5.0ST5G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_onsemi-ESD9B5-0ST5G_C111566_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESD9B5.0ST5G"
+   ],
+   "bytes": 25094
   },
   {
    "file": "assets/img/parts/C111780.jpg",
@@ -327,6 +349,28 @@
     "LM2596S-5.0"
    ],
    "bytes": 30082
+  },
+  {
+   "file": "assets/img/parts/C118534.jpg",
+   "code": "C118534",
+   "matched": "ARKLED SN460561N/0.56//2",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_ARKLED-Wuxi-ARK-Tech-Elec-SN460561N-0-56--2_C118534_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0.56-2位-共阳-数码管"
+   ],
+   "bytes": 31238
+  },
+  {
+   "file": "assets/img/parts/C118534.jpg",
+   "code": "C118534",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "0.56-4位-共阴-数码管"
+   ],
+   "bytes": 31238
   },
   {
    "file": "assets/img/parts/C121953.jpg",
@@ -530,6 +574,17 @@
    "bytes": 30538
   },
   {
+   "file": "assets/img/parts/C132660.jpg",
+   "code": "C132660",
+   "matched": "ARKLED SR410361N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_ARKLED-Wuxi-ARK-Tech-Elec-SR410361N_C132660_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0.36-4位-共阴-数码管"
+   ],
+   "bytes": 31958
+  },
+  {
    "file": "assets/img/parts/C13517.jpg",
    "code": "C13517",
    "matched": "WCH CH341A",
@@ -583,6 +638,17 @@
     "X322525MSB4SI"
    ],
    "bytes": 25910
+  },
+  {
+   "file": "assets/img/parts/C138714.jpg",
+   "code": "C138714",
+   "matched": "TI TPD4E05U06DQAR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Texas-Instruments-TPD4E05U06DQAR_C138714_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TPD4E05U06"
+   ],
+   "bytes": 25968
   },
   {
    "file": "assets/img/parts/C13879.jpg",
@@ -1144,6 +1210,17 @@
    "bytes": 32597
   },
   {
+   "file": "assets/img/parts/C18211636.jpg",
+   "code": "C18211636",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "数码管模块-4位-TM1650"
+   ],
+   "bytes": 32597
+  },
+  {
    "file": "assets/img/parts/C18221462.jpg",
    "code": "C18221462",
    "matched": "JSMSEMI A3144E-JSM",
@@ -1238,6 +1315,51 @@
    "bytes": 23835
   },
   {
+   "file": "assets/img/parts/C19171391.jpg",
+   "code": "C19171391",
+   "matched": "YONGYUTAI YLED0805R",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231110_YONGYUTAI-YLED0805R_C19171391_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0805-红光-贴片LED",
+    "0805-蓝光-贴片LED"
+   ],
+   "bytes": 28530
+  },
+  {
+   "file": "assets/img/parts/C19184125.jpg",
+   "code": "C19184125",
+   "matched": "Battery Contact Spring Positive 04 Ni Compatible with 18650 Battery SMT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231120_MYOUNG-MY-18650-04-J_C19184125_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "18650-锂电池-2500mAh"
+   ],
+   "bytes": 34368
+  },
+  {
+   "file": "assets/img/parts/C19184125.jpg",
+   "code": "C19184125",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "18650-电池座-单节"
+   ],
+   "bytes": 34368
+  },
+  {
+   "file": "assets/img/parts/C19184125.jpg",
+   "code": "C19184125",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "18650-电池座-双节"
+   ],
+   "bytes": 34368
+  },
+  {
    "file": "assets/img/parts/C191915.jpg",
    "code": "C191915",
    "matched": "PANASONIC ERA2AEB103X",
@@ -1280,6 +1402,17 @@
    "matchedVia": "model",
    "models": [
     "继电器模块-5V-8路"
+   ],
+   "bytes": 26055
+  },
+  {
+   "file": "assets/img/parts/C19224.jpg",
+   "code": "C19224",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "PESD5V0S1BA"
    ],
    "bytes": 26055
   },
@@ -1348,6 +1481,19 @@
     "L9110S"
    ],
    "bytes": 33161
+  },
+  {
+   "file": "assets/img/parts/C19273151.jpg",
+   "code": "C19273151",
+   "matched": "YONGYUTAI YLED0603G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231219_YONGYUTAI-YLED0603G_C19273151_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0603-红光-贴片LED",
+    "0603-绿光-贴片LED",
+    "0603-蓝光-贴片LED"
+   ],
+   "bytes": 29144
   },
   {
    "file": "assets/img/parts/C193010.jpg",
@@ -1518,6 +1664,17 @@
    "bytes": 34393
   },
   {
+   "file": "assets/img/parts/C20612594.jpg",
+   "code": "C20612594",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "PC817-C-贴片"
+   ],
+   "bytes": 34393
+  },
+  {
    "file": "assets/img/parts/C2077241.jpg",
    "code": "C2077241",
    "matched": "VISHAY RCA040210K0FKED",
@@ -1538,6 +1695,17 @@
     "AO3400A"
    ],
    "bytes": 24300
+  },
+  {
+   "file": "assets/img/parts/C21397.jpg",
+   "code": "C21397",
+   "matched": "muRata GRM32ER71E226KE15L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251022_muRata-GRM32ER71E226KE15L_C21397_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "E22-400T22S"
+   ],
+   "bytes": 31794
   },
   {
    "file": "assets/img/parts/C2156989.jpg",
@@ -1629,6 +1797,17 @@
    "bytes": 24833
   },
   {
+   "file": "assets/img/parts/C22751394.jpg",
+   "code": "C22751394",
+   "matched": "YLPTEC LS05-13B05R3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240831_YLPTEC-LS05-13B05R3_C22751394_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "COB-5W-白光"
+   ],
+   "bytes": 43196
+  },
+  {
    "file": "assets/img/parts/C232460.jpg",
    "code": "C232460",
    "matched": "onsemi 1N5408RLG",
@@ -1649,6 +1828,17 @@
     "ES1J"
    ],
    "bytes": 32045
+  },
+  {
+   "file": "assets/img/parts/C233176.jpg",
+   "code": "C233176",
+   "matched": "RUILON 10D681K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_RUILON-Shenzhen-Ruilongyuan-Elec-10D681K_C233176_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "10D681K"
+   ],
+   "bytes": 38332
   },
   {
    "file": "assets/img/parts/C2337.jpg",
@@ -1717,6 +1907,17 @@
    "bytes": 29538
   },
   {
+   "file": "assets/img/parts/C2462.jpg",
+   "code": "C2462",
+   "matched": "MDD(Microdiode Semiconductor) 10A10",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251214_MDD-Microdiode-Semiconductor-10A10_C2462_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "贴片保险丝-2410-10A"
+   ],
+   "bytes": 37975
+  },
+  {
    "file": "assets/img/parts/C24735470.jpg",
    "code": "C24735470",
    "matched": "TE Connectivity ANT-433-CW-RH-SMA",
@@ -1764,6 +1965,17 @@
    "bytes": 34180
   },
   {
+   "file": "assets/img/parts/C252203.jpg",
+   "code": "C252203",
+   "matched": "ARKLED SM420806N/8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230109_ARKLED-Wuxi-ARK-Tech-Elec-SM420806N-8_C252203_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1位-0.8-共阳-数码管"
+   ],
+   "bytes": 33041
+  },
+  {
    "file": "assets/img/parts/C2566.jpg",
    "code": "C2566",
    "matched": "Infineon IRF540NPBF",
@@ -1806,6 +2018,17 @@
     "24LC02BT-I/OT"
    ],
    "bytes": 29208
+  },
+  {
+   "file": "assets/img/parts/C2677035.jpg",
+   "code": "C2677035",
+   "matched": "TI UCC27282DRCR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Texas-Instruments-UCC27282DRCR_C2677035_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "锂电池保护板-1S-3A"
+   ],
+   "bytes": 29795
   },
   {
    "file": "assets/img/parts/C2682774.jpg",
@@ -1962,6 +2185,17 @@
    "bytes": 29003
   },
   {
+   "file": "assets/img/parts/C28310439.jpg",
+   "code": "C28310439",
+   "matched": "YONGYUTAI YLED1206R",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240730_YONGYUTAI-YLED1206R_C28310439_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1206-白光-贴片LED"
+   ],
+   "bytes": 30691
+  },
+  {
    "file": "assets/img/parts/C2831791.jpg",
    "code": "C2831791",
    "matched": "KNSCHA 01EC1263",
@@ -1971,6 +2205,39 @@
     "EC12-24-无按键"
    ],
    "bytes": 36793
+  },
+  {
+   "file": "assets/img/parts/C2836319.jpg",
+   "code": "C2836319",
+   "matched": "MSKSEMI SRV05-4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230216_MSKSEMI-SRV05-4_C2836319_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SRV05-4"
+   ],
+   "bytes": 30797
+  },
+  {
+   "file": "assets/img/parts/C2836432.jpg",
+   "code": "C2836432",
+   "matched": "KNSCHA 07D471K68RV0149",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251013_KNSCHA-07D471K68RV0149_C2836432_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMD1812-470V-压敏"
+   ],
+   "bytes": 33629
+  },
+  {
+   "file": "assets/img/parts/C2838502.jpg",
+   "code": "C2838502",
+   "matched": "ESPRESSIF ESP32-C3-MINI-1-N4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_Espressif-Systems-ESP32-C3-MINI-1-N4_C2838502_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP32-C3-MINI-1"
+   ],
+   "bytes": 34375
   },
   {
    "file": "assets/img/parts/C2839625.jpg",
@@ -1993,6 +2260,17 @@
     "HC-49S-8MHz"
    ],
    "bytes": 38229
+  },
+  {
+   "file": "assets/img/parts/C2843883.jpg",
+   "code": "C2843883",
+   "matched": "XINGLIGHT XL-5730SURC-05",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250807_XINGLIGHT-XL-5730SURC-05_C2843883_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "5730-白光-灯珠"
+   ],
+   "bytes": 31998
   },
   {
    "file": "assets/img/parts/C2846043.jpg",
@@ -2050,6 +2328,17 @@
    "bytes": 37131
   },
   {
+   "file": "assets/img/parts/C28756.jpg",
+   "code": "C28756",
+   "matched": "RUILON 07D471K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_RUILON-Shenzhen-Ruilongyuan-Elec-07D471K_C28756_front_10.jpg",
+   "matchedVia": "model",
+   "models": [
+    "07D471K"
+   ],
+   "bytes": 35497
+  },
+  {
    "file": "assets/img/parts/C2892564.jpg",
    "code": "C2892564",
    "matched": "YONGYUTAI MB6S",
@@ -2061,6 +2350,17 @@
    "bytes": 30851
   },
   {
+   "file": "assets/img/parts/C2895179.jpg",
+   "code": "C2895179",
+   "matched": "FH-BK(Guangdong Fenghua Bangke Elec) BKW0805UC047JST",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250604_FH-BK-Guangdong-Fenghua-Bangke-Elec-BKW0805UC047JST_C2895179_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0805-0.5A-自恢复"
+   ],
+   "bytes": 29875
+  },
+  {
    "file": "assets/img/parts/C2901876.jpg",
    "code": "C2901876",
    "matched": "STC Micro STC8G1K08-38I-SOP16",
@@ -2070,6 +2370,17 @@
     "STC15W204S-35I-SOP16"
    ],
    "bytes": 33224
+  },
+  {
+   "file": "assets/img/parts/C2913201.jpg",
+   "code": "C2913201",
+   "matched": "ESPRESSIF ESP32-S3-WROOM-1-N8R8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230125_Espressif-Systems-ESP32-S3-WROOM-1-N8R8_C2913201_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP32-S3-WROOM-1-N8R8"
+   ],
+   "bytes": 38891
   },
   {
    "file": "assets/img/parts/C29160.jpg",
@@ -2114,6 +2425,17 @@
     "GD25Q128ESIGR"
    ],
    "bytes": 28875
+  },
+  {
+   "file": "assets/img/parts/C2934560.jpg",
+   "code": "C2934560",
+   "matched": "ESPRESSIF ESP32-C3-WROOM-02-N4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230121_Espressif-Systems-ESP32-C3-WROOM-02-N4_C2934560_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP32-C3-WROOM-02"
+   ],
+   "bytes": 35487
   },
   {
    "file": "assets/img/parts/C2935356.jpg",
@@ -2181,6 +2503,17 @@
     "ZMM5V1"
    ],
    "bytes": 29008
+  },
+  {
+   "file": "assets/img/parts/C2982282.jpg",
+   "code": "C2982282",
+   "matched": "JDTfuse ASMD1812-200-30V",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230122_Shenzhen-JDT-Fuse-ASMD1812-200-30V_C2982282_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1812-2A-自恢复"
+   ],
+   "bytes": 31656
   },
   {
    "file": "assets/img/parts/C2984661.jpg",
@@ -2591,6 +2924,17 @@
    "bytes": 35123
   },
   {
+   "file": "assets/img/parts/C3656393.jpg",
+   "code": "C3656393",
+   "matched": "EVERLIGHT ITR9608-F",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Everlight-Elec-ITR9608-F_C3656393_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "红外对管-ITR9608"
+   ],
+   "bytes": 37472
+  },
+  {
    "file": "assets/img/parts/C36658.jpg",
    "code": "C36658",
    "matched": "TI REF3033AIDBZR",
@@ -2668,6 +3012,17 @@
    "bytes": 35021
   },
   {
+   "file": "assets/img/parts/C388427.jpg",
+   "code": "C388427",
+   "matched": "onsemi FDD5N60NZTM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20220609_onsemi-FDD5N60NZTM_C388427_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GDT-2R-600V"
+   ],
+   "bytes": 31457
+  },
+  {
    "file": "assets/img/parts/C39151690.jpg",
    "code": "C39151690",
    "matched": "Coilcraft 0805CS-100XJLC",
@@ -2678,6 +3033,17 @@
     "0805CS-220XJLC"
    ],
    "bytes": 23202
+  },
+  {
+   "file": "assets/img/parts/C39162023.jpg",
+   "code": "C39162023",
+   "matched": "SIMCom Wireless Solutions SIM868E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241021_SIMCom-Wireless-Solutions-SIM868E_C39162023_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATK-S1216F8-BD"
+   ],
+   "bytes": 42407
   },
   {
    "file": "assets/img/parts/C39313.jpg",
@@ -2702,6 +3068,17 @@
    "bytes": 29994
   },
   {
+   "file": "assets/img/parts/C40960.jpg",
+   "code": "C40960",
+   "matched": "SEMTECH RClAMP0524PATCT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_SEMTECH-RClamp0524PATCT_C40960_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RClamp0524P"
+   ],
+   "bytes": 26261
+  },
+  {
    "file": "assets/img/parts/C412436.jpg",
    "code": "C412436",
    "matched": "MDD(Microdiode Semiconductor) RS1M",
@@ -2712,6 +3089,17 @@
     "US1M"
    ],
    "bytes": 26253
+  },
+  {
+   "file": "assets/img/parts/C416165.jpg",
+   "code": "C416165",
+   "matched": "Viking CR-05JL7---6K8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230109_Viking-Tech-CR-05JL7---6K8_C416165_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "L76K"
+   ],
+   "bytes": 28388
   },
   {
    "file": "assets/img/parts/C422182.jpg",
@@ -2734,6 +3122,28 @@
     "2.54-2x10P-牛角"
    ],
    "bytes": 41741
+  },
+  {
+   "file": "assets/img/parts/C42381015.jpg",
+   "code": "C42381015",
+   "matched": "EVERLIGHT EL357N(B)(TA)-G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241227_Everlight-Elec-EL357N-B-TA-G_C42381015_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EL357N"
+   ],
+   "bytes": 32563
+  },
+  {
+   "file": "assets/img/parts/C42421366.jpg",
+   "code": "C42421366",
+   "matched": "EVERLIGHT IRM-3638T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250327_Everlight-Elec-IRM-3638T_C42421366_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IRM-3638B"
+   ],
+   "bytes": 41038
   },
   {
    "file": "assets/img/parts/C431944.jpg",
@@ -2918,6 +3328,28 @@
    "bytes": 11294
   },
   {
+   "file": "assets/img/parts/C48586675.jpg",
+   "code": "C48586675",
+   "matched": "XINGLIGHT XL-5050RGBW-2812B-HM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250514_XINGLIGHT-XL-5050RGBW-WS2812B-HM_C48586675_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "5050-三色-RGB-贴片LED"
+   ],
+   "bytes": 33139
+  },
+  {
+   "file": "assets/img/parts/C48687404.jpg",
+   "code": "C48687404",
+   "matched": "Lian Xin Technology XDBS-CR2032-5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250517_Lian-Xin-Technology-XDBS-CR2032-5_C48687404_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CR2032-纽扣电池"
+   ],
+   "bytes": 37231
+  },
+  {
    "file": "assets/img/parts/C48997969.jpg",
    "code": "C48997969",
    "matched": "JURCC JW222M400VACP10",
@@ -2938,6 +3370,17 @@
     "SDCW2012-2-900TF"
    ],
    "bytes": 30343
+  },
+  {
+   "file": "assets/img/parts/C49069732.jpg",
+   "code": "C49069732",
+   "matched": "R+O 14D431K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250825_hongjiacheng-14D431K_C49069732_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "14D431K"
+   ],
+   "bytes": 40358
   },
   {
    "file": "assets/img/parts/C49118499.jpg",
@@ -3028,6 +3471,17 @@
    "bytes": 30228
   },
   {
+   "file": "assets/img/parts/C49330093.jpg",
+   "code": "C49330093",
+   "matched": "BAT WIRELESS BW433MNX1304",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250719_BAT-WIRELESS-BW433MNX1304_C49330093_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "433M-天线-弹簧"
+   ],
+   "bytes": 34951
+  },
+  {
    "file": "assets/img/parts/C49367328.jpg",
    "code": "C49367328",
    "matched": "JSMSEMI MP1584EN-LF-Z-JSM",
@@ -3050,6 +3504,17 @@
    "bytes": 33555
   },
   {
+   "file": "assets/img/parts/C4943394.jpg",
+   "code": "C4943394",
+   "matched": "kinghelm KH-FPC2.4G-1.13IPEX-240",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_Shenzhen-Kinghelm-Elec-KH-FPC2-4G-1-13IPEX-240_C4943394_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.4G-天线-IPEX-内置"
+   ],
+   "bytes": 10735
+  },
+  {
    "file": "assets/img/parts/C49678.jpg",
    "code": "C49678",
    "matched": "YAGEO CC0805KRX7R9BB104",
@@ -3059,6 +3524,17 @@
     "CC0805KRX7R9BB104"
    ],
    "bytes": 23530
+  },
+  {
+   "file": "assets/img/parts/C497016.jpg",
+   "code": "C497016",
+   "matched": "BAT WIRELESS BW2.4GJWX50-10ZJ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250913_BAT-WIRELESS-BW2-4GJWX50-10ZJ_C497016_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.4G-天线-3dBi-胶棒"
+   ],
+   "bytes": 36961
   },
   {
    "file": "assets/img/parts/C49851.jpg",
@@ -3116,6 +3592,17 @@
    "bytes": 27403
   },
   {
+   "file": "assets/img/parts/C5123534.jpg",
+   "code": "C5123534",
+   "matched": "Silverlight G6565N4UVM1U12 395NM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230127_Silverlight-G6565N4UVM1U12-395NM_C5123534_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3W-白光-大功率LED"
+   ],
+   "bytes": 32878
+  },
+  {
    "file": "assets/img/parts/C5156605.jpg",
    "code": "C5156605",
    "matched": "SHOU HAN TYPE-C 24P QT 143",
@@ -3158,6 +3645,28 @@
     "CD4017BE"
    ],
    "bytes": 32019
+  },
+  {
+   "file": "assets/img/parts/C51933331.jpg",
+   "code": "C51933331",
+   "matched": "Guiguang light GL2835UB01",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251202_Guiguang-light-GL2835UB01_C51933331_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2835-白光-灯珠"
+   ],
+   "bytes": 28010
+  },
+  {
+   "file": "assets/img/parts/C5197184.jpg",
+   "code": "C5197184",
+   "matched": "HDGC HDGC4001SMD-S-2P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230124_HDGC-HDGC4001SMD-S-2P_C5197184_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CR2032-电池座-SMD"
+   ],
+   "bytes": 34238
   },
   {
    "file": "assets/img/parts/C5198.jpg",
@@ -3213,6 +3722,29 @@
     "S3M"
    ],
    "bytes": 31587
+  },
+  {
+   "file": "assets/img/parts/C520538.jpg",
+   "code": "C520538",
+   "matched": "SIMCom Wireless Solutions SIM7600CE-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230204_SIMCom-Wireless-Solutions-SIM7600CE-T_C520538_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SIM7600CE"
+   ],
+   "bytes": 43856
+  },
+  {
+   "file": "assets/img/parts/C5219367.jpg",
+   "code": "C5219367",
+   "matched": "TI TPSM82822SILR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240529_Texas-Instruments-TPSM82822SILR_C5219367_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "玻璃管-5x20-2A",
+    "玻璃管-5x20-5A"
+   ],
+   "bytes": 30957
   },
   {
    "file": "assets/img/parts/C5226.jpg",
@@ -3314,6 +3846,17 @@
    "bytes": 33285
   },
   {
+   "file": "assets/img/parts/C52917433.jpg",
+   "code": "C52917433",
+   "matched": "Worldsemi WS2812B-V6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260604_Worldsemi-WS2812B-V6_C52917433_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "WS2812B-灯带-60灯"
+   ],
+   "bytes": 24844
+  },
+  {
    "file": "assets/img/parts/C529329.jpg",
    "code": "C529329",
    "matched": "ST STM32G030C8T6",
@@ -3356,6 +3899,17 @@
     "TDA2030A"
    ],
    "bytes": 37935
+  },
+  {
+   "file": "assets/img/parts/C5305385.jpg",
+   "code": "C5305385",
+   "matched": "JST SM02B-LEASS-TF(LF)(SN)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230805_JST-SM02B-LEASS-TF-LF-SN_C5305385_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3mm-红光-直插LED"
+   ],
+   "bytes": 33143
   },
   {
    "file": "assets/img/parts/C53065973.jpg",
@@ -3534,6 +4088,28 @@
    "bytes": 24782
   },
   {
+   "file": "assets/img/parts/C55172951.jpg",
+   "code": "C55172951",
+   "matched": "LAILAN LAIL-RJ45-LED0-BY-01-CB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260904_LAILAN-LAIL-RJ45-LED0-BY-01-CB_C55172951_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3528-红光-贴片LED"
+   ],
+   "bytes": 33902
+  },
+  {
+   "file": "assets/img/parts/C55172951.jpg",
+   "code": "C55172951",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "1204-双色-RG-贴片LED"
+   ],
+   "bytes": 33902
+  },
+  {
    "file": "assets/img/parts/C55219017.jpg",
    "code": "C55219017",
    "matched": "JIERR MPE105J100V0501",
@@ -3589,6 +4165,18 @@
     "74HC08D"
    ],
    "bytes": 35035
+  },
+  {
+   "file": "assets/img/parts/C560056.jpg",
+   "code": "C560056",
+   "matched": "muRata BLM31KN102SN1L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251028_muRata-BLM31KN102SN1L_C560056_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1206-快断-2A",
+    "1206-慢断-3A"
+   ],
+   "bytes": 30646
   },
   {
    "file": "assets/img/parts/C5602.jpg",
@@ -3746,6 +4334,28 @@
    "bytes": 29807
   },
   {
+   "file": "assets/img/parts/C5739972.jpg",
+   "code": "C5739972",
+   "matched": "Non-Isolated PoL Module DC DC Converter 1 Output 3.3 ~ 15V 20A 9V - 53V Input",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250713_TDK-I6A4W020A033V-001-R_C5739972_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AAA-电池盒-2节"
+   ],
+   "bytes": 19041
+  },
+  {
+   "file": "assets/img/parts/C5739972.jpg",
+   "code": "C5739972",
+   "matched": "Non-Isolated PoL Module DC DC Converter 1 Output 3.3 ~ 15V 20A 9V - 53V Input",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250713_TDK-I6A4W020A033V-001-R_C5739972_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AA-电池盒-4节"
+   ],
+   "bytes": 19041
+  },
+  {
    "file": "assets/img/parts/C577777.jpg",
    "code": "C577777",
    "matched": "Cixi Kefa Elec HT396K-3.96-2P",
@@ -3845,6 +4455,17 @@
    "bytes": 27481
   },
   {
+   "file": "assets/img/parts/C6330769.jpg",
+   "code": "C6330769",
+   "matched": "U-BLOX NEO-M8N-0",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260417_U-BLOX-NEO-M8N-0_C6330769_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NEO-M8N"
+   ],
+   "bytes": 33065
+  },
+  {
    "file": "assets/img/parts/C63451.jpg",
    "code": "C63451",
    "matched": "EVERLIGHT ITR8307",
@@ -3854,6 +4475,50 @@
     "ITR8307"
    ],
    "bytes": 39396
+  },
+  {
+   "file": "assets/img/parts/C6364663.jpg",
+   "code": "C6364663",
+   "matched": "SHOU HAN FPC 0.5-18P HYH2.0",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230526_SHOU-HAN-FPC-0-5-18P-HYH2-0_C6364663_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "WIFI-天线-FPC-2.4G5G"
+   ],
+   "bytes": 35026
+  },
+  {
+   "file": "assets/img/parts/C648130.jpg",
+   "code": "C648130",
+   "matched": "MICROCHIP MM5451YN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250613_Microchip-Tech-MM5451YN_C648130_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1W-白光-大功率LED"
+   ],
+   "bytes": 34777
+  },
+  {
+   "file": "assets/img/parts/C648130.jpg",
+   "code": "C648130",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "1W-红光-大功率LED"
+   ],
+   "bytes": 34777
+  },
+  {
+   "file": "assets/img/parts/C648130.jpg",
+   "code": "C648130",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "1W-蓝光-大功率LED"
+   ],
+   "bytes": 34777
   },
   {
    "file": "assets/img/parts/C6487.jpg",
@@ -3933,6 +4598,17 @@
    "bytes": 30384
   },
   {
+   "file": "assets/img/parts/C67678.jpg",
+   "code": "C67678",
+   "matched": "SEMTECH SX1278IMLTRT",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_SEMTECH-SX1278IMLTRT_C67678_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SX1278IMLTRT"
+   ],
+   "bytes": 31598
+  },
+  {
    "file": "assets/img/parts/C6822.jpg",
    "code": "C6822",
    "matched": "TI SN74HC151DR",
@@ -3988,6 +4664,17 @@
    "bytes": 36922
   },
   {
+   "file": "assets/img/parts/C6946012.jpg",
+   "code": "C6946012",
+   "matched": "ESPRESSIF ESP32-S2-MINI-1U-N4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240710_Espressif-Systems-ESP32-S2-MINI-1U-N4_C6946012_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP32-S2-MINI-1"
+   ],
+   "bytes": 35113
+  },
+  {
    "file": "assets/img/parts/C6952.jpg",
    "code": "C6952",
    "matched": "NXP TJA1050T/CM,118",
@@ -4008,6 +4695,17 @@
     "VLS3015CX-100M"
    ],
    "bytes": 11079
+  },
+  {
+   "file": "assets/img/parts/C701341.jpg",
+   "code": "C701341",
+   "matched": "ESPRESSIF ESP32-WROOM-32E-N4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230202_Espressif-Systems-ESP32-WROOM-32E-N4_C701341_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP32-WROOM-32E"
+   ],
+   "bytes": 39568
   },
   {
    "file": "assets/img/parts/C706695.jpg",
@@ -4209,6 +4907,39 @@
    "bytes": 37701
   },
   {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "保险丝座-5x20-插件"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "MF-R300-插件"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "CR2032-电池座-插件"
+   ],
+   "bytes": 37701
+  },
+  {
    "file": "assets/img/parts/C7440.jpg",
    "code": "C7440",
    "matched": "NXP PCF8563T/5,518",
@@ -4240,6 +4971,17 @@
     "ULN2003ADR"
    ],
    "bytes": 34594
+  },
+  {
+   "file": "assets/img/parts/C7519.jpg",
+   "code": "C7519",
+   "matched": "ST USBLC6-2SC6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_STMicroelectronics-USBLC6-2SC6_C7519_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "USBLC6-2SC6"
+   ],
+   "bytes": 30721
   },
   {
    "file": "assets/img/parts/C7528718.jpg",
@@ -4355,6 +5097,17 @@
    "bytes": 29219
   },
   {
+   "file": "assets/img/parts/C77540.jpg",
+   "code": "C77540",
+   "matched": "NORDIC NRF52832-QFAA-R",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Nordic-Semicon-NRF52832-QFAA-R_C77540_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "nRF52832-QFAA"
+   ],
+   "bytes": 29454
+  },
+  {
    "file": "assets/img/parts/C779278.jpg",
    "code": "C779278",
    "matched": "Bosch BMP388",
@@ -4366,6 +5119,17 @@
    "bytes": 28630
   },
   {
+   "file": "assets/img/parts/C77967.jpg",
+   "code": "C77967",
+   "matched": "ESPRESSIF ESP8266EX",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Espressif-Systems-ESP8266EX_C77967_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP8266EX"
+   ],
+   "bytes": 24840
+  },
+  {
    "file": "assets/img/parts/C77994.jpg",
    "code": "C77994",
    "matched": "GigaDevice Semicon Beijing GD32F103C8T6",
@@ -4375,6 +5139,17 @@
     "GD32F103C8T6"
    ],
    "bytes": 31291
+  },
+  {
+   "file": "assets/img/parts/C78085.jpg",
+   "code": "C78085",
+   "matched": "ISOCOM TLP521-4",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231116_Isocom-Components-TLP521-4_C78085_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TLP521-4"
+   ],
+   "bytes": 31037
   },
   {
    "file": "assets/img/parts/C7840.jpg",
@@ -4540,6 +5315,28 @@
     "DRV8825"
    ],
    "bytes": 31679
+  },
+  {
+   "file": "assets/img/parts/C82891.jpg",
+   "code": "C82891",
+   "matched": "Ai-Thinker ESP-12F(ESP8266MOD)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260622_Ai-Thinker-ESP-12F-ESP8266MOD_C82891_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP-12F"
+   ],
+   "bytes": 36231
+  },
+  {
+   "file": "assets/img/parts/C82898.jpg",
+   "code": "C82898",
+   "matched": "Ai-Thinker ESP-12S",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230218_Ai-Thinker-ESP-12S_C82898_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESP-12S"
+   ],
+   "bytes": 37758
   },
   {
    "file": "assets/img/parts/C8323.jpg",
@@ -4895,6 +5692,39 @@
    "bytes": 28398
   },
   {
+   "file": "assets/img/parts/C90691.jpg",
+   "code": "C90691",
+   "matched": "HTC LM2596R-12",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_HTC-Korea-TAEJIN-Tech-LM2596R-12_C90691_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM2596-降压模块-可调"
+   ],
+   "bytes": 37656
+  },
+  {
+   "file": "assets/img/parts/C90770.jpg",
+   "code": "C90770",
+   "matched": "ZHONGKEWEI ATGM336H-5N31",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250524_ZHONGKEWEI-ATGM336H-5N31_C90770_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ATGM336H-5N"
+   ],
+   "bytes": 37248
+  },
+  {
+   "file": "assets/img/parts/C908219.jpg",
+   "code": "C908219",
+   "matched": "FUXINSEMI SM712",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230202_FUXINSEMI-SM712_C908219_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SM712"
+   ],
+   "bytes": 29183
+  },
+  {
    "file": "assets/img/parts/C9100.jpg",
    "code": "C9100",
    "matched": "ST BTA16-600BRG",
@@ -5083,6 +5913,17 @@
    "bytes": 23220
   },
   {
+   "file": "assets/img/parts/C93623.jpg",
+   "code": "C93623",
+   "matched": "onsemi ESD5B5.0ST1G",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_onsemi-ESD5B5-0ST1G_C93623_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ESD5B5.0ST1G"
+   ],
+   "bytes": 23605
+  },
+  {
    "file": "assets/img/parts/C9378.jpg",
    "code": "C9378",
    "matched": "MaxLinear SP3232EEN-L/TR",
@@ -5251,6 +6092,17 @@
     "QMC5883L"
    ],
    "bytes": 28981
+  },
+  {
+   "file": "assets/img/parts/C97853.jpg",
+   "code": "C97853",
+   "matched": "muRata BLM18PG471SN1D",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Murata-Electronics-BLM18PG471SN1D_C97853_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "0603-快断-1A"
+   ],
+   "bytes": 24037
   },
   {
    "file": "assets/img/parts/C98220.jpg",
