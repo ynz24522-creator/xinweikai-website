@@ -1,7 +1,7 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 552,
- "imageCount": 552,
+ "count": 672,
+ "imageCount": 672,
  "entries": [
   {
    "file": "assets/img/parts/C10002.jpg",
@@ -141,6 +141,17 @@
    "bytes": 27152
   },
   {
+   "file": "assets/img/parts/C108518.jpg",
+   "code": "C108518",
+   "matched": "Littelfuse 01550900M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251203_Littelfuse-01550900M_C108518_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "烙铁头-900M系列"
+   ],
+   "bytes": 34820
+  },
+  {
    "file": "assets/img/parts/C109322.jpg",
    "code": "C109322",
    "matched": "TI TPS63070RNMR",
@@ -217,6 +228,17 @@
     "0402B102K500NT"
    ],
    "bytes": 27092
+  },
+  {
+   "file": "assets/img/parts/C110727.jpg",
+   "code": "C110727",
+   "matched": "Shanghai Prisemi Elec PPT89T30V5AE2M",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Shanghai-Prisemi-Elec-PPT89T30V5AE2M_C110727_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "直流电源-30V5A"
+   ],
+   "bytes": 29028
   },
   {
    "file": "assets/img/parts/C11099.jpg",
@@ -307,6 +329,39 @@
    "bytes": 28395
   },
   {
+   "file": "assets/img/parts/C11315.jpg",
+   "code": "C11315",
+   "matched": "ISSI IS62WV51216BLL-55TLI",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_ISSI-Integrated-Silicon-Solution-IS62WV51216BLL-55TLI_C11315_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IS62WV51216BLL-55TLI"
+   ],
+   "bytes": 31339
+  },
+  {
+   "file": "assets/img/parts/C113334.jpg",
+   "code": "C113334",
+   "matched": "Zhejiang HKE HRS1H-S-DC24V-3A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230316_Zhejiang-HKE-HRS1H-S-DC24V-3A_C113334_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "适配器-24V3A-DC5.5"
+   ],
+   "bytes": 33354
+  },
+  {
+   "file": "assets/img/parts/C115792.jpg",
+   "code": "C115792",
+   "matched": "micron MT41K128M16JT-125 IT:K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_Micron-Tech-MT41K128M16JT-125-IT-K_C115792_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MT41K128M16JT-125"
+   ],
+   "bytes": 26781
+  },
+  {
    "file": "assets/img/parts/C115962.jpg",
    "code": "C115962",
    "matched": "YXC Crystal Oscillators X50328MSB2GI",
@@ -351,6 +406,17 @@
    "bytes": 30082
   },
   {
+   "file": "assets/img/parts/C117051.jpg",
+   "code": "C117051",
+   "matched": "Aosong DHT11",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_Aosong--Guangzhou-Elec-DHT11_C117051_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DHT11"
+   ],
+   "bytes": 30166
+  },
+  {
    "file": "assets/img/parts/C118534.jpg",
    "code": "C118534",
    "matched": "ARKLED SN460561N/0.56//2",
@@ -371,6 +437,17 @@
     "0.56-4位-共阴-数码管"
    ],
    "bytes": 31238
+  },
+  {
+   "file": "assets/img/parts/C12165.jpg",
+   "code": "C12165",
+   "matched": "TI LM35DZ/NOPB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-LM35DZ-NOPB_C12165_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM35DZ"
+   ],
+   "bytes": 39442
   },
   {
    "file": "assets/img/parts/C121953.jpg",
@@ -407,6 +484,17 @@
    "bytes": 28406
   },
   {
+   "file": "assets/img/parts/C124482.jpg",
+   "code": "C124482",
+   "matched": "onsemi 2N3904BU",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230101_onsemi-2N3904BU_C124482_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2N3904"
+   ],
+   "bytes": 32079
+  },
+  {
    "file": "assets/img/parts/C124483.jpg",
    "code": "C124483",
    "matched": "onsemi 2N3906BU",
@@ -416,6 +504,17 @@
     "2N3906"
    ],
    "bytes": 33381
+  },
+  {
+   "file": "assets/img/parts/C125626.jpg",
+   "code": "C125626",
+   "matched": "Senba Sensing Tech GL5516",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230323_Senba-Sensing-Tech-GL5516_C125626_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GL5516"
+   ],
+   "bytes": 38585
   },
   {
    "file": "assets/img/parts/C125627.jpg",
@@ -462,6 +561,17 @@
    "bytes": 29291
   },
   {
+   "file": "assets/img/parts/C126151.jpg",
+   "code": "C126151",
+   "matched": "NCE NCE6005AS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240318_Wuxi-NCE-Power-Semiconductor-NCE6005AS_C126151_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NCE6005AS"
+   ],
+   "bytes": 31480
+  },
+  {
    "file": "assets/img/parts/C126161.jpg",
    "code": "C126161",
    "matched": "PowTech(CR-PowTech(Shanghai)) PT4115EE89E",
@@ -494,6 +604,17 @@
     "EEE-FT1V101AP"
    ],
    "bytes": 29427
+  },
+  {
+   "file": "assets/img/parts/C129490.jpg",
+   "code": "C129490",
+   "matched": "MICROCHIP MCP9808T-E/MS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Microchip-Tech-MCP9808T-E-MS_C129490_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MCP9808T-E/MS"
+   ],
+   "bytes": 24859
   },
   {
    "file": "assets/img/parts/C129905.jpg",
@@ -585,6 +706,17 @@
    "bytes": 31958
   },
   {
+   "file": "assets/img/parts/C1349209.jpg",
+   "code": "C1349209",
+   "matched": "ISSI IS62WV25616EBLL-45TLI",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251220_ISSI-IS62WV25616EBLL-45TLI_C1349209_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IS62WV25616EBLL-45TLI"
+   ],
+   "bytes": 35605
+  },
+  {
    "file": "assets/img/parts/C13517.jpg",
    "code": "C13517",
    "matched": "WCH CH341A",
@@ -662,6 +794,17 @@
    "bytes": 38540
   },
   {
+   "file": "assets/img/parts/C139654.jpg",
+   "code": "C139654",
+   "matched": "TI OPA2180IDR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Texas-Instruments-OPA2180IDR_C139654_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "螺丝刀套装-45合1"
+   ],
+   "bytes": 27280
+  },
+  {
    "file": "assets/img/parts/C140616.jpg",
    "code": "C140616",
    "matched": "Songle Relay SRD-24VDC-SL-A",
@@ -693,6 +836,17 @@
     "CH340G"
    ],
    "bytes": 31698
+  },
+  {
+   "file": "assets/img/parts/C144943.jpg",
+   "code": "C144943",
+   "matched": "VISHAY SQ3427AEEV-T1_GE3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Vishay-Intertech-SQ3427AEEV-T1-GE3_C144943_front.jpg",
+   "matchedVia": "TSOP-6 component",
+   "models": [
+    "TLE493D-A2B6"
+   ],
+   "bytes": 22903
   },
   {
    "file": "assets/img/parts/C146580.jpg",
@@ -763,6 +917,17 @@
     "BLM18PG221SN1D"
    ],
    "bytes": 25323
+  },
+  {
+   "file": "assets/img/parts/C148134.jpg",
+   "code": "C148134",
+   "matched": "NCE NCE30H10K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180921_Wuxi-NCE-Power-Semiconductor-NCE30H10K_C148134_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "NCE30H10S"
+   ],
+   "bytes": 34579
   },
   {
    "file": "assets/img/parts/C148427.jpg",
@@ -842,6 +1007,17 @@
    "bytes": 25004
   },
   {
+   "file": "assets/img/parts/C151296.jpg",
+   "code": "C151296",
+   "matched": "Littelfuse SMF5.0A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20181201_Littelfuse-SMF5-0A_C151296_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMF5.0A"
+   ],
+   "bytes": 23904
+  },
+  {
    "file": "assets/img/parts/C15134.jpg",
    "code": "C15134",
    "matched": "ST LIS3DHTR",
@@ -896,6 +1072,17 @@
     "ST7789V2"
    ],
    "bytes": 28071
+  },
+  {
+   "file": "assets/img/parts/C15639.jpg",
+   "code": "C15639",
+   "matched": "TE Connectivity MS561101BA03-50",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260312_TE-Connectivity-MS561101BA03-50_C15639_front.jpg",
+   "matchedVia": "QFN-8 component",
+   "models": [
+    "MS5611-01BA03"
+   ],
+   "bytes": 24137
   },
   {
    "file": "assets/img/parts/C15643.jpg",
@@ -988,6 +1175,17 @@
    "bytes": 32015
   },
   {
+   "file": "assets/img/parts/C16212.jpg",
+   "code": "C16212",
+   "matched": "YXC Crystal Oscillators X49SD16MSD2SC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260522_YXC-Crystal-Oscillators-X49SD16MSD2SC_C16212_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HC-49S-16MHz"
+   ],
+   "bytes": 31216
+  },
+  {
    "file": "assets/img/parts/C16283.jpg",
    "code": "C16283",
    "matched": "ST TIP122",
@@ -999,6 +1197,17 @@
    "bytes": 30096
   },
   {
+   "file": "assets/img/parts/C164123.jpg",
+   "code": "C164123",
+   "matched": "Winbond W971GG6SB-25-TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Winbond-Elec-W971GG6SB-25-TR_C164123_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "W971GG6SB-25"
+   ],
+   "bytes": 31825
+  },
+  {
    "file": "assets/img/parts/C16581.jpg",
    "code": "C16581",
    "matched": "TOP POWER ASIC TP4056-42-ESOP8",
@@ -1008,6 +1217,28 @@
     "TP4056"
    ],
    "bytes": 26391
+  },
+  {
+   "file": "assets/img/parts/C165948.jpg",
+   "code": "C165948",
+   "matched": "Korean Hroparts Elec TYPE-C-31-M-12",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260525_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TYPE-C-公头-焊线"
+   ],
+   "bytes": 34465
+  },
+  {
+   "file": "assets/img/parts/C167094.jpg",
+   "code": "C167094",
+   "matched": "VISHAY 593D107X9010C2TE3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230112_Vishay-Intertech-593D107X9010C2TE3_C167094_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "洞洞板-双面-7x9"
+   ],
+   "bytes": 27914
   },
   {
    "file": "assets/img/parts/C16902.jpg",
@@ -1129,6 +1360,17 @@
     "MBR20100CT"
    ],
    "bytes": 39940
+  },
+  {
+   "file": "assets/img/parts/C17353.jpg",
+   "code": "C17353",
+   "matched": "EPSON RX8025T-UB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260902_EPSON-RX8025T-UB_C17353_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RX8025T"
+   ],
+   "bytes": 35593
   },
   {
    "file": "assets/img/parts/C178549.jpg",
@@ -1360,6 +1602,17 @@
    "bytes": 34368
   },
   {
+   "file": "assets/img/parts/C191889.jpg",
+   "code": "C191889",
+   "matched": "LX 1MM 3cm 8P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_LX-1MM-3cm-8P-_C191889_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "导热垫-1mm"
+   ],
+   "bytes": 33128
+  },
+  {
    "file": "assets/img/parts/C191915.jpg",
    "code": "C191915",
    "matched": "PANASONIC ERA2AEB103X",
@@ -1552,6 +1805,17 @@
    "bytes": 27745
   },
   {
+   "file": "assets/img/parts/C194617.jpg",
+   "code": "C194617",
+   "matched": "Screws PF3-6N M3*6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260728_HIWA-PF3-6N-M3-6_C194617_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "螺丝-M3x6-盘头"
+   ],
+   "bytes": 4091
+  },
+  {
    "file": "assets/img/parts/C194673.jpg",
    "code": "C194673",
    "matched": "WIZNET W5100S-L",
@@ -1583,6 +1847,18 @@
     "MAX485ESA"
    ],
    "bytes": 32231
+  },
+  {
+   "file": "assets/img/parts/C1974568.jpg",
+   "code": "C1974568",
+   "matched": "VISHAY SMCJ24A-E3/57T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230105_Vishay-Intertech-SMCJ24A-E3-57T_C1974568_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMCJ24A",
+    "SMDJ33CA"
+   ],
+   "bytes": 31369
   },
   {
    "file": "assets/img/parts/C19922.jpg",
@@ -1617,6 +1893,29 @@
     "0603CS-47NXGLW"
    ],
    "bytes": 29007
+  },
+  {
+   "file": "assets/img/parts/C20482177.jpg",
+   "code": "C20482177",
+   "matched": "TE Connectivity 2MM-HB-S06-HT-02-H-TB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260818_TE-Connectivity-2MM-HB-S06-HT-02-H-TB_C20482177_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "热缩管-2mm-黑",
+    "热缩管-4mm-红"
+   ],
+   "bytes": 30415
+  },
+  {
+   "file": "assets/img/parts/C20482177.jpg",
+   "code": "C20482177",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "导热垫-2mm"
+   ],
+   "bytes": 30415
   },
   {
    "file": "assets/img/parts/C20542.jpg",
@@ -1675,6 +1974,28 @@
    "bytes": 34393
   },
   {
+   "file": "assets/img/parts/C20613090.jpg",
+   "code": "C20613090",
+   "matched": "LZTEC B1205S-2W",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240304_LZTEC-B1205S-2W_C20613090_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "隔离电源模块-B1205S-2W"
+   ],
+   "bytes": 38081
+  },
+  {
+   "file": "assets/img/parts/C2071859.jpg",
+   "code": "C2071859",
+   "matched": "TI TPS62840DLCR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Texas-Instruments-TPS62840DLCR_C2071859_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LCR 表-手持"
+   ],
+   "bytes": 27543
+  },
+  {
    "file": "assets/img/parts/C2077241.jpg",
    "code": "C2077241",
    "matched": "VISHAY RCA040210K0FKED",
@@ -1706,6 +2027,17 @@
     "E22-400T22S"
    ],
    "bytes": 31794
+  },
+  {
+   "file": "assets/img/parts/C2155766.jpg",
+   "code": "C2155766",
+   "matched": "TI TPS259824ONRGER",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260605_TI-TPS259824ONRGER_C2155766_front.jpg",
+   "matchedVia": "QFN-24 component",
+   "models": [
+    "MPU9250"
+   ],
+   "bytes": 24702
   },
   {
    "file": "assets/img/parts/C2156989.jpg",
@@ -1750,6 +2082,17 @@
     "SS-12D00-G3"
    ],
    "bytes": 33032
+  },
+  {
+   "file": "assets/img/parts/C22358557.jpg",
+   "code": "C22358557",
+   "matched": "SDAPO DP1205BT V4-12V5A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240524_SDAPO-DP1205BT-V4-12V5A_C22358557_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "开关电源-12V5A-明装"
+   ],
+   "bytes": 15455
   },
   {
    "file": "assets/img/parts/C22411105.jpg",
@@ -1843,6 +2186,17 @@
   {
    "file": "assets/img/parts/C2337.jpg",
    "code": "C2337",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "2.54-1x40P-直针"
+   ],
+   "bytes": 7825
+  },
+  {
+   "file": "assets/img/parts/C2337.jpg",
+   "code": "C2337",
    "matched": "BOOMELE(Boom Precision Elec) 2.54-1*40P",
    "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251111_BOOMELE-Boom-Precision-Elec-2-54-1-40P_C2337_front.jpg",
    "matchedVia": "model",
@@ -1861,6 +2215,30 @@
     "2.54-1x40P-排母"
    ],
    "bytes": 7825
+  },
+  {
+   "file": "assets/img/parts/C2337.jpg",
+   "code": "C2337",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "杜邦线-母对母-40P",
+    "杜邦线-公对母-40P",
+    "杜邦线-公对公-40P"
+   ],
+   "bytes": 7825
+  },
+  {
+   "file": "assets/img/parts/C23691382.jpg",
+   "code": "C23691382",
+   "matched": "HELUKABEL 52845",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241008_HELUKABEL-52845_C23691382_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "屏蔽线-2芯-0.5mm²"
+   ],
+   "bytes": 14128
   },
   {
    "file": "assets/img/parts/C241848.jpg",
@@ -1976,6 +2354,17 @@
    "bytes": 33041
   },
   {
+   "file": "assets/img/parts/C2561.jpg",
+   "code": "C2561",
+   "matched": "Infineon IRF3205PBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190515_Infineon-Technologies-IRF3205PBF_C2561_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IRF3205"
+   ],
+   "bytes": 32607
+  },
+  {
    "file": "assets/img/parts/C2566.jpg",
    "code": "C2566",
    "matched": "Infineon IRF540NPBF",
@@ -1998,6 +2387,17 @@
    "bytes": 33343
   },
   {
+   "file": "assets/img/parts/C2586.jpg",
+   "code": "C2586",
+   "matched": "Infineon IRFZ44NPBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Infineon-Technologies-IRFZ44NPBF_C2586_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IRFZ44N"
+   ],
+   "bytes": 33122
+  },
+  {
    "file": "assets/img/parts/C2589.jpg",
    "code": "C2589",
    "matched": "Infineon IRLML2502TRPBF",
@@ -2007,6 +2407,39 @@
     "IRLML2502"
    ],
    "bytes": 28852
+  },
+  {
+   "file": "assets/img/parts/C2650.jpg",
+   "code": "C2650",
+   "matched": "Infineon IRFB4110PBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Infineon-Technologies-IRFB4110PBF_C2650_front.jpg",
+   "matchedVia": "TO-220 component",
+   "models": [
+    "LM317T"
+   ],
+   "bytes": 30501
+  },
+  {
+   "file": "assets/img/parts/C2650.jpg",
+   "code": "C2650",
+   "matched": "Infineon IRFB4110PBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Infineon-Technologies-IRFB4110PBF_C2650_front.jpg",
+   "matchedVia": "TO-220 component",
+   "models": [
+    "LM7805"
+   ],
+   "bytes": 30501
+  },
+  {
+   "file": "assets/img/parts/C2650.jpg",
+   "code": "C2650",
+   "matched": "Infineon IRFB4110PBF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Infineon-Technologies-IRFB4110PBF_C2650_front.jpg",
+   "matchedVia": "TO-220 component",
+   "models": [
+    "LM7812"
+   ],
+   "bytes": 30501
   },
   {
    "file": "assets/img/parts/C2655410.jpg",
@@ -2141,6 +2574,17 @@
    "bytes": 31296
   },
   {
+   "file": "assets/img/parts/C2757850.jpg",
+   "code": "C2757850",
+   "matched": "Aosong AHT20",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251203_Aosong-AHT20_C2757850_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AHT20"
+   ],
+   "bytes": 29730
+  },
+  {
    "file": "assets/img/parts/C2765186.jpg",
    "code": "C2765186",
    "matched": "SHOU HAN TYPE-C 16PIN 2MD(073)",
@@ -2148,6 +2592,18 @@
    "matchedVia": "model",
    "models": [
     "TYPE-C-16P-卧贴"
+   ],
+   "bytes": 34088
+  },
+  {
+   "file": "assets/img/parts/C2765186.jpg",
+   "code": "C2765186",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "排线-灰-16P",
+    "测试线-香蕉插头"
    ],
    "bytes": 34088
   },
@@ -2328,6 +2784,17 @@
    "bytes": 37131
   },
   {
+   "file": "assets/img/parts/C2874006.jpg",
+   "code": "C2874006",
+   "matched": "XFCN IC254V-12-06-0743",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250927_XFCN-IC254V-12-06-0743_C2874006_front.jpg",
+   "matchedVia": "CHIPSAILING DIP-6",
+   "models": [
+    "XGZP6847A"
+   ],
+   "bytes": 36194
+  },
+  {
    "file": "assets/img/parts/C28756.jpg",
    "code": "C28756",
    "matched": "RUILON 07D471K",
@@ -2337,6 +2804,17 @@
     "07D471K"
    ],
    "bytes": 35497
+  },
+  {
+   "file": "assets/img/parts/C2886577.jpg",
+   "code": "C2886577",
+   "matched": "Guangdong Hottech MB10S",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230129_Guangdong-Hottech-MB10S_C2886577_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MB10S"
+   ],
+   "bytes": 31213
   },
   {
    "file": "assets/img/parts/C2892564.jpg",
@@ -2372,6 +2850,17 @@
    "bytes": 33224
   },
   {
+   "file": "assets/img/parts/C2906765.jpg",
+   "code": "C2906765",
+   "matched": "Keystone 5010",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260903_Keystone-5010_C2906765_blank.jpg",
+   "matchedVia": "model",
+   "models": [
+    "风扇-5010-12V"
+   ],
+   "bytes": 5764
+  },
+  {
    "file": "assets/img/parts/C2913201.jpg",
    "code": "C2913201",
    "matched": "ESPRESSIF ESP32-S3-WROOM-1-N8R8",
@@ -2381,6 +2870,17 @@
     "ESP32-S3-WROOM-1-N8R8"
    ],
    "bytes": 38891
+  },
+  {
+   "file": "assets/img/parts/C2915628.jpg",
+   "code": "C2915628",
+   "matched": "PCB Surface Mount Round Threaded Standoff  M2Xφ5.56X6+1.53  Tin-Plated Copper",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230121_Sinhoo-SMTSO2060CTJ_C2915628_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "自攻螺丝-M2x6"
+   ],
+   "bytes": 30985
   },
   {
    "file": "assets/img/parts/C29160.jpg",
@@ -2416,6 +2916,17 @@
    "bytes": 29770
   },
   {
+   "file": "assets/img/parts/C2919634.jpg",
+   "code": "C2919634",
+   "matched": "kinghelm KH-TYPE-C-FSCB0.8-6P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251020_kinghelm-KH-TYPE-C-FSCB0-8-6P_C2919634_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "K9F1G08U0E-SCB0"
+   ],
+   "bytes": 34738
+  },
+  {
    "file": "assets/img/parts/C2928891.jpg",
    "code": "C2928891",
    "matched": "GigaDevice Semicon Beijing GD25Q128ESIGR",
@@ -2449,6 +2960,17 @@
    "bytes": 35294
   },
   {
+   "file": "assets/img/parts/C2947427.jpg",
+   "code": "C2947427",
+   "matched": "Infineon/CYPRESS CY7C1041G-10ZSXI",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251231_Infineon-CYPRESS-CY7C1041G-10ZSXI_C2947427_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CY7C1041G-10ZSXI"
+   ],
+   "bytes": 33982
+  },
+  {
    "file": "assets/img/parts/C2953577.jpg",
    "code": "C2953577",
    "matched": "Infineon/CYPRESS FM24C04B-G",
@@ -2458,6 +2980,17 @@
     "FM24C02B-G"
    ],
    "bytes": 31073
+  },
+  {
+   "file": "assets/img/parts/C2959787.jpg",
+   "code": "C2959787",
+   "matched": "SURGING 7D271K",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230107_SURGING-7D271K_C2959787_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "放大镜-台式带灯"
+   ],
+   "bytes": 32496
   },
   {
    "file": "assets/img/parts/C2960.jpg",
@@ -2481,6 +3014,17 @@
     "4D03WGJ0102T5E"
    ],
    "bytes": 24544
+  },
+  {
+   "file": "assets/img/parts/C2976675.jpg",
+   "code": "C2976675",
+   "matched": "SHOU HAN TS2306A 240gf MSM 9",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230105_SHOU-HAN-TS2306A-240gf-MSM-9_C2976675_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "焊锡丝-0.6mm-无铅"
+   ],
+   "bytes": 29805
   },
   {
    "file": "assets/img/parts/C2977777.jpg",
@@ -2527,6 +3071,17 @@
    "bytes": 34240
   },
   {
+   "file": "assets/img/parts/C2991193.jpg",
+   "code": "C2991193",
+   "matched": "C&K PTS526SP15SMTR2 LFS",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_C-K-PTS526SP15SMTR2-LFS_C2991193_front.jpg",
+   "matchedVia": "CHIPSAILING SMT 卧式",
+   "models": [
+    "MICRO-USB-5P-卧贴"
+   ],
+   "bytes": 31543
+  },
+  {
    "file": "assets/img/parts/C2991196.jpg",
    "code": "C2991196",
    "matched": "ALPSALPINE EC11L1525G01",
@@ -2569,6 +3124,17 @@
     "STC8H8K64U-45I-LQFP48"
    ],
    "bytes": 33449
+  },
+  {
+   "file": "assets/img/parts/C3013946.jpg",
+   "code": "C3013946",
+   "matched": "ESPRESSIF ESP32-S3-WROOM-1U-N16R8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230128_Espressif-Systems-ESP32-S3-WROOM-1U-N16R8_C3013946_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "风扇调速模块-PWM"
+   ],
+   "bytes": 38691
   },
   {
    "file": "assets/img/parts/C30197555.jpg",
@@ -2655,6 +3221,39 @@
    "matchedVia": "model",
    "models": [
     "SRD-12VDC-SL-C"
+   ],
+   "bytes": 32976
+  },
+  {
+   "file": "assets/img/parts/C30431.jpg",
+   "code": "C30431",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "DC-DC-车载-12V转5V3A"
+   ],
+   "bytes": 32976
+  },
+  {
+   "file": "assets/img/parts/C30431.jpg",
+   "code": "C30431",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "风扇-6015-12V"
+   ],
+   "bytes": 32976
+  },
+  {
+   "file": "assets/img/parts/C30431.jpg",
+   "code": "C30431",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "风扇-12025-12V"
    ],
    "bytes": 32976
   },
@@ -2813,6 +3412,17 @@
    "bytes": 28822
   },
   {
+   "file": "assets/img/parts/C335875.jpg",
+   "code": "C335875",
+   "matched": "TI MSP430F149IPMR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20181120_Texas-Instruments-MSP430F149IPMR_C335875_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CPU散热器-风冷"
+   ],
+   "bytes": 31353
+  },
+  {
    "file": "assets/img/parts/C33901.jpg",
    "code": "C33901",
    "matched": "MICROCHIP ATMEGA328P-PU",
@@ -2836,6 +3446,39 @@
    "bytes": 31860
   },
   {
+   "file": "assets/img/parts/C341521.jpg",
+   "code": "C341521",
+   "matched": "muRata CSTNE16M0V530000R0",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230110_Murata-Electronics-CSTNE16M0V530000R0_C341521_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CSTNE16M0V53"
+   ],
+   "bytes": 23371
+  },
+  {
+   "file": "assets/img/parts/C341523.jpg",
+   "code": "C341523",
+   "matched": "muRata CSTNE8M00G55A000R0",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230110_Murata-Electronics-CSTNE8M00G55A000R0_C341523_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CSTNE8M00G55A"
+   ],
+   "bytes": 23474
+  },
+  {
+   "file": "assets/img/parts/C34565.jpg",
+   "code": "C34565",
+   "matched": "NXP LM75BD,118",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20200706_NXP-Semicon-LM75BD-118_C34565_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM75BD"
+   ],
+   "bytes": 31524
+  },
+  {
    "file": "assets/img/parts/C34846.jpg",
    "code": "C34846",
    "matched": "BOURNS 3296W-1-103LF",
@@ -2845,6 +3488,17 @@
     "3296W-1-103LF"
    ],
    "bytes": 32463
+  },
+  {
+   "file": "assets/img/parts/C35165.jpg",
+   "code": "C35165",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "2.54-2x20P-直针"
+   ],
+   "bytes": 38804
   },
   {
    "file": "assets/img/parts/C35165.jpg",
@@ -2878,6 +3532,17 @@
     "SRD-05VDC-SL-C"
    ],
    "bytes": 31738
+  },
+  {
+   "file": "assets/img/parts/C357544.jpg",
+   "code": "C357544",
+   "matched": "Pan Head Phillips Machine Screws PM3X8 Nickel Plated",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260728_Shuntian-PM3X8_C357544_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "螺丝-M3x8-杯头"
+   ],
+   "bytes": 6409
   },
   {
    "file": "assets/img/parts/C361165.jpg",
@@ -2935,6 +3600,17 @@
    "bytes": 37472
   },
   {
+   "file": "assets/img/parts/C3659057.jpg",
+   "code": "C3659057",
+   "matched": "TI LM2903BQDRQ1",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230228_Texas-Instruments-LM2903BQDRQ1_C3659057_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "逻辑分析仪-8通道24M"
+   ],
+   "bytes": 27960
+  },
+  {
    "file": "assets/img/parts/C36658.jpg",
    "code": "C36658",
    "matched": "TI REF3033AIDBZR",
@@ -2944,6 +3620,17 @@
     "REF3033AIDBZR"
    ],
    "bytes": 30793
+  },
+  {
+   "file": "assets/img/parts/C368909.jpg",
+   "code": "C368909",
+   "matched": "Aosong AHT10",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190213_Aosong--Guangzhou-Elec-AHT10_C368909_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AHT10"
+   ],
+   "bytes": 24672
   },
   {
    "file": "assets/img/parts/C3790.jpg",
@@ -3023,6 +3710,17 @@
    "bytes": 31457
   },
   {
+   "file": "assets/img/parts/C390898.jpg",
+   "code": "C390898",
+   "matched": "HYNIX H5TQ4G63CFR-RDC",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190830_SK-HYNIX-H5TQ4G63CFR-RDC_C390898_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "H5TQ4G63CFR-RDC"
+   ],
+   "bytes": 35018
+  },
+  {
    "file": "assets/img/parts/C39151690.jpg",
    "code": "C39151690",
    "matched": "Coilcraft 0805CS-100XJLC",
@@ -3055,6 +3753,29 @@
     "EG4S20BG256"
    ],
    "bytes": 31231
+  },
+  {
+   "file": "assets/img/parts/C395757.jpg",
+   "code": "C395757",
+   "matched": "DORABO DB2EK-5.08-4P-GN-S",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230327_DORABO-DB2EK-5-08-4P-GN-S_C395757_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "尼龙柱-M3-10"
+   ],
+   "bytes": 34100
+  },
+  {
+   "file": "assets/img/parts/C395757.jpg",
+   "code": "C395757",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "螺母-M3-六角",
+    "垫片-M3-平垫"
+   ],
+   "bytes": 34100
   },
   {
    "file": "assets/img/parts/C40382.jpg",
@@ -3091,6 +3812,17 @@
    "bytes": 26253
   },
   {
+   "file": "assets/img/parts/C41381187.jpg",
+   "code": "C41381187",
+   "matched": "EVERLIGHT ELM3063(TA)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251104_EVERLIGHT-ELM3063-TA_C41381187_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AC-DC-模块-5V2A"
+   ],
+   "bytes": 33763
+  },
+  {
    "file": "assets/img/parts/C416165.jpg",
    "code": "C416165",
    "matched": "Viking CR-05JL7---6K8",
@@ -3100,6 +3832,17 @@
     "L76K"
    ],
    "bytes": 28388
+  },
+  {
+   "file": "assets/img/parts/C42027130.jpg",
+   "code": "C42027130",
+   "matched": "HTC LM7905T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260311_HTC-LM7905T_C42027130_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LM7905"
+   ],
+   "bytes": 37480
   },
   {
    "file": "assets/img/parts/C422182.jpg",
@@ -3122,6 +3865,17 @@
     "2.54-2x10P-牛角"
    ],
    "bytes": 41741
+  },
+  {
+   "file": "assets/img/parts/C42381015.jpg",
+   "code": "C42381015",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "EVERLIGHT 插件 光电对管",
+   "models": [
+    "ITR20001"
+   ],
+   "bytes": 32563
   },
   {
    "file": "assets/img/parts/C42381015.jpg",
@@ -3193,6 +3947,17 @@
    "bytes": 31649
   },
   {
+   "file": "assets/img/parts/C45465163.jpg",
+   "code": "C45465163",
+   "matched": "BOURNS MF-USHT200KX/12-2",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260824_BOURNS-MF-USHT200KX-12-2_C45465163_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SHT20"
+   ],
+   "bytes": 25124
+  },
+  {
    "file": "assets/img/parts/C455055.jpg",
    "code": "C455055",
    "matched": "Nexperia 1N4728A,113",
@@ -3205,6 +3970,17 @@
     "1N4744A"
    ],
    "bytes": 36470
+  },
+  {
+   "file": "assets/img/parts/C45661400.jpg",
+   "code": "C45661400",
+   "matched": "RESI TPAL0220F200RK9",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260810_RESI-TPAL0220F200RK9_C45661400_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "铝散热片-TO-220"
+   ],
+   "bytes": 40338
   },
   {
    "file": "assets/img/parts/C462124.jpg",
@@ -3251,6 +4027,28 @@
    "bytes": 34689
   },
   {
+   "file": "assets/img/parts/C4687.jpg",
+   "code": "C4687",
+   "matched": "Heat Sinks 25×15×25mm",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_XSD-25-15-25_C4687_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "铝散热片-25x25x15"
+   ],
+   "bytes": 37213
+  },
+  {
+   "file": "assets/img/parts/C46971084.jpg",
+   "code": "C46971084",
+   "matched": "XFCN TS7050050-0500",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250410_XFCN-TS7050050-0500_C46971084_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "铜柱-M2.5-8+6"
+   ],
+   "bytes": 35445
+  },
+  {
    "file": "assets/img/parts/C470572.jpg",
    "code": "C470572",
    "matched": "ALPSALPINE RK09711110EL",
@@ -3260,6 +4058,28 @@
     "RK097-10K"
    ],
    "bytes": 40960
+  },
+  {
+   "file": "assets/img/parts/C473338.jpg",
+   "code": "C473338",
+   "matched": "TI SN74LV1T125DBVR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230108_Texas-Instruments-SN74LV1T125DBVR_C473338_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "T12-焊台-数显"
+   ],
+   "bytes": 28665
+  },
+  {
+   "file": "assets/img/parts/C474881.jpg",
+   "code": "C474881",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "KF301-2P"
+   ],
+   "bytes": 36314
   },
   {
    "file": "assets/img/parts/C474881.jpg",
@@ -3295,6 +4115,18 @@
    "bytes": 35284
   },
   {
+   "file": "assets/img/parts/C475538.jpg",
+   "code": "C475538",
+   "matched": "TDK InvenSense ICM-20649",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260807_TDK-InvenSense-ICM-20649_C475538_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "导热硅脂-30g 罐装",
+    "导热硅胶-粘接型"
+   ],
+   "bytes": 26075
+  },
+  {
    "file": "assets/img/parts/C47967293.jpg",
    "code": "C47967293",
    "matched": "Minos IR2110S-MNS",
@@ -3326,6 +4158,17 @@
     "OT-圆形端子-M4"
    ],
    "bytes": 11294
+  },
+  {
+   "file": "assets/img/parts/C48388.jpg",
+   "code": "C48388",
+   "matched": "MICROCHIP 23LC1024-I/SN",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_Microchip-Tech-23LC1024-I-SN_C48388_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "23LC1024-I/SN"
+   ],
+   "bytes": 27667
   },
   {
    "file": "assets/img/parts/C48586675.jpg",
@@ -3403,6 +4246,17 @@
     "CH395Q"
    ],
    "bytes": 31164
+  },
+  {
+   "file": "assets/img/parts/C49142844.jpg",
+   "code": "C49142844",
+   "matched": "XKB Connection XZ7T1-MT4F-3000-K1M-ZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260130_XKB-Connection-XZ7T1-MT4F-3000-K1M-ZZ_C49142844_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "绝缘胶带-3M-黑"
+   ],
+   "bytes": 14773
   },
   {
    "file": "assets/img/parts/C49190454.jpg",
@@ -3504,6 +4358,29 @@
    "bytes": 33555
   },
   {
+   "file": "assets/img/parts/C49375362.jpg",
+   "code": "C49375362",
+   "matched": "VO RX24/150W-12Ω±1%",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250809_VO-RX24-150W-12R-1-_C49375362_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "电子负载-150W"
+   ],
+   "bytes": 9713
+  },
+  {
+   "file": "assets/img/parts/C49384143.jpg",
+   "code": "C49384143",
+   "matched": "Cable Assembly Rectangular L200mm Double End Same Direction",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251205_hanxia-HX-2-54-4P-ST-200mm-22AWG_C49384143_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "硅胶线-22AWG-红",
+    "硅胶线-18AWG-黑"
+   ],
+   "bytes": 8488
+  },
+  {
    "file": "assets/img/parts/C4943394.jpg",
    "code": "C4943394",
    "matched": "kinghelm KH-FPC2.4G-1.13IPEX-240",
@@ -3557,6 +4434,17 @@
     "MJE13003"
    ],
    "bytes": 38657
+  },
+  {
+   "file": "assets/img/parts/C507164.jpg",
+   "code": "C507164",
+   "matched": "HGSEMI CD4051BE",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230107_HGSEMI-CD4051BE_C507164_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "CD4051BE"
+   ],
+   "bytes": 39466
   },
   {
    "file": "assets/img/parts/C50734.jpg",
@@ -3625,6 +4513,17 @@
    "bytes": 38646
   },
   {
+   "file": "assets/img/parts/C51661.jpg",
+   "code": "C51661",
+   "matched": "XLSEMI XL4015E1",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251022_XLSEMI-XL4015E1_C51661_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "XL4015-降压模块-5A"
+   ],
+   "bytes": 37262
+  },
+  {
    "file": "assets/img/parts/C516617.jpg",
    "code": "C516617",
    "matched": "DIODES PI3HDMI1310-AZLEX",
@@ -3634,6 +4533,17 @@
     "HDMI-A-母座"
    ],
    "bytes": 33545
+  },
+  {
+   "file": "assets/img/parts/C5186083.jpg",
+   "code": "C5186083",
+   "matched": "LGE 2EZ24D5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230105_LGE-2EZ24D5_C5186083_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2EZ24D5"
+   ],
+   "bytes": 37602
   },
   {
    "file": "assets/img/parts/C51898328.jpg",
@@ -3780,6 +4690,39 @@
    "bytes": 32223
   },
   {
+   "file": "assets/img/parts/C525226.jpg",
+   "code": "C525226",
+   "matched": "PSA FN15X104K500PKG",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_PSA-Prosperity-Dielectrics-FN15X104K500PKG_C525226_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "覆铜板-单面-10x15"
+   ],
+   "bytes": 27654
+  },
+  {
+   "file": "assets/img/parts/C525226.jpg",
+   "code": "C525226",
+   "matched": "PSA FN15X104K500PKG",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_PSA-Prosperity-Dielectrics-FN15X104K500PKG_C525226_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "覆铜板-双面-10x15"
+   ],
+   "bytes": 27654
+  },
+  {
+   "file": "assets/img/parts/C525226.jpg",
+   "code": "C525226",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "感光板-单面-10x15"
+   ],
+   "bytes": 27654
+  },
+  {
    "file": "assets/img/parts/C525747.jpg",
    "code": "C525747",
    "matched": "GOODWORK ABS10",
@@ -3800,6 +4743,17 @@
     "STM8S003F3P6"
    ],
    "bytes": 32695
+  },
+  {
+   "file": "assets/img/parts/C5272058.jpg",
+   "code": "C5272058",
+   "matched": "LRC D35SB80",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230601_LRC-D35SB80_C5272058_front.jpg",
+   "matchedVia": "CHIPSAILING 插件 D5",
+   "models": [
+    "3DU5C"
+   ],
+   "bytes": 36646
   },
   {
    "file": "assets/img/parts/C52741340.jpg",
@@ -3844,6 +4798,17 @@
     "AT32F403ACGU7"
    ],
    "bytes": 33285
+  },
+  {
+   "file": "assets/img/parts/C528753.jpg",
+   "code": "C528753",
+   "matched": "Infineon IPW65R041CFD",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230203_Infineon-Technologies-IPW65R041CFD_C528753_front.jpg",
+   "matchedVia": "TSC TO-247",
+   "models": [
+    "GT50J325"
+   ],
+   "bytes": 38410
   },
   {
    "file": "assets/img/parts/C52917433.jpg",
@@ -3921,6 +4886,28 @@
     "EE19-12V1A-开关变压器"
    ],
    "bytes": 36960
+  },
+  {
+   "file": "assets/img/parts/C53065973.jpg",
+   "code": "C53065973",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "AC-DC-模块-12V1A"
+   ],
+   "bytes": 36960
+  },
+  {
+   "file": "assets/img/parts/C5309645.jpg",
+   "code": "C5309645",
+   "matched": "ATTEN AT858D+(220V)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230112_ATTEN-AT858D--220V_C5309645_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "热风枪-858D"
+   ],
+   "bytes": 22132
   },
   {
    "file": "assets/img/parts/C5342108.jpg",
@@ -4042,6 +5029,50 @@
     "XC6206P332MR"
    ],
    "bytes": 28451
+  },
+  {
+   "file": "assets/img/parts/C5451632.jpg",
+   "code": "C5451632",
+   "matched": "HXY MOSFET DS18B20",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230504_HXY-MOSFET-DS18B20_C5451632_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DS18B20"
+   ],
+   "bytes": 36594
+  },
+  {
+   "file": "assets/img/parts/C54561944.jpg",
+   "code": "C54561944",
+   "matched": "TECH PUBLIC TPSP4010-02HTG",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260811_TECH-PUBLIC-TPSP4010-02HTG_C54561944_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "风扇-4010-5V"
+   ],
+   "bytes": 25925
+  },
+  {
+   "file": "assets/img/parts/C54946586.jpg",
+   "code": "C54946586",
+   "matched": "Nyfea SHT30-P-NF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260603_Nyfea-SHT30-P-NF_C54946586_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SHT30-DIS-B"
+   ],
+   "bytes": 24617
+  },
+  {
+   "file": "assets/img/parts/C54946587.jpg",
+   "code": "C54946587",
+   "matched": "Nyfea SHT31-P-NF",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260603_Nyfea-SHT31-P-NF_C54946587_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SHT31-DIS-B"
+   ],
+   "bytes": 23887
   },
   {
    "file": "assets/img/parts/C55020573.jpg",
@@ -4356,6 +5387,17 @@
    "bytes": 19041
   },
   {
+   "file": "assets/img/parts/C576073.jpg",
+   "code": "C576073",
+   "matched": "SUNLIGHT SLD1357CRC2BD-4.5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230107_SUNLIGHT-SLD1357CRC2BD-4-5_C576073_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "洞洞板-单面-5x7"
+   ],
+   "bytes": 42207
+  },
+  {
    "file": "assets/img/parts/C577777.jpg",
    "code": "C577777",
    "matched": "Cixi Kefa Elec HT396K-3.96-2P",
@@ -4409,6 +5451,39 @@
     "IP2312"
    ],
    "bytes": 31137
+  },
+  {
+   "file": "assets/img/parts/C6185.jpg",
+   "code": "C6185",
+   "matched": "Advanced Monolithic Systems AMS1117-1.8",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221227_Advanced-Monolithic-Systems-AMS1117-1-8_C6185_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AMS1117-1.8"
+   ],
+   "bytes": 28423
+  },
+  {
+   "file": "assets/img/parts/C6186.jpg",
+   "code": "C6186",
+   "matched": "Advanced Monolithic Systems AMS1117-3.3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Advanced-Monolithic-Systems-AMS1117-3-3_C6186_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AMS1117-3.3"
+   ],
+   "bytes": 34337
+  },
+  {
+   "file": "assets/img/parts/C6187.jpg",
+   "code": "C6187",
+   "matched": "Advanced Monolithic Systems AMS1117-5.0",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Advanced-Monolithic-Systems-AMS1117-5-0_C6187_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AMS1117-5.0"
+   ],
+   "bytes": 29807
   },
   {
    "file": "assets/img/parts/C620155.jpg",
@@ -4609,6 +5684,17 @@
    "bytes": 31598
   },
   {
+   "file": "assets/img/parts/C6820.jpg",
+   "code": "C6820",
+   "matched": "TI SN74HC14DR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Texas-Instruments-SN74HC14DR_C6820_front.jpg",
+   "matchedVia": "SOIC-14 component",
+   "models": [
+    "74HC164D"
+   ],
+   "bytes": 33417
+  },
+  {
    "file": "assets/img/parts/C6822.jpg",
    "code": "C6822",
    "matched": "TI SN74HC151DR",
@@ -4742,6 +5828,17 @@
    "bytes": 31054
   },
   {
+   "file": "assets/img/parts/C720477.jpg",
+   "code": "C720477",
+   "matched": "XUNPU TS-1088-AR02016",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250918_XUNPU-TS-1088-AR02016_C720477_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "导热垫-3mm"
+   ],
+   "bytes": 30213
+  },
+  {
    "file": "assets/img/parts/C720557.jpg",
    "code": "C720557",
    "matched": "XUNPU DC-005-A200",
@@ -4872,6 +5969,28 @@
     "RT9013-33GB"
    ],
    "bytes": 27861
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CHIPSAILING 插件 三脚",
+   "models": [
+    "CSB455E"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "插件 模块 component",
+   "models": [
+    "WCS1800"
+   ],
+   "bytes": 37701
   },
   {
    "file": "assets/img/parts/C7435282.jpg",
@@ -5196,6 +6315,17 @@
    "bytes": 36583
   },
   {
+   "file": "assets/img/parts/C78492.jpg",
+   "code": "C78492",
+   "matched": "LX 30P 0.5mm 20CM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250604_LX-30P-0-5mm-20CM-_C78492_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "漆包线-0.5mm"
+   ],
+   "bytes": 17446
+  },
+  {
    "file": "assets/img/parts/C7873.jpg",
    "code": "C7873",
    "matched": "HOLTEK HT1621B",
@@ -5216,6 +6346,17 @@
     "DK112"
    ],
    "bytes": 35647
+  },
+  {
+   "file": "assets/img/parts/C78960.jpg",
+   "code": "C78960",
+   "matched": "ROHM BH1750FVI-TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250901_ROHM-BH1750FVI-TR_C78960_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BH1750FVI-TR"
+   ],
+   "bytes": 29895
   },
   {
    "file": "assets/img/parts/C7943.jpg",
@@ -5339,6 +6480,28 @@
    "bytes": 37758
   },
   {
+   "file": "assets/img/parts/C82942.jpg",
+   "code": "C82942",
+   "matched": "MICRONE ME6211C33M5G-N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ME6211C33M5G"
+   ],
+   "bytes": 26689
+  },
+  {
+   "file": "assets/img/parts/C8308.jpg",
+   "code": "C8308",
+   "matched": "ST STM32F103VET6",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_STMicroelectronics-STM32F103VET6_C8308_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "STM32F103VET6"
+   ],
+   "bytes": 32372
+  },
+  {
    "file": "assets/img/parts/C8323.jpg",
    "code": "C8323",
    "matched": "ST STM32F103RCT6",
@@ -5350,6 +6513,44 @@
    "bytes": 33251
   },
   {
+   "file": "assets/img/parts/C83291.jpg",
+   "code": "C83291",
+   "matched": "Bosch BMP280",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230218_Bosch-Sensortec-BMP280_C83291_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BMP280"
+   ],
+   "bytes": 28914
+  },
+  {
+   "file": "assets/img/parts/C83329.jpg",
+   "code": "C83329",
+   "matched": "Littelfuse SMAJ5.0A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251013_Littelfuse-SMAJ5-0A_C83329_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMAJ5.0A",
+    "SMAJ12A",
+    "SMAJ24A"
+   ],
+   "bytes": 32012
+  },
+  {
+   "file": "assets/img/parts/C83333.jpg",
+   "code": "C83333",
+   "matched": "Littelfuse SMBJ5.0A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Littelfuse-SMBJ5-0A_C83333_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMBJ5.0A",
+    "SMBJ15CA",
+    "SMBJ33CA",
+    "P6SMB16A"
+   ],
+   "bytes": 25814
+  },
+  {
    "file": "assets/img/parts/C83409.jpg",
    "code": "C83409",
    "matched": "SGMICRO SGM8541XN5/TR",
@@ -5359,6 +6560,17 @@
     "SGM8541XN5/TR"
    ],
    "bytes": 28698
+  },
+  {
+   "file": "assets/img/parts/C83988.jpg",
+   "code": "C83988",
+   "matched": "Aosong AM2302",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230218_Aosong--Guangzhou-Elec-AM2302_C83988_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AM2302"
+   ],
+   "bytes": 30412
   },
   {
    "file": "assets/img/parts/C84138.jpg",
@@ -5405,6 +6617,17 @@
    "bytes": 33993
   },
   {
+   "file": "assets/img/parts/C84681.jpg",
+   "code": "C84681",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "CONSONANCE SOP-16",
+   "models": [
+    "SD2405ALPI"
+   ],
+   "bytes": 33993
+  },
+  {
    "file": "assets/img/parts/C84817.jpg",
    "code": "C84817",
    "matched": "XI'AN Aerosemi Tech MT3608",
@@ -5412,6 +6635,17 @@
    "matchedVia": "model",
    "models": [
     "MT3608"
+   ],
+   "bytes": 31511
+  },
+  {
+   "file": "assets/img/parts/C84817.jpg",
+   "code": "C84817",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "MT3608-升压模块-2A"
    ],
    "bytes": 31511
   },
@@ -5425,6 +6659,17 @@
     "BPW34"
    ],
    "bytes": 28106
+  },
+  {
+   "file": "assets/img/parts/C85697.jpg",
+   "code": "C85697",
+   "matched": "Honeywell SS49E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Honeywell-SS49E_C85697_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS49E"
+   ],
+   "bytes": 32194
   },
   {
    "file": "assets/img/parts/C85840.jpg",
@@ -5491,6 +6736,17 @@
     "音频隔离变压器-600:600"
    ],
    "bytes": 28875
+  },
+  {
+   "file": "assets/img/parts/C8734.jpg",
+   "code": "C8734",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "STM32F103C8T6"
+   ],
+   "bytes": 30386
   },
   {
    "file": "assets/img/parts/C8734.jpg",
@@ -5565,7 +6821,29 @@
    "sourceUrl": "",
    "matchedVia": "SOIC-8 component",
    "models": [
+    "23K256-I/SN"
+   ],
+   "bytes": 28532
+  },
+  {
+   "file": "assets/img/parts/C87905.jpg",
+   "code": "C87905",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "SOIC-8 component",
+   "models": [
     "SN65HVD230DR"
+   ],
+   "bytes": 28532
+  },
+  {
+   "file": "assets/img/parts/C87905.jpg",
+   "code": "C87905",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "SO-8 component",
+   "models": [
+    "MAX6675"
    ],
    "bytes": 28532
   },
@@ -5913,6 +7191,17 @@
    "bytes": 23220
   },
   {
+   "file": "assets/img/parts/C93246.jpg",
+   "code": "C93246",
+   "matched": "MAXIM DS18B20U+T&R",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260905_MAXIM-DS18B20U-T-R_C93246_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DS18B20U"
+   ],
+   "bytes": 24026
+  },
+  {
    "file": "assets/img/parts/C93623.jpg",
    "code": "C93623",
    "matched": "onsemi ESD5B5.0ST1G",
@@ -5991,6 +7280,28 @@
    "matchedVia": "SOT-23-5 component",
    "models": [
     "RT9742"
+   ],
+   "bytes": 27951
+  },
+  {
+   "file": "assets/img/parts/C9641.jpg",
+   "code": "C9641",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "SOT-23-5 component",
+   "models": [
+    "SN74LVC1G14"
+   ],
+   "bytes": 27951
+  },
+  {
+   "file": "assets/img/parts/C9641.jpg",
+   "code": "C9641",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "SOT-23-5 component",
+   "models": [
+    "SN74LVC1G08"
    ],
    "bytes": 27951
   },
@@ -6116,6 +7427,17 @@
    "bytes": 28898
   },
   {
+   "file": "assets/img/parts/C98259.jpg",
+   "code": "C98259",
+   "matched": "QUICK 936 Soldering Station 60W Adjustable Temperature (Standard Kit)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_QUICK-936_C98259_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "936-焊台-恒温"
+   ],
+   "bytes": 14329
+  },
+  {
    "file": "assets/img/parts/C9864.jpg",
    "code": "C9864",
    "matched": "TI TPS5430DDAR",
@@ -6136,6 +7458,17 @@
     "AOD4184A"
    ],
    "bytes": 31129
+  },
+  {
+   "file": "assets/img/parts/C99269.jpg",
+   "code": "C99269",
+   "matched": "TI TMP102AIDRLR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Texas-Instruments-TMP102AIDRLR_C99269_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TMP102AIDRLR"
+   ],
+   "bytes": 24181
   },
   {
    "file": "assets/img/parts/C99395.jpg",
