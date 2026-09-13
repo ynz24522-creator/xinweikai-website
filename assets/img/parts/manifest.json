@@ -1,7 +1,7 @@
 {
  "note": "商品图片来自立创商城（lcsc.com），仅作型号识别参考；如需替换为自有实拍图，覆盖 assets/img/parts/ 下同名文件或在 data.js 中改 img 字段即可。",
- "count": 386,
- "imageCount": 386,
+ "count": 475,
+ "imageCount": 475,
  "entries": [
   {
    "file": "assets/img/parts/C10002.jpg",
@@ -119,6 +119,17 @@
    "bytes": 25576
   },
   {
+   "file": "assets/img/parts/C10681.jpg",
+   "code": "C10681",
+   "matched": "ALLEGRO ACS712ELCTR-20A-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Allegro-MicroSystems--LLC-ACS712ELCTR-20A-T_C10681_front_10.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ACS712ELCTR-20A-T"
+   ],
+   "bytes": 26107
+  },
+  {
    "file": "assets/img/parts/C107374.jpg",
    "code": "C107374",
    "matched": "YAGEO YC164-JR-0710KL",
@@ -197,6 +208,17 @@
    "bytes": 27092
   },
   {
+   "file": "assets/img/parts/C11099.jpg",
+   "code": "C11099",
+   "matched": "LX FFC 40P 0.5mm 30CM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230403_LX-FFC-40P-0-5mm-30CM-_C11099_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FFC-0.5-40P-上接"
+   ],
+   "bytes": 6486
+  },
+  {
    "file": "assets/img/parts/C111780.jpg",
    "code": "C111780",
    "matched": "BOURNS 3296X-1-503LF",
@@ -206,6 +228,17 @@
     "3296X-1-503LF"
    ],
    "bytes": 30880
+  },
+  {
+   "file": "assets/img/parts/C111858.jpg",
+   "code": "C111858",
+   "matched": "ZHE MING LANG XI ZMPT101B",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_ZHE-MING-LANG-XI-ZMPT101B_C111858_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ZMPT101B-模块"
+   ],
+   "bytes": 22176
   },
   {
    "file": "assets/img/parts/C111875.jpg",
@@ -341,6 +374,17 @@
    "bytes": 33381
   },
   {
+   "file": "assets/img/parts/C125627.jpg",
+   "code": "C125627",
+   "matched": "Senba Sensing Tech GL5528",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_Senba-Sensing-Tech-GL5528_C125627_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GL5528"
+   ],
+   "bytes": 39172
+  },
+  {
    "file": "assets/img/parts/C12597.jpg",
    "code": "C12597",
    "matched": "TI LM311DR",
@@ -452,6 +496,17 @@
    "bytes": 26596
   },
   {
+   "file": "assets/img/parts/C131334.jpg",
+   "code": "C131334",
+   "matched": "JST B4B-PH-K-S(LF)(SN)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230102_JST-B4B-PH-K-S-LF-SN_C131334_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PH2.0-4P-直插"
+   ],
+   "bytes": 27185
+  },
+  {
    "file": "assets/img/parts/C131394.jpg",
    "code": "C131394",
    "matched": "YAGEO CC0402KRX7R9BB104",
@@ -539,6 +594,17 @@
     "MF52A103F3950"
    ],
    "bytes": 38540
+  },
+  {
+   "file": "assets/img/parts/C140616.jpg",
+   "code": "C140616",
+   "matched": "Songle Relay SRD-24VDC-SL-A",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250911_Songle-Relay-SRD-24VDC-SL-A_C140616_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SRD-24VDC-SL-A"
+   ],
+   "bytes": 35979
   },
   {
    "file": "assets/img/parts/C141517.jpg",
@@ -644,6 +710,17 @@
    "bytes": 26902
   },
   {
+   "file": "assets/img/parts/C148469.jpg",
+   "code": "C148469",
+   "matched": "SHARP GP2Y0A21YK0F",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190517_Sharp-Microelectronics-GP2Y0A21YK0F_C148469_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GP2Y0A21YK0F"
+   ],
+   "bytes": 29392
+  },
+  {
    "file": "assets/img/parts/C14871.jpg",
    "code": "C14871",
    "matched": "YXC Crystal Oscillators X49SM12MSD2SC",
@@ -666,6 +743,28 @@
    "bytes": 35133
   },
   {
+   "file": "assets/img/parts/C1509174.jpg",
+   "code": "C1509174",
+   "matched": "HJ Tech HJ-IPEX1-RG1.13-380mm",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_HJ-Tech-HJ-IPEX1-RG1-13-380mm_C1509174_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IPEX-1代-母座"
+   ],
+   "bytes": 7237
+  },
+  {
+   "file": "assets/img/parts/C1509174.jpg",
+   "code": "C1509174",
+   "matched": "HJ Tech HJ-IPEX1-RG1.13-380mm",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_HJ-Tech-HJ-IPEX1-RG1-13-380mm_C1509174_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "IPEX-4代-母座"
+   ],
+   "bytes": 7237
+  },
+  {
    "file": "assets/img/parts/C15127.jpg",
    "code": "C15127",
    "matched": "AOS AO3401A",
@@ -675,6 +774,17 @@
     "AO3401A"
    ],
    "bytes": 25004
+  },
+  {
+   "file": "assets/img/parts/C15134.jpg",
+   "code": "C15134",
+   "matched": "ST LIS3DHTR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_STMicroelectronics-LIS3DHTR_C15134_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "LIS3DH"
+   ],
+   "bytes": 30778
   },
   {
    "file": "assets/img/parts/C1518243.jpg",
@@ -700,6 +810,17 @@
    "bytes": 22478
   },
   {
+   "file": "assets/img/parts/C1526918.jpg",
+   "code": "C1526918",
+   "matched": "TI OPT101P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260730_TI-OPT101P_C1526918_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "OPT101P"
+   ],
+   "bytes": 28717
+  },
+  {
    "file": "assets/img/parts/C154992.jpg",
    "code": "C154992",
    "matched": "CONSONANCE CN3791",
@@ -720,6 +841,17 @@
     "X322524MSB4SI"
    ],
    "bytes": 31701
+  },
+  {
+   "file": "assets/img/parts/C157991.jpg",
+   "code": "C157991",
+   "matched": "JST B5B-XH-A(LF)(SN)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_JST-B5B-XH-A-LF-SN_C157991_front_10.jpg",
+   "matchedVia": "model",
+   "models": [
+    "快速接线端子-5P"
+   ],
+   "bytes": 31469
   },
   {
    "file": "assets/img/parts/C1591.jpg",
@@ -1012,6 +1144,17 @@
    "bytes": 32597
   },
   {
+   "file": "assets/img/parts/C18221462.jpg",
+   "code": "C18221462",
+   "matched": "JSMSEMI A3144E-JSM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231020_JSMSEMI-A3144E-JSM_C18221462_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "A3144E"
+   ],
+   "bytes": 31342
+  },
+  {
    "file": "assets/img/parts/C184029.jpg",
    "code": "C184029",
    "matched": "muRata LQW15AN10NJ00D",
@@ -1021,6 +1164,17 @@
     "LQW15AN10NJ00D"
    ],
    "bytes": 23662
+  },
+  {
+   "file": "assets/img/parts/C1850418.jpg",
+   "code": "C1850418",
+   "matched": "TDK InvenSense ICM-42688-P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230130_TDK-InvenSense-ICM-42688-P_C1850418_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ICM-42688-P"
+   ],
+   "bytes": 30905
   },
   {
    "file": "assets/img/parts/C190610.jpg",
@@ -1106,6 +1260,28 @@
     "WPN252012H1R0MT"
    ],
    "bytes": 27049
+  },
+  {
+   "file": "assets/img/parts/C19224.jpg",
+   "code": "C19224",
+   "matched": "Nexperia PESD5V0S1BA,115",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Nexperia-PESD5V0S1BA-115_C19224_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "继电器模块-5V-1路"
+   ],
+   "bytes": 26055
+  },
+  {
+   "file": "assets/img/parts/C19224.jpg",
+   "code": "C19224",
+   "matched": "Nexperia PESD5V0S1BA,115",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_Nexperia-PESD5V0S1BA-115_C19224_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "继电器模块-5V-8路"
+   ],
+   "bytes": 26055
   },
   {
    "file": "assets/img/parts/C192392.jpg",
@@ -1331,6 +1507,28 @@
    "bytes": 33570
   },
   {
+   "file": "assets/img/parts/C20612594.jpg",
+   "code": "C20612594",
+   "matched": "AOTE PC817C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240311_AOTE-PC817C_C20612594_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "PC817C"
+   ],
+   "bytes": 34393
+  },
+  {
+   "file": "assets/img/parts/C2077241.jpg",
+   "code": "C2077241",
+   "matched": "VISHAY RCA040210K0FKED",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250702_Vishay-Intertech-RCA040210K0FKED_C2077241_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RCA-母座-红白"
+   ],
+   "bytes": 28228
+  },
+  {
    "file": "assets/img/parts/C20917.jpg",
    "code": "C20917",
    "matched": "AOS AO3400A",
@@ -1375,6 +1573,17 @@
    "bytes": 29921
   },
   {
+   "file": "assets/img/parts/C22355741.jpg",
+   "code": "C22355741",
+   "matched": "SOFNG SS-12D00-G3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240831_SOFNG-SS-12D00-G3_C22355741_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SS-12D00-G3"
+   ],
+   "bytes": 33032
+  },
+  {
    "file": "assets/img/parts/C22411105.jpg",
    "code": "C22411105",
    "matched": "Coilcraft 0402CS-1N0XJLW",
@@ -1396,6 +1605,17 @@
     "74HC160D"
    ],
    "bytes": 35845
+  },
+  {
+   "file": "assets/img/parts/C22438293.jpg",
+   "code": "C22438293",
+   "matched": "hanxia HX PZ2.0-1x10P ZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240712_hanxia-HX-PZ2-0-1x10P-ZZ_C22438293_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.0-1x10P-排针"
+   ],
+   "bytes": 39888
   },
   {
    "file": "assets/img/parts/C22452.jpg",
@@ -1431,6 +1651,28 @@
    "bytes": 32045
   },
   {
+   "file": "assets/img/parts/C2337.jpg",
+   "code": "C2337",
+   "matched": "BOOMELE(Boom Precision Elec) 2.54-1*40P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251111_BOOMELE-Boom-Precision-Elec-2-54-1-40P_C2337_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.54-1x40P-弯针"
+   ],
+   "bytes": 7825
+  },
+  {
+   "file": "assets/img/parts/C2337.jpg",
+   "code": "C2337",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "2.54-1x40P-排母"
+   ],
+   "bytes": 7825
+  },
+  {
    "file": "assets/img/parts/C241848.jpg",
    "code": "C241848",
    "matched": "Shenzhen Sunmoon Micro SM2082EGS",
@@ -1442,6 +1684,28 @@
    "bytes": 28114
   },
   {
+   "file": "assets/img/parts/C242186.jpg",
+   "code": "C242186",
+   "matched": "INGHAi GU14095B-40TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INGHAi-GU14095B-40TR_C242186_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TF-卡座-推拉式"
+   ],
+   "bytes": 29869
+  },
+  {
+   "file": "assets/img/parts/C242186.jpg",
+   "code": "C242186",
+   "matched": "INGHAi GU14095B-40TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20180914_INGHAi-GU14095B-40TR_C242186_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TF-卡座-自弹式"
+   ],
+   "bytes": 29869
+  },
+  {
    "file": "assets/img/parts/C242260.jpg",
    "code": "C242260",
    "matched": "onsemi MMBT3904TT1G",
@@ -1451,6 +1715,28 @@
     "MMBT3904"
    ],
    "bytes": 29538
+  },
+  {
+   "file": "assets/img/parts/C24735470.jpg",
+   "code": "C24735470",
+   "matched": "TE Connectivity ANT-433-CW-RH-SMA",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251204_TE-Connectivity-ANT-433-CW-RH-SMA_C24735470_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SMA-KE-母座"
+   ],
+   "bytes": 8211
+  },
+  {
+   "file": "assets/img/parts/C24735470.jpg",
+   "code": "C24735470",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "SMA-公头-焊线"
+   ],
+   "bytes": 8211
   },
   {
    "file": "assets/img/parts/C2479.jpg",
@@ -1544,6 +1830,17 @@
    "bytes": 28417
   },
   {
+   "file": "assets/img/parts/C2683345.jpg",
+   "code": "C2683345",
+   "matched": "kinghelm KH-IPEX-SMA-W-200",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230129_Shenzhen-Kinghelm-Elec-KH-IPEX-SMA-W-200_C2683345_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "天线转接线-IPEX转SMA"
+   ],
+   "bytes": 7680
+  },
+  {
    "file": "assets/img/parts/C2685734.jpg",
    "code": "C2685734",
    "matched": "GigaDevice Semicon Beijing GD25Q64ESIG",
@@ -1566,6 +1863,28 @@
    "bytes": 34734
   },
   {
+   "file": "assets/img/parts/C2686006.jpg",
+   "code": "C2686006",
+   "matched": "Broadcom ASSR-1410-503E",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230129_Broadcom-AVAGO-ASSR-1410-503E_C2686006_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SSR-10DA"
+   ],
+   "bytes": 30310
+  },
+  {
+   "file": "assets/img/parts/C2686006.jpg",
+   "code": "C2686006",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "SSR-25DA"
+   ],
+   "bytes": 30310
+  },
+  {
    "file": "assets/img/parts/C2687447.jpg",
    "code": "C2687447",
    "matched": "ARTERY AT32F421C8T7",
@@ -1586,6 +1905,28 @@
     "CH32F103C8T6"
    ],
    "bytes": 33474
+  },
+  {
+   "file": "assets/img/parts/C27269.jpg",
+   "code": "C27269",
+   "matched": "OMRON G5V-2-DC5",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221229_Omron-Electronics-G5V-2-DC5_C27269_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "G5V-2-DC5"
+   ],
+   "bytes": 31296
+  },
+  {
+   "file": "assets/img/parts/C2765186.jpg",
+   "code": "C2765186",
+   "matched": "SHOU HAN TYPE-C 16PIN 2MD(073)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260311_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TYPE-C-16P-卧贴"
+   ],
+   "bytes": 34088
   },
   {
    "file": "assets/img/parts/C2803195.jpg",
@@ -1619,6 +1960,17 @@
     "LMV321"
    ],
    "bytes": 29003
+  },
+  {
+   "file": "assets/img/parts/C2831791.jpg",
+   "code": "C2831791",
+   "matched": "KNSCHA 01EC1263",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230120_KNSCHA-01EC1263_C2831791_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EC12-24-无按键"
+   ],
+   "bytes": 36793
   },
   {
    "file": "assets/img/parts/C2839625.jpg",
@@ -1831,6 +2183,39 @@
    "bytes": 29008
   },
   {
+   "file": "assets/img/parts/C2984661.jpg",
+   "code": "C2984661",
+   "matched": "VISHAY TCRT5000",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_Vishay-Intertech-TCRT5000_C2984661_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TCRT5000"
+   ],
+   "bytes": 34240
+  },
+  {
+   "file": "assets/img/parts/C2991196.jpg",
+   "code": "C2991196",
+   "matched": "ALPSALPINE EC11L1525G01",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230122_ALPSALPINE-EC11L1525G01_C2991196_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EC11-20-15-带按键"
+   ],
+   "bytes": 35595
+  },
+  {
+   "file": "assets/img/parts/C2991196.jpg",
+   "code": "C2991196",
+   "matched": "ALPSALPINE EC11L1525G01",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230122_ALPSALPINE-EC11L1525G01_C2991196_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "EC11-20-15-无按键"
+   ],
+   "bytes": 35595
+  },
+  {
    "file": "assets/img/parts/C3001172.jpg",
    "code": "C3001172",
    "matched": "WCH CH32V203C8T6",
@@ -1862,6 +2247,28 @@
     "MP2359DJ"
    ],
    "bytes": 31892
+  },
+  {
+   "file": "assets/img/parts/C3029379.jpg",
+   "code": "C3029379",
+   "matched": "XUNPU WAFER-GH1.25-4PWB",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_XUNPU-WAFER-GH1-25-4PWB_C3029379_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "GH1.25-4P-卧插"
+   ],
+   "bytes": 32312
+  },
+  {
+   "file": "assets/img/parts/C3029395.jpg",
+   "code": "C3029395",
+   "matched": "XUNPU WAFER-MX1.25-2PZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_XUNPU-WAFER-MX1-25-2PZZ_C3029395_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "MX1.25-2P-接线端子"
+   ],
+   "bytes": 31185
   },
   {
    "file": "assets/img/parts/C3032170.jpg",
@@ -1906,6 +2313,17 @@
     "SDCW3216-2-601TF"
    ],
    "bytes": 30679
+  },
+  {
+   "file": "assets/img/parts/C30431.jpg",
+   "code": "C30431",
+   "matched": "Songle Relay SRD-12VDC-SL-C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230216_Ningbo-Songle-Relay-SRD-12VDC-SL-C_C30431_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SRD-12VDC-SL-C"
+   ],
+   "bytes": 32976
   },
   {
    "file": "assets/img/parts/C30442.jpg",
@@ -1963,6 +2381,17 @@
    "bytes": 31964
   },
   {
+   "file": "assets/img/parts/C32713285.jpg",
+   "code": "C32713285",
+   "matched": "hanxia HX PZ2.54-2x5P TP",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240819_hanxia-HX-PZ2-54-2x5P-TP_C32713285_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.54-2x5P-简牛"
+   ],
+   "bytes": 37539
+  },
+  {
    "file": "assets/img/parts/C32726.jpg",
    "code": "C32726",
    "matched": "Intel/Altera EP4CE10E22C8N",
@@ -1994,6 +2423,39 @@
     "2SA1015"
    ],
    "bytes": 40449
+  },
+  {
+   "file": "assets/img/parts/C3291489.jpg",
+   "code": "C3291489",
+   "matched": "EVERLIGHT IRM-V838M3-C/TR1",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230221_Everlight-Elec-IRM-V838M3-C-TR1_C3291489_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "RJ45-母座-90°"
+   ],
+   "bytes": 30883
+  },
+  {
+   "file": "assets/img/parts/C329299.jpg",
+   "code": "C329299",
+   "matched": "HONGFA HF115F/012-1ZS3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260903_HONGFA-HF115F-012-1ZS3_C329299_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HF115F-012-1ZS3"
+   ],
+   "bytes": 25989
+  },
+  {
+   "file": "assets/img/parts/C329304.jpg",
+   "code": "C329304",
+   "matched": "HONGFA HF32F/005-HS3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260903_HONGFA-HF32F-005-HS3_C329304_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HF32F-005-HS3"
+   ],
+   "bytes": 30511
   },
   {
    "file": "assets/img/parts/C32982.jpg",
@@ -2052,6 +2514,17 @@
    "bytes": 32463
   },
   {
+   "file": "assets/img/parts/C35165.jpg",
+   "code": "C35165",
+   "matched": "BOOMELE(Boom Precision Elec) 2.54-2*20PPC104",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20200912_BOOMELE-Boom-Precision-Elec-2-54-2-20PPC104_C35165_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.54-2x20P-排母"
+   ],
+   "bytes": 38804
+  },
+  {
    "file": "assets/img/parts/C352866.jpg",
    "code": "C352866",
    "matched": "TI LMV393IDGKR",
@@ -2061,6 +2534,28 @@
     "LMV393IDGKR"
    ],
    "bytes": 25020
+  },
+  {
+   "file": "assets/img/parts/C35449.jpg",
+   "code": "C35449",
+   "matched": "Songle Relay SRD-05VDC-SL-C",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190525_Ningbo-Songle-Relay-SRD-05VDC-SL-C_C35449_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SRD-05VDC-SL-C"
+   ],
+   "bytes": 31738
+  },
+  {
+   "file": "assets/img/parts/C361165.jpg",
+   "code": "C361165",
+   "matched": "ALPSALPINE EC11E1834403",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20190108_ALPSALPINE-EC11E1834403_C361165_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "E18-D80NK"
+   ],
+   "bytes": 34724
   },
   {
    "file": "assets/img/parts/C36238.jpg",
@@ -2083,6 +2578,17 @@
     "S8550"
    ],
    "bytes": 28989
+  },
+  {
+   "file": "assets/img/parts/C3646874.jpg",
+   "code": "C3646874",
+   "matched": "DORABO DB125-3.5-5P-GN-S",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230123_DORABO-DB125-3-5-5P-GN-S_C3646874_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "3.5mm-耳机座-5P"
+   ],
+   "bytes": 35123
   },
   {
    "file": "assets/img/parts/C36658.jpg",
@@ -2219,6 +2725,39 @@
    "bytes": 29578
   },
   {
+   "file": "assets/img/parts/C42372518.jpg",
+   "code": "C42372518",
+   "matched": "hanxia HX PZ2.54-2x10P ZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20241129_hanxia-HX-PZ2-54-2x10P-ZZ_C42372518_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "2.54-2x10P-牛角"
+   ],
+   "bytes": 41741
+  },
+  {
+   "file": "assets/img/parts/C431944.jpg",
+   "code": "C431944",
+   "matched": "Waveshare VL53L0X Distance Sensor",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230204_Waveshare-VL53L0X-Distance-Sensor_C431944_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "VL53L0X"
+   ],
+   "bytes": 11189
+  },
+  {
+   "file": "assets/img/parts/C44471.jpg",
+   "code": "C44471",
+   "matched": "ALLEGRO ACS712ELCTR-05B-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230331_Allegro-MicroSystems--LLC-ACS712ELCTR-05B-T_C44471_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ACS712ELCTR-05B-T"
+   ],
+   "bytes": 29311
+  },
+  {
    "file": "assets/img/parts/C45284.jpg",
    "code": "C45284",
    "matched": "CONSONANCE CN3065",
@@ -2313,6 +2852,39 @@
    "bytes": 40960
   },
   {
+   "file": "assets/img/parts/C474881.jpg",
+   "code": "C474881",
+   "matched": "Cixi Kefa Elec KF301-5.0-2P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230322_Cixi-Kefa-Elec-KF301-5-0-2P_C474881_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "KF301-3P"
+   ],
+   "bytes": 36314
+  },
+  {
+   "file": "assets/img/parts/C474892.jpg",
+   "code": "C474892",
+   "matched": "Cixi Kefa Elec KF350-3.5-2P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230322_Cixi-Kefa-Elec-KF350-3-5-2P_C474892_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "KF350-2P"
+   ],
+   "bytes": 33665
+  },
+  {
+   "file": "assets/img/parts/C474950.jpg",
+   "code": "C474950",
+   "matched": "Cixi Kefa Elec KF128-5.0-2P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230319_Cixi-Kefa-Elec-KF128-5-0-2P_C474950_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "KF128-2P-接线端子"
+   ],
+   "bytes": 35284
+  },
+  {
    "file": "assets/img/parts/C47967293.jpg",
    "code": "C47967293",
    "matched": "Minos IR2110S-MNS",
@@ -2333,6 +2905,17 @@
     "EG2104"
    ],
    "bytes": 28361
+  },
+  {
+   "file": "assets/img/parts/C481447.jpg",
+   "code": "C481447",
+   "matched": "XFCN T44001",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250623_XFCN-T44001_C481447_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "OT-圆形端子-M4"
+   ],
+   "bytes": 11294
   },
   {
    "file": "assets/img/parts/C48997969.jpg",
@@ -2399,6 +2982,39 @@
     "3386P-1-103LF"
    ],
    "bytes": 35412
+  },
+  {
+   "file": "assets/img/parts/C49234140.jpg",
+   "code": "C49234140",
+   "matched": "hanxia HX-3x4-CA-1.6N",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250704_hanxia-HX-3x4-CA-1-6N_C49234140_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TS-1088-3x4-贴片"
+   ],
+   "bytes": 31788
+  },
+  {
+   "file": "assets/img/parts/C49274336.jpg",
+   "code": "C49274336",
+   "matched": "CAX TS-1101U-3x6x3.5BG-260",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250712_CAX-TS-1101U-3x6x3-5BG-260_C49274336_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TS-1088-3x6-贴片"
+   ],
+   "bytes": 32248
+  },
+  {
+   "file": "assets/img/parts/C49284736.jpg",
+   "code": "C49284736",
+   "matched": "XUNPU SK-12D07VG3",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250712_XUNPU-SK-12D07VG3_C49284736_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SK-12D07VG3"
+   ],
+   "bytes": 35444
   },
   {
    "file": "assets/img/parts/C49308288.jpg",
@@ -2500,6 +3116,17 @@
    "bytes": 27403
   },
   {
+   "file": "assets/img/parts/C5156605.jpg",
+   "code": "C5156605",
+   "matched": "SHOU HAN TYPE-C 24P QT 143",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230124_SHOU-HAN-TYPE-C-24P-QT-143_C5156605_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TYPE-C-24P-卧贴"
+   ],
+   "bytes": 35865
+  },
+  {
    "file": "assets/img/parts/C5158822.jpg",
    "code": "C5158822",
    "matched": "PROD Tech PDMCAT1065-102MLN",
@@ -2509,6 +3136,17 @@
     "EMI-6A-1mH"
    ],
    "bytes": 38646
+  },
+  {
+   "file": "assets/img/parts/C516617.jpg",
+   "code": "C516617",
+   "matched": "DIODES PI3HDMI1310-AZLEX",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20231104_Diodes-Incorporated-PI3HDMI1310-AZLEX_C516617_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HDMI-A-母座"
+   ],
+   "bytes": 33545
   },
   {
    "file": "assets/img/parts/C51898328.jpg",
@@ -2643,6 +3281,17 @@
    "bytes": 26179
   },
   {
+   "file": "assets/img/parts/C52753965.jpg",
+   "code": "C52753965",
+   "matched": "MK SDSDQAB-016G-MK-F 16GB Industrial Micro SD Card, Classical",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260530_MK-SDSDQAB-016G-MK-F_C52753965_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "SD-卡座-大卡"
+   ],
+   "bytes": 7621
+  },
+  {
    "file": "assets/img/parts/C52801.jpg",
    "code": "C52801",
    "matched": "Nexperia BC817-40,215",
@@ -2685,6 +3334,17 @@
     "STM32F030F4P6"
    ],
    "bytes": 32416
+  },
+  {
+   "file": "assets/img/parts/C52939600.jpg",
+   "code": "C52939600",
+   "matched": "DLL KW12F-1-C02",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260108_DLL-KW12F-1-C02_C52939600_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "微动开关-KW12"
+   ],
+   "bytes": 37623
   },
   {
    "file": "assets/img/parts/C5296731.jpg",
@@ -2753,6 +3413,39 @@
    "bytes": 34335
   },
   {
+   "file": "assets/img/parts/C5368775.jpg",
+   "code": "C5368775",
+   "matched": "SHOU HAN 2.54mm-2P ZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230323_SHOU-HAN-2-54mm-2P-ZZ_C5368775_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "XH2.54-2P-直插"
+   ],
+   "bytes": 33915
+  },
+  {
+   "file": "assets/img/parts/C5368775.jpg",
+   "code": "C5368775",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "XH2.54-2P-卧插"
+   ],
+   "bytes": 33915
+  },
+  {
+   "file": "assets/img/parts/C5368777.jpg",
+   "code": "C5368777",
+   "matched": "SHOU HAN 2.54mm-4P ZZ",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230323_SHOU-HAN-2-54mm-4P-ZZ_C5368777_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "XH2.54-4P-直插"
+   ],
+   "bytes": 34326
+  },
+  {
    "file": "assets/img/parts/C54221017.jpg",
    "code": "C54221017",
    "matched": "ZG MAC97A8",
@@ -2795,6 +3488,17 @@
     "XC6206P332MR"
    ],
    "bytes": 28451
+  },
+  {
+   "file": "assets/img/parts/C55020573.jpg",
+   "code": "C55020573",
+   "matched": "BXCONN AM-PM1.27-V14-1*20P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260604_BXCONN-AM-PM1-27-V14-1-20P_C55020573_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "1.27-1x20P-排针"
+   ],
+   "bytes": 35941
   },
   {
    "file": "assets/img/parts/C55020849.jpg",
@@ -3042,6 +3746,17 @@
    "bytes": 29807
   },
   {
+   "file": "assets/img/parts/C577777.jpg",
+   "code": "C577777",
+   "matched": "Cixi Kefa Elec HT396K-3.96-2P",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230331_Cixi-Kefa-Elec-HT396K-3-96-2P_C577777_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HT396K-2P"
+   ],
+   "bytes": 34754
+  },
+  {
    "file": "assets/img/parts/C5799578.jpg",
    "code": "C5799578",
    "matched": "GOWIN GW1NR-LV9QN88PC6/I5",
@@ -3108,6 +3823,39 @@
    "bytes": 26803
   },
   {
+   "file": "assets/img/parts/C63014.jpg",
+   "code": "C63014",
+   "matched": "LX FFC 20P 1.0mm 10CM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_LX-FFC-20P-1-0mm-10CM-_C63014_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FFC-1.0-20P-卧贴"
+   ],
+   "bytes": 27481
+  },
+  {
+   "file": "assets/img/parts/C63014.jpg",
+   "code": "C63014",
+   "matched": "LX FFC 20P 1.0mm 10CM",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221230_LX-FFC-20P-1-0mm-10CM-_C63014_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FFC排线-1.0-20P-反向"
+   ],
+   "bytes": 27481
+  },
+  {
+   "file": "assets/img/parts/C63451.jpg",
+   "code": "C63451",
+   "matched": "EVERLIGHT ITR8307",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251022_EVERLIGHT-ITR8307_C63451_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ITR8307"
+   ],
+   "bytes": 39396
+  },
+  {
    "file": "assets/img/parts/C6487.jpg",
    "code": "C6487",
    "matched": "MICROCHIP AT24C64D-SSHM-T",
@@ -3128,6 +3876,28 @@
     "MMSZ5231B"
    ],
    "bytes": 30290
+  },
+  {
+   "file": "assets/img/parts/C668623.jpg",
+   "code": "C668623",
+   "matched": "SHOU HAN TYPE-C 6P(073)",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230202_SHOU-HAN-TYPE-C-6P-073_C668623_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "TYPE-C-6P-立贴"
+   ],
+   "bytes": 36047
+  },
+  {
+   "file": "assets/img/parts/C668623.jpg",
+   "code": "C668623",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "SIM-卡座-6P"
+   ],
+   "bytes": 36047
   },
   {
    "file": "assets/img/parts/C67470.jpg",
@@ -3185,6 +3955,39 @@
    "bytes": 30138
   },
   {
+   "file": "assets/img/parts/C6917329.jpg",
+   "code": "C6917329",
+   "matched": "hanxia HX KCD11-BL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230608_hanxia-HX-KCD11-BL_C6917329_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "船型开关-KCD1"
+   ],
+   "bytes": 35968
+  },
+  {
+   "file": "assets/img/parts/C6936306.jpg",
+   "code": "C6936306",
+   "matched": "SHOU HAN FFC-0.5-30P-50mm",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230602_SHOU-HAN-FFC-0-5-30P-50mm_C6936306_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "FFC-0.5-30P-下接"
+   ],
+   "bytes": 36922
+  },
+  {
+   "file": "assets/img/parts/C6936306.jpg",
+   "code": "C6936306",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "FFC排线-0.5-30P-同向"
+   ],
+   "bytes": 36922
+  },
+  {
    "file": "assets/img/parts/C6952.jpg",
    "code": "C6952",
    "matched": "NXP TJA1050T/CM,118",
@@ -3239,6 +4042,17 @@
     "TAJA106K016RNJ"
    ],
    "bytes": 31054
+  },
+  {
+   "file": "assets/img/parts/C720557.jpg",
+   "code": "C720557",
+   "matched": "XUNPU DC-005-A200",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20250911_XUNPU-DC-005-A200_C720557_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "DC-005-电源座"
+   ],
+   "bytes": 36698
   },
   {
    "file": "assets/img/parts/C7214.jpg",
@@ -3307,6 +4121,17 @@
    "bytes": 29970
   },
   {
+   "file": "assets/img/parts/C73426.jpg",
+   "code": "C73426",
+   "matched": "ALLEGRO ACS758LCB-050B-PFF-T",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Allegro-MicroSystems--LLC-ACS758LCB-050B-PFF-T_C73426_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ACS758LCB-050B"
+   ],
+   "bytes": 32066
+  },
+  {
    "file": "assets/img/parts/C7376.jpg",
    "code": "C7376",
    "matched": "MICROCHIP MCP2551-I/SN",
@@ -3351,6 +4176,39 @@
    "bytes": 27861
   },
   {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "Phoenix Contact 1770995",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20260326_Phoenix-Contact-1770995_C7435282_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ZH1.5-3P-直插"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "USB-A-母座-直插"
+   ],
+   "bytes": 37701
+  },
+  {
+   "file": "assets/img/parts/C7435282.jpg",
+   "code": "C7435282",
+   "matched": "",
+   "sourceUrl": "",
+   "matchedVia": "model",
+   "models": [
+    "TS-1088-3x6-插件"
+   ],
+   "bytes": 37701
+  },
+  {
    "file": "assets/img/parts/C7440.jpg",
    "code": "C7440",
    "matched": "NXP PCF8563T/5,518",
@@ -3382,6 +4240,17 @@
     "ULN2003ADR"
    ],
    "bytes": 34594
+  },
+  {
+   "file": "assets/img/parts/C7528718.jpg",
+   "code": "C7528718",
+   "matched": "FG TC-6610 6*6*13 260g",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20240524_FG-TC-6610-6-6-13-260g_C7528718_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "按键帽-6x6-黑"
+   ],
+   "bytes": 35874
   },
   {
    "file": "assets/img/parts/C7528875.jpg",
@@ -3484,6 +4353,17 @@
     "NCP15XH103F03RC"
    ],
    "bytes": 29219
+  },
+  {
+   "file": "assets/img/parts/C779278.jpg",
+   "code": "C779278",
+   "matched": "Bosch BMP388",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230202_Bosch-Sensortec-BMP388_C779278_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BMP388"
+   ],
+   "bytes": 28630
   },
   {
    "file": "assets/img/parts/C77994.jpg",
@@ -3695,6 +4575,17 @@
    "bytes": 31477
   },
   {
+   "file": "assets/img/parts/C842149.jpg",
+   "code": "C842149",
+   "matched": "DIODES AH49EZ3-G1",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230202_Diodes-Incorporated-AH49EZ3-G1_C842149_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "AH49E"
+   ],
+   "bytes": 38721
+  },
+  {
    "file": "assets/img/parts/C84410.jpg",
    "code": "C84410",
    "matched": "onsemi 1N4148TR",
@@ -3728,6 +4619,17 @@
    "bytes": 31511
   },
   {
+   "file": "assets/img/parts/C85128.jpg",
+   "code": "C85128",
+   "matched": "VISHAY BPW34",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Vishay-Intertech-BPW34_C85128_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BPW34"
+   ],
+   "bytes": 28106
+  },
+  {
    "file": "assets/img/parts/C85840.jpg",
    "code": "C85840",
    "matched": "muRata BLM21PG221SN1D",
@@ -3759,6 +4661,17 @@
     "74HC04D"
    ],
    "bytes": 32628
+  },
+  {
+   "file": "assets/img/parts/C86781.jpg",
+   "code": "C86781",
+   "matched": "ST LD1117S33TR",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_STMicroelectronics-LD1117S33TR_C86781_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "旋钮帽-D11-黑"
+   ],
+   "bytes": 30088
   },
   {
    "file": "assets/img/parts/C8690.jpg",
@@ -4159,6 +5072,17 @@
    "bytes": 28932
   },
   {
+   "file": "assets/img/parts/C92489.jpg",
+   "code": "C92489",
+   "matched": "Bosch BME280",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230217_Bosch-Sensortec-BME280_C92489_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BME280"
+   ],
+   "bytes": 23220
+  },
+  {
    "file": "assets/img/parts/C9378.jpg",
    "code": "C9378",
    "matched": "MaxLinear SP3232EEN-L/TR",
@@ -4168,6 +5092,17 @@
     "SP3232EEN"
    ],
    "bytes": 34627
+  },
+  {
+   "file": "assets/img/parts/C94021.jpg",
+   "code": "C94021",
+   "matched": "Bosch BMI160",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221231_Bosch-Sensortec-BMI160_C94021_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "BMI160"
+   ],
+   "bytes": 25742
   },
   {
    "file": "assets/img/parts/C95781.jpg",
@@ -4230,6 +5165,17 @@
    "bytes": 24719
   },
   {
+   "file": "assets/img/parts/C9667.jpg",
+   "code": "C9667",
+   "matched": "ADI ADXL345BCCZ-RL7",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20221228_Analog-Devices-ADXL345BCCZ-RL7_C9667_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "ADXL345BCCZ"
+   ],
+   "bytes": 27825
+  },
+  {
    "file": "assets/img/parts/C9680.jpg",
    "code": "C9680",
    "matched": "ADI AD620ANZ",
@@ -4285,6 +5231,28 @@
    "bytes": 31629
   },
   {
+   "file": "assets/img/parts/C976032.jpg",
+   "code": "C976032",
+   "matched": "QST QMC5883L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_QST-QMC5883L_C976032_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "HMC5883L"
+   ],
+   "bytes": 28981
+  },
+  {
+   "file": "assets/img/parts/C976032.jpg",
+   "code": "C976032",
+   "matched": "QST QMC5883L",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20230131_QST-QMC5883L_C976032_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "QMC5883L"
+   ],
+   "bytes": 28981
+  },
+  {
    "file": "assets/img/parts/C98220.jpg",
    "code": "C98220",
    "matched": "YAGEO RC0603FR-0710KL",
@@ -4327,6 +5295,17 @@
     "UCC27517"
    ],
    "bytes": 23632
+  },
+  {
+   "file": "assets/img/parts/C99666.jpg",
+   "code": "C99666",
+   "matched": "Songle Relay SRA-05VDC-CL",
+   "sourceUrl": "https://assets.lcsc.com/images/lcsc/900x900/20251016_Songle-Relay-SRA-05VDC-CL_C99666_front.jpg",
+   "matchedVia": "model",
+   "models": [
+    "JQC-3FF-05VDC"
+   ],
+   "bytes": 36681
   }
  ]
 }
